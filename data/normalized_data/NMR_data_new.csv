@@ -1,0 +1,922 @@
+source,relation,target
+Z26365442,binds,nsp1
+Z336089202,binds,nsp1
+Z57515803,binds,nsp1
+Z1891776064,binds,nsp1
+Z57328997,binds,nsp1
+Z2527301677,binds,_GHM_nsp5
+Z1263529721,binds,_GHM_nsp5
+Z275165822,binds,_GHM_nsp5
+Z933326822,binds,_GHM_nsp5
+Z85517292,binds,_GHM_nsp5
+Z208334100,binds,_GHM_nsp5
+Z437584380,binds,_GHM_nsp5
+Z979145504,binds,_GHM_nsp5
+Z1673618163,binds,_GHM_nsp5
+Z69092635,binds,_GHM_nsp5
+Z123970702,binds,_GHM_nsp5
+Z1891776064,binds,_GHM_nsp5
+Z223388508,binds,_GHM_nsp5
+Z57792053,binds,_GHM_nsp5
+Z26365442,binds,_GHM_nsp5
+Z336089202,binds,_GHM_nsp5
+Z1741973467,binds,_GHM_nsp5
+Z28226359,binds,_GHM_nsp5
+Z44592329,binds,_GHM_nsp5
+Z26333434,binds,_GHM_nsp5
+Z165170770,binds,_GHM_nsp5
+Z907784200,binds,_GHM_nsp5
+Z822382694,binds,_GHM_nsp5
+Z31792168,binds,_GHM_nsp5
+Z2856434834,binds,_GHM_nsp5
+Z296054478,binds,_GHM_nsp5
+Z56785490,binds,_GHM_nsp5
+Z1374778753,binds,_GHM_nsp5
+Z48847594,binds,_GHM_nsp5
+Z58982727,binds,_GHM_nsp5
+Z48847639,binds,_GHM_nsp5
+Z363104204,binds,_GHM_nsp5
+Z45617795,binds,_GHM_nsp5
+Z2064107709,binds,_GHM_nsp5
+Z735557654,binds,_GHM_nsp5
+Z56259166,binds,_GHM_nsp5
+Z136583524,binds,nsp3e
+Z145119960,binds,nsp3e
+Z52425517,binds,nsp3e
+Z2856434839,binds,nsp3e
+Z1148747945,binds,nsp3e
+Z111507846,binds,nsp3e
+Z86417414,binds,nsp3e
+Z815264062,binds,nsp3e
+Z45656995,binds,nsp3e
+Z57261895,binds,nsp3e
+Z1310876699,binds,nsp3e
+Z2856434887,binds,nsp3e
+Z2856434855,binds,nsp3e
+Z57190020,binds,nsp3e
+Z281802060,binds,nsp3e
+Z1262327505,binds,nsp3e
+Z1250132788,binds,nsp3e
+Z2856434812,binds,nsp3e
+Z2856434851,binds,nsp3e
+Z321318226,binds,nsp3e
+Z2856434816,binds,nsp3e
+Z57515803,binds,nsp3a
+Z57715447,binds,nsp3a
+Z32386228,binds,nsp3a
+Z32665176,binds,nsp3a
+Z48847639,binds,nsp3a
+Z1891776064,binds,nsp3a
+Z57328997,binds,nsp3a
+Z48847594,binds,nsp3a
+Z30891796,binds,nsp3a
+Z57190020,binds,nsp3a
+Z58982727,binds,nsp3a
+Z26365442,binds,nsp3a
+Z336089202,binds,nsp3a
+Z133729708,binds,nsp3a
+Z1374778753,binds,nsp9
+Z1891776064,binds,nsp9
+Z26365442,binds,nsp7
+Z336089202,binds,nsp7
+Z28226359,binds,nsp7
+Z276545932,binds,nsp7
+Z281077318,binds,nsp7
+Z56347187,binds,nsp7
+Z235449082,binds,nsp7
+Z28290384,binds,nsp7
+Z136583524,binds,nsp7
+Z26333434,binds,nsp7
+Z1432018343,binds,nsp7
+Z1551999220,binds,nsp7
+Z933326822,binds,nsp7
+Z30272547,binds,nsp7
+Z1429867185,binds,nsp7
+Z1262398388,binds,nsp7
+Z56983806,binds,nsp7
+Z57515803,binds,nsp7
+Z57715447,binds,nsp7
+Z2204875953,binds,nsp7
+Z32386228,binds,nsp7
+Z28173817,binds,nsp7
+Z68404778,binds,nsp7
+Z1430613393,binds,nsp7
+Z62645406,binds,nsp7
+Z69118333,binds,nsp7
+Z85525355,binds,nsp7
+Z30891796,binds,nsp7
+Z32665176,binds,nsp7
+Z89385775,binds,nsp7
+Z57190020,binds,nsp7
+Z69091635,binds,nsp7
+Z44586802,binds,nsp7
+Z285675722,binds,nsp7
+Z31792168,binds,nsp7
+Z123970702,binds,nsp7
+Z1374778753,binds,nsp7
+Z45516134,binds,nsp7
+Z133729708,binds,nsp7
+Z48847594,binds,nsp7
+Z58982727,binds,nsp7
+Z48847633,binds,nsp7
+Z48847639,binds,nsp7
+Z1891776064,binds,nsp7
+Z31222641,binds,nsp7
+Z2856434898,binds,nsp7
+Z31432226,binds,nsp7
+Z1545196403,binds,nsp7
+Z2856434812,binds,nsp7
+Z57328997,binds,nsp7
+Z804566442,binds,nsp7
+Z18839017,binds,nsp7
+Z30162334,binds,nsp7
+Z31480458,binds,nsp7
+Z57299529,binds,nsp7
+Z31697001,binds,nsp7
+Z1217741507,binds,nsp7
+Z223388508,binds,nsp7
+Z30620520,binds,nsp7
+Z419884046,binds,nsp7
+Z192955056,binds,nsp7
+Z321318226,binds,nsp7
+Z1581680287,binds,nsp7
+Z64450924,binds,nsp7
+Z2064107709,binds,nsp7
+Z57792053,binds,nsp7
+Z56259166,binds,nsp7
+Z19735981,binds,nsp7
+Z19751622,binds,nsp7
+Z57345491,binds,nsp7
+Z426041412,binds,nsp7
+Z275165822,binds,nsp7
+Z1954800564,binds,nsp7
+Z111810692,binds,nsp7
+Z296054478,binds,nsp7
+Z1328968520,binds,nsp7
+Z1349163663,binds,nsp7
+Z1416571195,binds,nsp7
+Z55671900,binds,nsp7
+Z71580604,binds,nsp7
+Z31217395,binds,nsp7
+Z1263529721,binds,nsp7
+Z1945710531,binds,nsp7
+Z56259192,binds,nsp7
+Z31385861,binds,nsp7
+Z2856434849,binds,nsp7
+Z730649594,binds,nsp7
+Z1271660837,binds,nsp7
+Z2856434865,binds,nsp7
+Z1190787729,binds,nsp7
+Z24758179,binds,nsp7
+Z2856434778,binds,nsp7
+Z1381484542,binds,nsp8
+Z56983806,binds,nsp8
+Z32665176,binds,nsp8
+Z1349163663,binds,nsp8
+Z26365442,binds,nsp8
+Z336089202,binds,nsp8
+Z57515803,binds,nsp8
+Z57715447,binds,nsp8
+Z48847594,binds,nsp8
+Z58982727,binds,nsp8
+Z1891776064,binds,nsp8
+Z57328997,binds,nsp8
+Z57345491,binds,nsp8
+Z31432226,binds,nsp8
+Z1741973467,binds,nsp8
+Z28226359,binds,nsp8
+Z26548083,binds,nsp8
+Z276545932,binds,nsp8
+Z281077318,binds,nsp8
+Z426041412,binds,nsp8
+Z136583524,binds,nsp8
+Z52584368,binds,nsp8
+Z359352902,binds,nsp8
+Z30272547,binds,nsp8
+Z2204875953,binds,nsp8
+Z32386228,binds,nsp8
+Z1545313172,binds,nsp8
+Z1374778753,binds,nsp8
+Z48847639,binds,nsp8
+Z1250132788,binds,nsp8
+Z1945710531,binds,nsp8
+Z2856434858,binds,nsp8
+Z2856434851,binds,nsp8
+Z730649594,binds,nsp8
+Z1217741507,binds,nsp8
+Z281077318,binds,nsp3c (SUD-N)
+Z235449082,binds,nsp3c (SUD-N)
+Z136583524,binds,nsp3c (SUD-N)
+Z1134990241,binds,nsp3c (SUD-N)
+Z57260539,binds,nsp3c (SUD-N)
+Z2856434937,binds,nsp3c (SUD-N)
+Z1374778753,binds,nsp3c (SUD-N)
+Z1945710531,binds,nsp3c (SUD-N)
+Z48847639,binds,nsp3c (SUD-N)
+Z1891776064,binds,nsp3c (SUD-N)
+Z56347187,binds,nsp3c (SUD-MC)
+Z235449082,binds,nsp3c (SUD-MC)
+Z1374778753,binds,nsp3c (SUD-MC)
+Z1891776064,binds,nsp3c (SUD-MC)
+Z281077318,binds,nsp3c (SUD-MC)
+Z62645406,binds,nsp3c (SUD-MC)
+Z26781952,binds,nsp3c (SUD-MC)
+Z26365442,binds,nsp3c (SUD-MC)
+Z336089202,binds,nsp3c (SUD-MC)
+Z111782404,binds,nsp3c (SUD-MC)
+Z102895082,binds,nsp3c (SUD-MC)
+Z28226359,binds,nsp3c (SUD-MC)
+Z19727416,binds,nsp3c (SUD-MC)
+Z26548083,binds,nsp3c (SUD-MC)
+Z56767623,binds,nsp3c (SUD-MC)
+Z276545932,binds,nsp3c (SUD-MC)
+Z26251905,binds,nsp3c (SUD-MC)
+Z45527714,binds,nsp3c (SUD-MC)
+Z19735067,binds,nsp3c (SUD-MC)
+Z219104216,binds,nsp3c (SUD-MC)
+Z2856434779,binds,nsp3c (SUD-MC)
+Z30820160,binds,nsp3c (SUD-MC)
+Z425449682,binds,nsp3c (SUD-MC)
+Z56791867,binds,nsp3c (SUD-MC)
+Z27797417,binds,nsp3c (SUD-MC)
+Z271004858,binds,nsp3c (SUD-MC)
+Z29692148,binds,nsp3c (SUD-MC)
+Z28290384,binds,nsp3c (SUD-MC)
+Z26781964,binds,nsp3c (SUD-MC)
+Z30871350,binds,nsp3c (SUD-MC)
+Z136583524,binds,nsp3c (SUD-MC)
+Z44592329,binds,nsp3c (SUD-MC)
+Z26333434,binds,nsp3c (SUD-MC)
+Z1741964527,binds,nsp3c (SUD-MC)
+Z52584368,binds,nsp3c (SUD-MC)
+Z1432018343,binds,nsp3c (SUD-MC)
+Z26794305,binds,nsp3c (SUD-MC)
+Z1530301542,binds,nsp3c (SUD-MC)
+Z52425517,binds,nsp3c (SUD-MC)
+Z1551999220,binds,nsp3c (SUD-MC)
+Z1896598013,binds,nsp3c (SUD-MC)
+Z2856434806,binds,nsp3c (SUD-MC)
+Z57186564,binds,nsp3c (SUD-MC)
+Z1454310449,binds,nsp3c (SUD-MC)
+Z2443429438,binds,nsp3c (SUD-MC)
+Z933326822,binds,nsp3c (SUD-MC)
+Z85517292,binds,nsp3c (SUD-MC)
+Z2017861827,binds,nsp3c (SUD-MC)
+Z30272547,binds,nsp3c (SUD-MC)
+Z1217960891,binds,nsp3c (SUD-MC)
+Z1639162606,binds,nsp3c (SUD-MC)
+Z53834613,binds,nsp3c (SUD-MC)
+Z373221060,binds,nsp3c (SUD-MC)
+Z291279160,binds,nsp3c (SUD-MC)
+Z1429867185,binds,nsp3c (SUD-MC)
+Z1273312153,binds,nsp3c (SUD-MC)
+Z19234337,binds,nsp3c (SUD-MC)
+Z1262398388,binds,nsp3c (SUD-MC)
+Z33452106,binds,nsp3c (SUD-MC)
+Z208334100,binds,nsp3c (SUD-MC)
+Z979145504,binds,nsp3c (SUD-MC)
+Z955369596,binds,nsp3c (SUD-MC)
+Z85525386,binds,nsp3c (SUD-MC)
+Z48852953,binds,nsp3c (SUD-MC)
+Z54226006,binds,nsp3c (SUD-MC)
+Z56983806,binds,nsp3c (SUD-MC)
+Z57515803,binds,nsp3c (SUD-MC)
+Z29077827,binds,nsp3c (SUD-MC)
+Z57715447,binds,nsp3c (SUD-MC)
+Z2204875953,binds,nsp3c (SUD-MC)
+Z32386228,binds,nsp3c (SUD-MC)
+Z1954800564,binds,nsp3c (SUD-MC)
+Z57261895,binds,nsp3c (SUD-MC)
+Z1310876699,binds,nsp3c (SUD-MC)
+Z1545313172,binds,nsp3c (SUD-MC)
+Z68404778,binds,nsp3c (SUD-MC)
+Z1430613393,binds,nsp3c (SUD-MC)
+Z1802166390,binds,nsp3c (SUD-MC)
+Z69118333,binds,nsp3c (SUD-MC)
+Z2856434909,binds,nsp3c (SUD-MC)
+Z85525355,binds,nsp3c (SUD-MC)
+Z32665176,binds,nsp3c (SUD-MC)
+Z57190020,binds,nsp3c (SUD-MC)
+Z56772132,binds,nsp3c (SUD-MC)
+Z69091635,binds,nsp3c (SUD-MC)
+Z44586802,binds,nsp3c (SUD-MC)
+Z285675722,binds,nsp3c (SUD-MC)
+Z26769872,binds,nsp3c (SUD-MC)
+Z31792168,binds,nsp3c (SUD-MC)
+Z123970702,binds,nsp3c (SUD-MC)
+Z1507502062,binds,nsp3c (SUD-MC)
+Z2856434845,binds,nsp3c (SUD-MC)
+Z56923284,binds,nsp3c (SUD-MC)
+Z45516134,binds,nsp3c (SUD-MC)
+Z26781943,binds,nsp3c (SUD-MC)
+Z1349163663,binds,nsp3c (SUD-MC)
+Z48847594,binds,nsp3c (SUD-MC)
+Z58982727,binds,nsp3c (SUD-MC)
+Z56837087,binds,nsp3c (SUD-MC)
+Z1407673036,binds,nsp3c (SUD-MC)
+Z1416571195,binds,nsp3c (SUD-MC)
+Z55671900,binds,nsp3c (SUD-MC)
+Z1787627869,binds,nsp3c (SUD-MC)
+Z729352906,binds,nsp3c (SUD-MC)
+Z31222641,binds,nsp3c (SUD-MC)
+Z1546887028,binds,nsp3c (SUD-MC)
+Z31217395,binds,nsp3c (SUD-MC)
+Z2856434898,binds,nsp3c (SUD-MC)
+Z52314092,binds,nsp3c (SUD-MC)
+Z1250132544,binds,nsp3c (SUD-MC)
+Z419995480,binds,nsp3c (SUD-MC)
+Z1545196403,binds,nsp3c (SUD-MC)
+Z1945710531,binds,nsp3c (SUD-MC)
+Z2856434812,binds,nsp3c (SUD-MC)
+Z413792090,binds,nsp3c (SUD-MC)
+Z2856434849,binds,nsp3c (SUD-MC)
+Z57328997,binds,nsp3c (SUD-MC)
+Z804566442,binds,nsp3c (SUD-MC)
+Z2467208649,binds,nsp3c (SUD-MC)
+Z18839017,binds,nsp3c (SUD-MC)
+Z30162334,binds,nsp3c (SUD-MC)
+Z31480458,binds,nsp3c (SUD-MC)
+Z31697001,binds,nsp3c (SUD-MC)
+Z1217741507,binds,nsp3c (SUD-MC)
+Z53860899,binds,nsp3c (SUD-MC)
+Z223388508,binds,nsp3c (SUD-MC)
+Z2856434865,binds,nsp3c (SUD-MC)
+Z30620520,binds,nsp3c (SUD-MC)
+Z419884046,binds,nsp3c (SUD-MC)
+Z192955056,binds,nsp3c (SUD-MC)
+Z321318226,binds,nsp3c (SUD-MC)
+Z2856434816,binds,nsp3c (SUD-MC)
+Z44584192,binds,nsp3c (SUD-MC)
+Z26794338,binds,nsp3c (SUD-MC)
+Z1581680287,binds,nsp3c (SUD-MC)
+Z64450924,binds,nsp3c (SUD-MC)
+Z2697514548,binds,nsp3c (SUD-MC)
+Z2064107709,binds,nsp3c (SUD-MC)
+Z1688493887,binds,nsp3c (SUD-MC)
+Z1741960769,binds,nsp3c (SUD-MC)
+Z57792053,binds,nsp3c (SUD-MC)
+Z56259166,binds,nsp3c (SUD-MC)
+Z1190787729,binds,nsp3c (SUD-MC)
+Z2856434906,binds,nsp3c (SUD-MC)
+Z275179946,binds,nsp3c (SUD-MC)
+Z27695365,binds,nsp3c (SUD-MC)
+Z1152242726,binds,nsp3c (SUD-MC)
+Z57299526,binds,nsp3c (SUD-MC)
+Z1381484542,binds,nsp3c (SUD-MC)
+Z19751622,binds,nsp3c (SUD-MC)
+Z45515569,binds,nsp3c (SUD-MC)
+Z2856434896,binds,nsp3c (SUD-MC)
+Z31385861,binds,nsp3c (SUD-MC)
+Z2234920345,binds,nsp3c (SUD-MC)
+Z1250132788,binds,ORF9a (NTD)
+Z281077318,binds,ORF9a (NTD)
+Z426041412,binds,ORF9a (NTD)
+Z30272547,binds,ORF9a (NTD)
+Z45656995,binds,ORF9a (NTD)
+Z57260539,binds,ORF9a (NTD)
+Z59181945,binds,ORF9a (NTD)
+Z212122838,binds,ORF9a (NTD)
+Z2856434896,binds,ORF9a (NTD)
+Z1263529721,binds,ORF9a (NTD)
+Z56259192,binds,ORF9a (NTD)
+Z2467208649,binds,ORF9a (NTD)
+Z2856434858,binds,ORF9a (NTD)
+Z730649594,binds,ORF9a (NTD)
+Z57614330,binds,ORF9a (NTD)
+Z2856434816,binds,ORF9a (NTD)
+Z26548083,binds,ORF9a (NTD)
+Z136583524,binds,ORF9a (NTD)
+Z26333434,binds,ORF9a (NTD)
+Z332370018,binds,ORF9a (NTD)
+Z52584368,binds,ORF9a (NTD)
+Z145119960,binds,ORF9a (NTD)
+Z52425517,binds,ORF9a (NTD)
+Z2856434839,binds,ORF9a (NTD)
+Z2377835233,binds,ORF9a (NTD)
+Z1134990241,binds,ORF9a (NTD)
+Z396380540,binds,ORF9a (NTD)
+Z296054478,binds,ORF9a (NTD)
+Z1328968520,binds,ORF9a (NTD)
+Z1891776064,binds,ORF9a (NTD)
+Z2856434812,binds,ORF9a (NTD)
+Z56259166,binds,ORF9a (NTD)
+Z2856434851,binds,ORF9a (IDR-NTD-SR)
+Z52425517,binds,ORF9a (IDR-NTD-SR)
+Z57261895,binds,ORF9a (IDR-NTD-SR)
+Z145119960,binds,ORF9a (IDR-NTD-SR)
+Z45656995,binds,ORF9a (IDR-NTD-SR)
+Z57260539,binds,ORF9a (IDR-NTD-SR)
+Z1263529721,binds,ORF9a (IDR-NTD-SR)
+Z52425517,binds,nsp3b
+Z2204875953,binds,nsp3b
+Z1124201124,binds,nsp3b
+Z1250132788,binds,nsp2 (CtDR)
+Z57345491,binds,nsp2 (CtDR)
+Z136583524,binds,nsp2 (CtDR)
+Z1827602749,binds,nsp2 (CtDR)
+Z86417414,binds,nsp2 (CtDR)
+Z45656995,binds,nsp2 (CtDR)
+Z32386228,binds,nsp2 (CtDR)
+Z2856434816,binds,nsp2 (CtDR)
+Z56259166,binds,nsp2 (CtDR)
+Z19751622,binds,nsp2 (CtDR)
+Z426041412,binds,nsp2 (CtDR)
+Z145119960,binds,nsp2 (CtDR)
+Z359352902,binds,nsp2 (CtDR)
+Z2856434875,binds,nsp2 (CtDR)
+Z2856434896,binds,nsp2 (CtDR)
+Z1263529721,binds,nsp2 (CtDR)
+Z2467208649,binds,nsp2 (CtDR)
+Z2856434851,binds,nsp2 (CtDR)
+Z57299526,binds,nsp2 (CtDR)
+Z52425517,binds,nsp3b·GS-441524
+Z276545932,binds,nsp3b·GS-441524
+Z2856434839,binds,nsp3b·GS-441524
+Z2467208649,binds,nsp3b·GS-441524
+Z2856434858,binds,nsp3b·GS-441524
+Z26365442,binds,nsp3d
+Z336089202,binds,nsp3d
+Z26548083,binds,nsp3d
+Z56767623,binds,nsp3d
+Z276545932,binds,nsp3d
+Z281077318,binds,nsp3d
+Z26251905,binds,nsp3d
+Z1891773393,binds,nsp3d
+Z45527714,binds,nsp3d
+Z219104216,binds,nsp3d
+Z2856434779,binds,nsp3d
+Z30820160,binds,nsp3d
+Z57260516,binds,nsp3d
+Z425449682,binds,nsp3d
+Z235449082,binds,nsp3d
+Z28290384,binds,nsp3d
+Z26781964,binds,nsp3d
+Z30871350,binds,nsp3d
+Z136583524,binds,nsp3d
+Z190662888,binds,nsp3d
+Z44592329,binds,nsp3d
+Z26333434,binds,nsp3d
+Z1551999220,binds,nsp3d
+Z1896598013,binds,nsp3d
+Z2301438417,binds,nsp3d
+Z85517292,binds,nsp3d
+Z30272547,binds,nsp3d
+Z1217960891,binds,nsp3d
+Z53834613,binds,nsp3d
+Z291279160,binds,nsp3d
+Z1429867185,binds,nsp3d
+Z509756472,binds,nsp3d
+Z1849009686,binds,nsp3d
+Z1827602749,binds,nsp3d
+Z1273312153,binds,nsp3d
+Z19234337,binds,nsp3d
+Z235341991,binds,nsp3d
+Z2472938267,binds,nsp3d
+Z1262398388,binds,nsp3d
+Z54571979,binds,nsp3d
+Z85525386,binds,nsp3d
+Z54226006,binds,nsp3d
+Z466628048,binds,nsp3d
+Z104584152,binds,nsp3d
+Z56983806,binds,nsp3d
+Z57515803,binds,nsp3d
+Z57715447,binds,nsp3d
+Z2204875953,binds,nsp3d
+Z32386228,binds,nsp3d
+Z1954800564,binds,nsp3d
+Z68404778,binds,nsp3d
+Z1220452176,binds,nsp3d
+Z62645406,binds,nsp3d
+Z69118333,binds,nsp3d
+Z30891796,binds,nsp3d
+Z2856434929,binds,nsp3d
+Z32665176,binds,nsp3d
+Z57190020,binds,nsp3d
+Z18197050,binds,nsp3d
+Z56772132,binds,nsp3d
+Z45515569,binds,nsp3d
+Z285675722,binds,nsp3d
+Z2856434845,binds,nsp3d
+Z2064898339,binds,nsp3d
+Z56923284,binds,nsp3d
+Z1374778753,binds,nsp3d
+Z45516134,binds,nsp3d
+Z26781943,binds,nsp3d
+Z58982727,binds,nsp3d
+Z1324080698,binds,nsp3d
+Z30612220,binds,nsp3d
+Z1407673036,binds,nsp3d
+Z53825177,binds,nsp3d
+Z1416571195,binds,nsp3d
+Z48847639,binds,nsp3d
+Z1891776064,binds,nsp3d
+Z55671900,binds,nsp3d
+Z71580604,binds,nsp3d
+Z1787627869,binds,nsp3d
+Z729352906,binds,nsp3d
+Z31222641,binds,nsp3d
+Z1546887028,binds,nsp3d
+Z2856434898,binds,nsp3d
+Z1401333862,binds,nsp3d
+Z413792090,binds,nsp3d
+Z2856434849,binds,nsp3d
+Z2856434836,binds,nsp3d
+Z645232558,binds,nsp3d
+Z57328997,binds,nsp3d
+Z804566442,binds,nsp3d
+Z29191465,binds,nsp3d
+Z2467208649,binds,nsp3d
+Z2856434858,binds,nsp3d
+Z18839017,binds,nsp3d
+Z30162334,binds,nsp3d
+Z31480458,binds,nsp3d
+Z33297786,binds,nsp3d
+Z730649594,binds,nsp3d
+Z31478538,binds,nsp3d
+Z1217741507,binds,nsp3d
+Z53860899,binds,nsp3d
+Z192955056,binds,nsp3d
+Z321318226,binds,nsp3d
+Z44584192,binds,nsp3d
+Z1581680287,binds,nsp3d
+Z64450924,binds,nsp3d
+Z2697514548,binds,nsp3d
+Z2064107709,binds,nsp3d
+Z915492990,binds,nsp3d
+Z1203107138,binds,nsp3d
+Z2234920345,binds,nsp3d
+Z56259166,binds,nsp3d
+Z1190787729,binds,nsp3d
+Z275151340,binds,nsp3d
+Z275179946,binds,nsp3d
+Z30485868,binds,nsp3d
+Z2856434778,binds,nsp3d
+Z57324924,binds,nsp3d
+Z19751622,binds,nsp3d
+Z117233350,binds,nsp3d
+Z57345491,binds,nsp3d
+Z48847639,binds,_His6_nsp15
+Z71580604,binds,_His6_nsp15
+Z57345491,binds,_His6_nsp15
+Z336089202,binds,_His6_nsp15
+Z44592329,binds,_His6_nsp15
+Z26333434,binds,_His6_nsp15
+Z57515803,binds,_His6_nsp15
+Z58982727,binds,_His6_nsp15
+Z1891776064,binds,_His6_nsp15
+Z1787627869,binds,_His6_nsp15
+Z31432226,binds,_His6_nsp15
+Z2064107709,binds,_His6_nsp15
+Z26365442,binds,_His6_nsp15
+Z48847594,binds,_His6_nsp15
+Z28226359,binds,_His6_nsp15
+Z19735067,binds,_His6_nsp15
+Z426041412,binds,_His6_nsp15
+Z933326822,binds,_His6_nsp15
+Z30272547,binds,_His6_nsp15
+Z86417414,binds,_His6_nsp15
+Z1262398388,binds,_His6_nsp15
+Z396380540,binds,_His6_nsp15
+Z57715447,binds,_His6_nsp15
+Z2204875953,binds,_His6_nsp15
+Z57261895,binds,_His6_nsp15
+Z68404778,binds,_His6_nsp15
+Z32665176,binds,_His6_nsp15
+Z18197050,binds,_His6_nsp15
+Z59181945,binds,_His6_nsp15
+Z102768020,binds,_His6_nsp15
+Z1359419878,binds,_His6_nsp15
+Z1328968520,binds,_His6_nsp15
+Z1416571195,binds,_His6_nsp15
+Z57328997,binds,_His6_nsp15
+Z31697001,binds,_His6_nsp15
+Z57614330,binds,_His6_nsp15
+Z276545932,binds,_His6_nsp15
+Z69118333,binds,_His6_nsp15
+Z126932614,binds,_His6_nsp15
+Z85525355,binds,_His6_nsp15
+Z57190020,binds,_His6_nsp15
+Z123970702,binds,_His6_nsp15
+Z336089202,binds,_GS_nsp5
+Z933326822,binds,_GS_nsp5
+Z31792168,binds,_GS_nsp5
+Z223388508,binds,_GS_nsp5
+Z57299526,binds,_GS_nsp5
+Z208334100,binds,_GS_nsp5
+Z979145504,binds,_GS_nsp5
+Z123970702,binds,_GS_nsp5
+Z1891776064,binds,_GS_nsp5
+Z2856434865,binds,_GS_nsp5
+Z45617795,binds,_GS_nsp5
+Z1152242726,binds,_GS_nsp5
+Z396380540,binds,ORF9a (CTD)
+Z1374778753,binds,ORF9a (CTD)
+Z1263529721,binds,ORF9a (CTD)
+Z2856434816,binds,ORF9a (CTD)
+Z145119960,binds,ORF9a (CTD)
+Z359352902,binds,ORF9a (CTD)
+Z30272547,binds,ORF9a (CTD)
+Z86417414,binds,ORF9a (CTD)
+Z1362754425,binds,ORF9a (CTD)
+Z26365442,binds,nsp10
+Z336089202,binds,nsp10
+Z1374778753,binds,nsp10
+Z58982727,binds,nsp10
+Z1891776064,binds,nsp10
+Z1152242726,binds,nsp10
+Z56791867,binds,nsp10
+Z56347187,binds,nsp10
+Z235449082,binds,nsp10
+Z208334100,binds,nsp10
+Z437584380,binds,nsp10
+Z979145504,binds,nsp10
+Z1802166390,binds,nsp10
+Z62645406,binds,nsp10
+Z69118333,binds,nsp10
+Z123970702,binds,nsp10
+Z27653940,binds,nsp10
+Z45516134,binds,nsp10
+Z48847594,binds,nsp10
+Z1416571195,binds,nsp10
+Z48847639,binds,nsp10
+Z31432226,binds,nsp10
+Z57328997,binds,nsp10
+Z57299529,binds,nsp10
+Z2856434851,binds,nsp10
+Z730649594,binds,nsp10
+Z1217741507,binds,nsp10
+Z223388508,binds,nsp10
+Z2856434865,binds,nsp10
+Z57792053,binds,nsp10
+Z56259166,binds,nsp10
+Z57299526,binds,nsp10
+Z1381484542,binds,nsp10
+Z19751622,binds,nsp10
+Z28226359,binds,nsp10
+Z275165822,binds,nsp10
+Z933326822,binds,nsp10
+Z33545544,binds,nsp10
+Z19234337,binds,ORF9a (NTD-SR)
+Z1891776064,binds,ORF9a (NTD-SR)
+Z281077318,binds,ORF9a (NTD-SR)
+Z1134990241,binds,ORF9a (NTD-SR)
+Z1263529721,binds,ORF9a (NTD-SR)
+Z111782404,binds,nsp10·nsp16
+Z1152242726,binds,nsp10·nsp16
+Z1190787729,binds,nsp10·nsp16
+Z1217741507,binds,nsp10·nsp16
+Z123970702,binds,nsp10·nsp16
+Z1262398388,binds,nsp10·nsp16
+Z133729708,binds,nsp10·nsp16
+Z1374778753,binds,nsp10·nsp16
+Z1381484542,binds,nsp10·nsp16
+Z1401333862,binds,nsp10·nsp16
+Z1416571195,binds,nsp10·nsp16
+Z1429867185,binds,nsp10·nsp16
+Z1545196403,binds,nsp10·nsp16
+Z1551999220,binds,nsp10·nsp16
+Z1563512128,binds,nsp10·nsp16
+Z1581680287,binds,nsp10·nsp16
+Z165170770,binds,nsp10·nsp16
+Z1688493887,binds,nsp10·nsp16
+Z1741960769,binds,nsp10·nsp16
+Z1741973467,binds,nsp10·nsp16
+Z18839017,binds,nsp10·nsp16
+Z1891776064,binds,nsp10·nsp16
+Z1945710531,binds,nsp10·nsp16
+Z1954800564,binds,nsp10·nsp16
+Z19727416,binds,nsp10·nsp16
+Z19735904,binds,nsp10·nsp16
+Z19751622,binds,nsp10·nsp16
+Z2064107709,binds,nsp10·nsp16
+Z208334100,binds,nsp10·nsp16
+Z2204875953,binds,nsp10·nsp16
+Z223388508,binds,nsp10·nsp16
+Z235449082,binds,nsp10·nsp16
+Z2467208649,binds,nsp10·nsp16
+Z26333434,binds,nsp10·nsp16
+Z26365442,binds,nsp10·nsp16
+Z26781964,binds,nsp10·nsp16
+Z26794338,binds,nsp10·nsp16
+Z2697514548,binds,nsp10·nsp16
+Z276545932,binds,nsp10·nsp16
+Z27682767,binds,nsp10·nsp16
+Z27695365,binds,nsp10·nsp16
+Z27797417,binds,nsp10·nsp16
+Z27805986,binds,nsp10·nsp16
+Z281077318,binds,nsp10·nsp16
+Z28226359,binds,nsp10·nsp16
+Z2856434779,binds,nsp10·nsp16
+Z2856434805,binds,nsp10·nsp16
+Z2856434845,binds,nsp10·nsp16
+Z2856434898,binds,nsp10·nsp16
+Z2856434906,binds,nsp10·nsp16
+Z291279160,binds,nsp10·nsp16
+Z30272045,binds,nsp10·nsp16
+Z30272547,binds,nsp10·nsp16
+Z30891796,binds,nsp10·nsp16
+Z31222641,binds,nsp10·nsp16
+Z31244728,binds,nsp10·nsp16
+Z31432226,binds,nsp10·nsp16
+Z31480458,binds,nsp10·nsp16
+Z31697001,binds,nsp10·nsp16
+Z31792168,binds,nsp10·nsp16
+Z321318226,binds,nsp10·nsp16
+Z32386228,binds,nsp10·nsp16
+Z32665176,binds,nsp10·nsp16
+Z33452106,binds,nsp10·nsp16
+Z373768900,binds,nsp10·nsp16
+Z419884046,binds,nsp10·nsp16
+Z44592329,binds,nsp10·nsp16
+Z45516134,binds,nsp10·nsp16
+Z48847594,binds,nsp10·nsp16
+Z48847633,binds,nsp10·nsp16
+Z48847639,binds,nsp10·nsp16
+Z56259166,binds,nsp10·nsp16
+Z56347187,binds,nsp10·nsp16
+Z56837087,binds,nsp10·nsp16
+Z57190020,binds,nsp10·nsp16
+Z57292378,binds,nsp10·nsp16
+Z57299526,binds,nsp10·nsp16
+Z57328997,binds,nsp10·nsp16
+Z57345491,binds,nsp10·nsp16
+Z57446103,binds,nsp10·nsp16
+Z57515803,binds,nsp10·nsp16
+Z57715447,binds,nsp10·nsp16
+Z57792053,binds,nsp10·nsp16
+Z58982727,binds,nsp10·nsp16
+Z62645406,binds,nsp10·nsp16
+Z64450924,binds,nsp10·nsp16
+Z68404778,binds,nsp10·nsp16
+Z69091635,binds,nsp10·nsp16
+Z69118333,binds,nsp10·nsp16
+Z735557654,binds,nsp10·nsp16
+Z933326822,binds,nsp10·nsp16
+Z979145504,binds,nsp10·nsp16
+Z336089202,binds,ORF9b
+Z1891776064,binds,ORF9b
+Z1374778753,binds,ORF9b
+Z58982727,binds,ORF9b
+Z1263529721,binds,ORF9b
+Z2467208649,binds,ORF9b
+Z27805986,binds,ORF9b
+Z2856434816,binds,ORF9b
+Z336089202,binds,nsp3y
+Z1741973467,binds,nsp3y
+Z28226359,binds,nsp3y
+Z235449082,binds,nsp3y
+Z2027049478,binds,nsp3y
+Z57261895,binds,nsp3y
+Z274555566,binds,nsp3y
+Z1374778753,binds,nsp3y
+Z45516134,binds,nsp3y
+Z26781943,binds,nsp3y
+Z2856434805,binds,nsp3y
+Z56837087,binds,nsp3y
+Z1891776064,binds,nsp3y
+Z31697001,binds,nsp3y
+Z1688493887,binds,nsp3y
+Z56259166,binds,nsp3y
+Z57345491,binds,nsp3y
+Z26365442,binds,nsp3y
+Z19727416,binds,nsp3y
+Z45527714,binds,nsp3y
+Z426041412,binds,nsp3y
+Z28143241,binds,nsp3y
+Z26333434,binds,nsp3y
+Z332370018,binds,nsp3y
+Z145119960,binds,nsp3y
+Z2446040567,binds,nsp3y
+Z2856434839,binds,nsp3y
+Z1675346324,binds,nsp3y
+Z359352902,binds,nsp3y
+Z57111868,binds,nsp3y
+Z1429867185,binds,nsp3y
+Z1203191681,binds,nsp3y
+Z1827602749,binds,nsp3y
+Z2856434875,binds,nsp3y
+Z86417414,binds,nsp3y
+Z208334100,binds,nsp3y
+Z45656995,binds,nsp3y
+Z2241127906,binds,nsp3y
+Z381729066,binds,nsp3y
+Z57515803,binds,nsp3y
+Z57715447,binds,nsp3y
+Z2856434887,binds,nsp3y
+Z2856434854,binds,nsp3y
+Z30891796,binds,nsp3y
+Z59181945,binds,nsp3y
+Z755044716,binds,nsp3y
+Z235361235,binds,nsp3y
+Z30595739,binds,nsp3y
+Z53116498,binds,nsp3y
+Z2856434938,binds,nsp3y
+Z1349163663,binds,nsp3y
+Z133729708,binds,nsp3y
+Z48847594,binds,nsp3y
+Z58982727,binds,nsp3y
+Z1262327505,binds,nsp3y
+Z1362754425,binds,nsp3y
+Z1333043417,binds,nsp3y
+Z2856434898,binds,nsp3y
+Z1263529721,binds,nsp3y
+Z1250132788,binds,nsp3y
+Z2856434812,binds,nsp3y
+Z2467208649,binds,nsp3y
+Z2856434858,binds,nsp3y
+Z2065616520,binds,nsp3y
+Z57299529,binds,nsp3y
+Z2856434851,binds,nsp3y
+Z321318226,binds,nsp3y
+Z57614330,binds,nsp3y
+Z2856434816,binds,nsp3y
+Z1581680287,binds,nsp3y
+Z64450924,binds,nsp3y
+Z2064107709,binds,nsp3y
+Z2234920345,binds,nsp3y
+Z735557654,binds,nsp3y
+Z1190787729,binds,nsp3y
+Z24758179,binds,nsp3y
+Z1152242726,binds,nsp3y
+Z57299526,binds,nsp3y
+Z2574937229,binds,nsp3y
+Z1381484542,binds,nsp3y
+Z19751622,binds,nsp3y
+Z31484539,binds,Nsp5 WT
+Z2856434779,binds,Nsp5 WT
+Z979145504,binds,Nsp5 WT
+Z31697001,binds,Nsp5 WT
+Z223388508,binds,Nsp5 WT
+Z1581680287,binds,Nsp5 WT
+Z64450924,binds,Nsp5 WT
+Z24758179,binds,Nsp5 WT
+Z27695365,binds,Nsp5 WT
+Z1152242726,binds,Nsp5 WT
+Z57299526,binds,Nsp5 WT
+Z26365442,binds,Nsp5 WT
+Z57446103,binds,Nsp5 WT
+Z30272045,binds,Nsp5 WT
+Z336089202,binds,Nsp5 WT
+Z28226359,binds,Nsp5 WT
+Z19727416,binds,Nsp5 WT
+Z219104216,binds,Nsp5 WT
+Z27797417,binds,Nsp5 WT
+Z235449082,binds,Nsp5 WT
+Z44592329,binds,Nsp5 WT
+Z2443429438,binds,Nsp5 WT
+Z933326822,binds,Nsp5 WT
+Z85517292,binds,Nsp5 WT
+Z208334100,binds,Nsp5 WT
+Z437584380,binds,Nsp5 WT
+Z1374778753,binds,Nsp5 WT
+Z45516134,binds,Nsp5 WT
+Z26781943,binds,Nsp5 WT
+Z2856434805,binds,Nsp5 WT
+Z48847639,binds,Nsp5 WT
+Z1891776064,binds,Nsp5 WT
+Z2856434898,binds,Nsp5 WT
+Z52314092,binds,Nsp5 WT
+Z1401333862,binds,Nsp5 WT
+Z31432226,binds,Nsp5 WT
+Z419995480,binds,Nsp5 WT
+Z1545196403,binds,Nsp5 WT
+Z1945710531,binds,Nsp5 WT
+Z57328997,binds,Nsp5 WT
+Z57299529,binds,Nsp5 WT
+Z2064107709,binds,Nsp5 WT
+Z735557654,binds,Nsp5 WT
+Z56259166,binds,Nsp5 WT
+Z1190787729,binds,Nsp5 WT
+Z275151340,binds,Nsp5 WT
+Z1381484542,binds,Nsp5 WT
+Z19751622,binds,Nsp5 WT
+Z117233350,binds,Nsp5 WT
+Z57345491,binds,Nsp5 WT
+Z45527714,binds,Nsp5 WT
+Z275165822,binds,Nsp5 WT
+Z123970702,binds,Nsp5 WT
+Z274555566,binds,Nsp5 WT
+Z2574937229,binds,Nsp5 WT
+Z425449682,binds,Nsp5 WT
+Z29692148,binds,Nsp5 WT
+Z33452106,binds,Nsp5 WT
+Z27682767,binds,Nsp5 WT
+Z1172243962,binds,Nsp5 WT
+Z85525386,binds,Nsp5 WT
+Z31792168,binds,Nsp5 WT
+Z1507502062,binds,Nsp5 WT
+Z2856434845,binds,Nsp5 WT
+Z48847594,binds,Nsp5 WT
+Z730649594,binds,Nsp5 WT
+Z1217741507,binds,Nsp5 WT
+Z275179946,binds,Nsp5 WT
+Z1416571195,binds,Nsp5 WT
+Z19735981,binds,Nsp5 WT
+Z111782404,binds,Nsp5 WT
+Z56347187,binds,Nsp5 WT
+Z57515803,binds,Nsp5 WT
+Z1324080698,binds,Nsp5 WT
+Z30612220,binds,Nsp5 WT
+Z1407673036,binds,Nsp5 WT
+Z57472297,binds,Nsp5 WT
+Z30485868,binds,Nsp5 WT
