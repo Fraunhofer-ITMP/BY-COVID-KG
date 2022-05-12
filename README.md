@@ -1,5 +1,4 @@
-# COVID-NMR-KG
-A Knowledge graph representation of COVID-NMR data
+# KG for BY-COVID
+A Knowledge graph representation of COVID-NMR data, 7000 Fraunhofer ITMP compounds
 
-All the codes to perform analysis on NMR data is in NMR2graph.py file.
 
