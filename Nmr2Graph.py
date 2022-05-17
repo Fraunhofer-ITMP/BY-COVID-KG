@@ -217,11 +217,15 @@ def chem2act_rel(named_ActList,itmpGraph):
 
     return(itmpGraph)
 
-
 def chem2act_rel_2(named_ActList, itmpGraph):
     for i in named_ActList:
         # print(i)
         for j in range(len(named_ActList[i])):
+            # print(named_mechList[i][j]['mechanism_of_action'])
+            # print(named_mechList[i][j]['target_chembl_id'])
+            # print(i)
+            # break
+            # nmrGraph.add_association(Pathology(namespace='ChEMBL',name=i),BiologicalProcess(namespace='MOA',name=mechList[i][j]['mechanism_of_action']),citation='ChEMBL database',evidence='ChEMBL query')
             if not named_ActList[i][j]['target_chembl_id'] == None:
                 if 'Protein' in named_ActList[i][j]:
                     itmpGraph.add_association(
@@ -322,3 +326,44 @@ def chembl2uniprot(chemblIDs, count):
     named_chem2Gene2path = dict(zip(chemblIDs_clean, chem2Gene2path))
     named_chem2Gene2path = {k: v for k, v in named_chem2Gene2path.items() if v}
     return (named_chem2Gene2path)
+
+
+# Functions for creating graph
+def chem2moa_rel_2(named_mechList, itmpGraph):
+    for i in named_mechList:
+        # print(i)
+        # break
+        # print(named_mechList[i])
+        # print(len(named_mechList[i]))
+        # break
+        for j in range(len(named_mechList[i])):
+            # print(named_mechList[i][j]['mechanism_of_action'])
+            # print(named_mechList[i][j]['Protein'])
+            # print(i)
+            # break
+            itmpGraph.add_association(Pathology(namespace='ChEMBL', name=i), BiologicalProcess(namespace='MOA', name=
+            named_mechList[i][j]['mechanism_of_action']), citation='ChEMBL database', evidence='ChEMBL query')
+            if not named_mechList[i][j]['target_chembl_id'] == None:
+                # print(named_mechList[i])
+                if 'Protein' in named_mechList[i][j]:
+                    # print('yes')
+                    itmpGraph.add_association(Pathology(namespace='ChEMBL', name=i),
+                                              MicroRna(namespace='HP', name=named_mechList[i][j]['Protein']),
+                                              citation='ChEMBL database', evidence='ChEMBL query')
+                else:
+                    itmpGraph.add_association(Pathology(namespace='ChEMBL', name=i),
+                                              MicroRna(namespace='HP', name=named_mechList[i][j]['target_chembl_id']),
+                                              citation='ChEMBL database', evidence='ChEMBL query')
+
+    return (itmpGraph)
+
+def Ret_chembl_protein(sourceList):
+    protein_List = []
+    for item in sourceList:
+        for j in range(len(sourceList[item])):
+            protein_List.append(sourceList[item][j]['target_chembl_id'])
+
+    protein_List = set(protein_List)
+    protein_List = list(filter(None, protein_List))
+    return (protein_List)
+

@@ -3,3 +3,4 @@ pandas
 openpyxl
 chembl_webresource_client
 matplotlib
+pubchempy
