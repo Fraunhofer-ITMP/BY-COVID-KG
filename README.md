@@ -1,5 +1,5 @@
 # KG for BY-COVID
-A Knowledge graph representation of COVID-NMR data and 7000 Fraunhofer ITMP compounds.
+A Knowledge graph representation of compounds and associated biological entities in the BY-COVID project.
 
 **Current status**
 
