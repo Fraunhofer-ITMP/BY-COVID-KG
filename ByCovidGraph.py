@@ -63,7 +63,7 @@ def RetAct(chemblIds,j):
     ActList = []
     #for i in range(len(chemblIds)):
     #print(chemblIds[0])
-    for i in range(len(itmp_chem)):
+    for i in range(len(chemblIds)):
         filtered_list=['assay_chembl_id','assay_type','pchembl_value','target_chembl_id','target_organism','bao_label']
         acts = GetAct.filter(molecule_chembl_id=chemblIds[i],pchembl_value__isnull=False,assay_type_iregex='(B|F)',target_organism='Homo sapiens').only(filtered_list)
         #acts = GetAct.filter(molecule_chembl_id=chemblIds[i],pchembl_value__isnull=False,target_organism='Homo sapiens').only(filtered_list)
