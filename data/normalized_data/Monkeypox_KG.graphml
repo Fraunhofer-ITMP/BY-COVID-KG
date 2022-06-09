@@ -1,0 +1,1941 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="bel" attr.type="string"/>
+<key id="d1" for="edge" attr.name="interaction" attr.type="string"/>
+<key id="d0" for="node" attr.name="function" attr.type="string"/>
+<graph edgedefault="directed"><node id="bp(MOA:&quot;Human herpesvirus 1 DNA polymerase inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="path(ChEMBL:CHEMBL152)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="m(HP:CHEMBL1872)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="bp(MOA:&quot;DNA polymerase inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="path(ChEMBL:CHEMBL203321)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="m(HP:CHEMBL3988586)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="bp(MOA:&quot;Envelope phospholipase F13 (p37) inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="path(ChEMBL:CHEMBL1257073)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="m(HP:CHEMBL4296170)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="bp(MOA:&quot;Inosine-5'-monophosphate dehydrogenase 1 inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="path(ChEMBL:CHEMBL1643)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="m(HP:CHEMBL1822)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="bp(MOA:&quot;Hepatitis C virus NS5B RNA-dependent RNA polymerase inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="m(HP:CHEMBL5375)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="bp(MOA:&quot;RNA inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="m(HP:CHEMBL2363073)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="pop(Disease:&quot;Virus Diseases&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:Infections)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Kidney Diseases&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:Sarcoma)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Uterine Cervical Dysplasia&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Cytomegalovirus Infections&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Cytomegalovirus Retinitis&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Anus Neoplasms&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:Papilloma)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Uterine Cervical Neoplasms&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Herpes Simplex&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Primary Immunodeficiency Diseases&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Hemorrhagic Fever, Ebola&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Adenovirus Infections, Human&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Adenoviridae Infections&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:Smallpox)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Leukemia, Myeloid, Acute&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Hepatitis C, Chronic&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Hepatitis C&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Hepatitis B, Chronic&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:Neoplasms)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;HIV Infections&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Liver Cirrhosis&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Hemorrhagic Fever with Renal Syndrome&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Hepatitis D&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Encephalitis, Japanese&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Respiratory Syncytial Virus Infections&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:Thrombocytopenia)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:Hepatitis)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:Fibrosis)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Influenza, Human&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Breast Neoplasms&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Severe Acute Respiratory Syndrome&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Depressive Disorder&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Diabetes Mellitus, Type 1&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="pop(Disease:&quot;Lassa Fever&quot;)">
+  <data key="d0">Population</data>
+</node>
+<node id="m(HP:CHEMBL614200)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL746888)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL613888)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL689980)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL689981)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL689978)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL689979)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL371)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL859211)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL613495)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL859223)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL613493)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL860527)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL612672)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL860529)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL613167)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL997977)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL855401)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL855403)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL855405)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1004216)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL613168)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1004217)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL918571)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL375768)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL918572)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL918573)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL613120)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL918575)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL613332)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL918576)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL612545)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL3387285)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL3357216)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(ChEMBL:CHEMBL3357215)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(ChEMBL:CHEMBL220150)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="m(HP:CHEMBL613494)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL918577)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL918578)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL4434621)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL4336406)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL4565849)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="m(HP:CHEMBL613738)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL4336391)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL220610)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="m(HP:AHCY)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL800629)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL494759)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="m(HP:CHEMBL614149)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL674318)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL612558)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL833100)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:LMNA)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1614544)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:Chrm1)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1613997)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CYP3A4)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1614108)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:AHCYL1)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL3757541)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL3753637)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL995355)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL112159)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL995354)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="m(HP:CHEMBL3879801)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1931881)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1931882)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL2400652)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL360506)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(ChEMBL:CHEMBL221054)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL3294635)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL3290663)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL3294636)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1803177)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(ChEMBL:CHEMBL392630)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL1931884)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="r(Pathway:Methylation.)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Sulfur amino acid metabolism.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Metabolism of ingested SeMet, Sec, MeSec into H2Se.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Defective AHCY causes HMAHCHD.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:Xenobiotics.)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Aflatoxin activation and detoxification.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Biosynthesis of maresin-like SPMs.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;PLC beta mediated events.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;DAG and IP3 signaling.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Role of phospholipids in phagocytosis.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;FCERI mediated Ca+2 mobilization.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Regulation of insulin secretion.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;VEGFR2 mediated cell proliferation.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Ion homeostasis.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;CLEC7A (Dectin-1) induces NFAT activation.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;FCGR3A-mediated IL10 synthesis.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Antigen activates B Cell Receptor (BCR) leading to generation of second messengers.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Muscarinic acetylcholine receptors.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;G alpha (q) signalling events.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Meiotic synapsis. [P02545-2]&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Nuclear Envelope Breakdown.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Initiation of Nuclear Envelope (NE) Reformation.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Breakdown of the nuclear lamina. [P02545-1]&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;XBP1(S) activates chaperone genes.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Depolymerisation of the Nuclear Lamina.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Signaling by BRAF and RAF fusions.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models. [P02545-1]&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="r(Pathway:&quot;Potential therapeutics for SARS.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="m(HP:NS5B)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="r(Pathway:&quot;Neutrophil degranulation.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<node id="m(HP:IMPDH1)">
+  <data key="d0">miRNA</data>
+</node>
+<node id="r(Pathway:&quot;Purine ribonucleoside monophosphate biosynthesis.&quot;)">
+  <data key="d0">RNA</data>
+</node>
+<edge source="bp(MOA:&quot;Human herpesvirus 1 DNA polymerase inhibitor&quot;)" target="path(ChEMBL:CHEMBL152)" id="88ce1c255ba45c753bb0be23a5137637">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Human herpesvirus 1 DNA polymerase inhibitor") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="bp(MOA:&quot;Human herpesvirus 1 DNA polymerase inhibitor&quot;)" id="f5b644a94df74be720dc8f257382d983">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association bp(MOA:"Human herpesvirus 1 DNA polymerase inhibitor")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="m(HP:CHEMBL1872)" id="5a80d61b0785915ded1fa8044642708c">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association m(HP:CHEMBL1872)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Virus Diseases&quot;)" id="023d3fe4dbd43ed605a5ec2eed35ab31">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Virus Diseases")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:Infections)" id="f32c6556fba290e2b7719cdfdbf8cced">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:Infections)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Kidney Diseases&quot;)" id="5e66ebdf765ce5cea515b4109c5a9d2a">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Kidney Diseases")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:Sarcoma)" id="04889cf7642a4a4893520b107b13c5a0">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:Sarcoma)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Uterine Cervical Dysplasia&quot;)" id="4f74ebee3e70b8beb9018a362206e82d">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Uterine Cervical Dysplasia")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Cytomegalovirus Infections&quot;)" id="df57aa3179ec20685f4c52fd6a4a9f4b">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Cytomegalovirus Infections")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Cytomegalovirus Retinitis&quot;)" id="e3306c1c0d638e1c91603229f933055d">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Cytomegalovirus Retinitis")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Anus Neoplasms&quot;)" id="eec1fa0895cf0dbea410eb79427e3cba">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Anus Neoplasms")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:Papilloma)" id="c26eebcebfb1fb5a0d4a0e013886b655">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:Papilloma)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Uterine Cervical Neoplasms&quot;)" id="a8dcf45313804d8627b76b955175fec9">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Uterine Cervical Neoplasms")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Herpes Simplex&quot;)" id="0ebff4e50762205a7227162ab703be0c">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Herpes Simplex")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="pop(Disease:&quot;Primary Immunodeficiency Diseases&quot;)" id="4d14dbcdde7f2239dc66020d5ae0c439">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association pop(Disease:"Primary Immunodeficiency Diseases")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="a(ChEMBLAssay:CHEMBL746888)" id="babd1e40b8335b82481ec4764019031b">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association a(ChEMBLAssay:CHEMBL746888)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="a(ChEMBLAssay:CHEMBL689980)" id="dd1210497c8fa6fab4056245bde2b3db">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association a(ChEMBLAssay:CHEMBL689980)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="a(ChEMBLAssay:CHEMBL689981)" id="e7bd678534dcdc8736750ff688e77843">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association a(ChEMBLAssay:CHEMBL689981)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="a(ChEMBLAssay:CHEMBL689978)" id="8fcc45f6bd7d94d392d05c149fe47d19">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association a(ChEMBLAssay:CHEMBL689978)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL152)" target="a(ChEMBLAssay:CHEMBL689979)" id="ecd996d28f0edbf83919ba77b1c187ce">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL152) association a(ChEMBLAssay:CHEMBL689979)</data>
+</edge>
+<edge source="m(HP:CHEMBL1872)" target="path(ChEMBL:CHEMBL152)" id="0572fa42c854889125483ca6997a25e8">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL1872) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="bp(MOA:&quot;DNA polymerase inhibitor&quot;)" target="path(ChEMBL:CHEMBL203321)" id="67c35dfd0f166bbe4987409576f4f305">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"DNA polymerase inhibitor") association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="bp(MOA:&quot;DNA polymerase inhibitor&quot;)" id="443ff6af4fd27ddb9f8f6e2385c5b934">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association bp(MOA:"DNA polymerase inhibitor")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="m(HP:CHEMBL3988586)" id="2966317a133d53d218f4cfa9e2306bf7">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association m(HP:CHEMBL3988586)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="pop(Disease:&quot;Cytomegalovirus Infections&quot;)" id="5b62b01e706aa3ab86f0818c1a0cd1e5">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association pop(Disease:"Cytomegalovirus Infections")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="pop(Disease:&quot;Hemorrhagic Fever, Ebola&quot;)" id="2cf792c349938357e67d1a9cceb19c83">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association pop(Disease:"Hemorrhagic Fever, Ebola")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="pop(Disease:&quot;Adenovirus Infections, Human&quot;)" id="e8048f50003e0289d2cc9d63e4b1a1f2">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association pop(Disease:"Adenovirus Infections, Human")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="pop(Disease:&quot;Adenoviridae Infections&quot;)" id="1d22c94d63fb1382a452e15c0c91106f">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association pop(Disease:"Adenoviridae Infections")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="pop(Disease:&quot;Virus Diseases&quot;)" id="eac4fcfd04f9a545975f5172d673cd92">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association pop(Disease:"Virus Diseases")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="pop(Disease:Smallpox)" id="843748551f7fb68abed84618d107003f">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association pop(Disease:Smallpox)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="a(ChEMBLAssay:CHEMBL859211)" id="031d95f3618ef048903abea5e58f0821">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association a(ChEMBLAssay:CHEMBL859211)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="a(ChEMBLAssay:CHEMBL859223)" id="ad4f295bea5f3343faef4b6416c2a211">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association a(ChEMBLAssay:CHEMBL859223)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="a(ChEMBLAssay:CHEMBL860527)" id="f114a5582128dc44085d7f1b6e1f3165">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association a(ChEMBLAssay:CHEMBL860527)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="a(ChEMBLAssay:CHEMBL860529)" id="96cb0e21db38942a474f1ea60e71a475">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association a(ChEMBLAssay:CHEMBL860529)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL203321)" target="a(ChEMBLAssay:CHEMBL997977)" id="6c09ed3c0ea686107993d37840b0fdde">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL203321) association a(ChEMBLAssay:CHEMBL997977)</data>
+</edge>
+<edge source="m(HP:CHEMBL3988586)" target="path(ChEMBL:CHEMBL203321)" id="4f56bdbb0caf3e1550083d12c73aa944">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL3988586) association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="bp(MOA:&quot;Envelope phospholipase F13 (p37) inhibitor&quot;)" target="path(ChEMBL:CHEMBL1257073)" id="3b64642e350f2a4680a89f02cd4d900d">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Envelope phospholipase F13 (p37) inhibitor") association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="bp(MOA:&quot;Envelope phospholipase F13 (p37) inhibitor&quot;)" id="b88cbd5419dabd3a675f37d7300f5800">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association bp(MOA:"Envelope phospholipase F13 (p37) inhibitor")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="m(HP:CHEMBL4296170)" id="bdc783c13283e51b1f4e57aac92ed309">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association m(HP:CHEMBL4296170)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="pop(Disease:&quot;Virus Diseases&quot;)" id="657e887ea10893fa56cd70d0373d8eaf">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association pop(Disease:"Virus Diseases")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="pop(Disease:Smallpox)" id="e6eb9d75af00d3224452010ca1e63771">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association pop(Disease:Smallpox)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="a(ChEMBLAssay:CHEMBL855401)" id="a4cd02b9cb9ef381f4a123d39ecf64ee">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association a(ChEMBLAssay:CHEMBL855401)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="a(ChEMBLAssay:CHEMBL855403)" id="1663adff3ebff7e07d6243babb152578">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association a(ChEMBLAssay:CHEMBL855403)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="a(ChEMBLAssay:CHEMBL855405)" id="d37e8d25f6e24df6b82388c8648a32b4">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association a(ChEMBLAssay:CHEMBL855405)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="a(ChEMBLAssay:CHEMBL1004216)" id="e6cdd7522283314f164d18286321519c">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association a(ChEMBLAssay:CHEMBL1004216)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1257073)" target="a(ChEMBLAssay:CHEMBL1004217)" id="4aee3375dec5be8439092b0bbeb13010">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1257073) association a(ChEMBLAssay:CHEMBL1004217)</data>
+</edge>
+<edge source="m(HP:CHEMBL4296170)" target="path(ChEMBL:CHEMBL1257073)" id="c9f2c1585e2283f51525f627a7bc06d2">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL4296170) association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="bp(MOA:&quot;Inosine-5'-monophosphate dehydrogenase 1 inhibitor&quot;)" target="path(ChEMBL:CHEMBL1643)" id="737f85246a774033e24d9b23c1a9b6d2">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Inosine-5'-monophosphate dehydrogenase 1 inhibitor") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="bp(MOA:&quot;Inosine-5'-monophosphate dehydrogenase 1 inhibitor&quot;)" id="4094d228fdd509df341d32c4c7914455">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association bp(MOA:"Inosine-5'-monophosphate dehydrogenase 1 inhibitor")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="m(HP:CHEMBL1822)" id="b6dc2eee4240d76ec9f6529f0868e8ac">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association m(HP:CHEMBL1822)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="bp(MOA:&quot;Hepatitis C virus NS5B RNA-dependent RNA polymerase inhibitor&quot;)" id="aea34da7bd3a30df49f736aed241b9ac">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association bp(MOA:"Hepatitis C virus NS5B RNA-dependent RNA polymerase inhibitor")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="m(HP:CHEMBL5375)" id="a995ac727dfe10162d87bc4e4ae7eed0">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association m(HP:CHEMBL5375)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="bp(MOA:&quot;RNA inhibitor&quot;)" id="d203ed072a4bb6688dd5c4f18a4837f8">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association bp(MOA:"RNA inhibitor")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="m(HP:CHEMBL2363073)" id="dfc0a49febb737832d764881457ea57d">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association m(HP:CHEMBL2363073)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Leukemia, Myeloid, Acute&quot;)" id="5cd6dc63e8c12a632831de40ee2c9672">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Leukemia, Myeloid, Acute")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Hepatitis C, Chronic&quot;)" id="88c4c62305fe8dbe74239aadc0a10a9d">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Hepatitis C, Chronic")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Hepatitis C&quot;)" id="8dcf21dfbd5b6a04dcbb52b2b98f8e18">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Hepatitis C")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Hepatitis B, Chronic&quot;)" id="e83f010ba94d6aff7cab25766e9e3556">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Hepatitis B, Chronic")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:Infections)" id="929e19cd4a34808d440257f740fd1888">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:Infections)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:Neoplasms)" id="ba4ce68586d319edcfe99609281cf488">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:Neoplasms)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;HIV Infections&quot;)" id="918a6c02ba604777f98580ec799c6d00">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"HIV Infections")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Liver Cirrhosis&quot;)" id="b14b09eab6df5b1bb9465d449d218309">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Liver Cirrhosis")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Hemorrhagic Fever with Renal Syndrome&quot;)" id="e75bb4695d75e5a592f94dfb531099b3">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Hemorrhagic Fever with Renal Syndrome")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Hepatitis D&quot;)" id="d575151a2c3df29e057a2f805f3edfb2">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Hepatitis D")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Encephalitis, Japanese&quot;)" id="aa2e1c8cb29836289f16ebb27dc9717e">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Encephalitis, Japanese")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Respiratory Syncytial Virus Infections&quot;)" id="4c01d558f475f19953b0ff00f2e2c9c5">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Respiratory Syncytial Virus Infections")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:Thrombocytopenia)" id="ac13e4874f359927f4edc950ccf53f1b">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:Thrombocytopenia)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:Hepatitis)" id="2b102821515faadd5eef52b9cb5679fe">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:Hepatitis)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Virus Diseases&quot;)" id="f10414842b18bc56330528399ec08b79">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Virus Diseases")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:Fibrosis)" id="68e2bd47e1c261098534f725cdf0107b">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:Fibrosis)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Influenza, Human&quot;)" id="4d61964e40540292ac2076f6efb87543">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Influenza, Human")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Breast Neoplasms&quot;)" id="43cbb182bdd59ab07d04608ebe697ded">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Breast Neoplasms")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Severe Acute Respiratory Syndrome&quot;)" id="80656d36da950dd8c9c9801a337d236c">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Severe Acute Respiratory Syndrome")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Depressive Disorder&quot;)" id="df3846805cff058ebea9611960d99bed">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Depressive Disorder")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Diabetes Mellitus, Type 1&quot;)" id="44eaa7250ff0c4e17cc5813080d31bec">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Diabetes Mellitus, Type 1")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="pop(Disease:&quot;Lassa Fever&quot;)" id="d0c2357df357a733fc2a5261fbdb09ea">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association pop(Disease:"Lassa Fever")</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="a(ChEMBLAssay:CHEMBL674318)" id="d7c61f7f467e493f2cc3d7c9a9a52e71">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association a(ChEMBLAssay:CHEMBL674318)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="a(ChEMBLAssay:CHEMBL833100)" id="3fe970f4bca88013d4565f5078955305">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association a(ChEMBLAssay:CHEMBL833100)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="a(ChEMBLAssay:CHEMBL1614544)" id="c79789b6a82e6db93c8377cd0b52adf9">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association a(ChEMBLAssay:CHEMBL1614544)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="a(ChEMBLAssay:CHEMBL1613997)" id="9ada27e39e66b131a64fbee3dc40c49c">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association a(ChEMBLAssay:CHEMBL1613997)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL1643)" target="a(ChEMBLAssay:CHEMBL1614108)" id="662b2f1791857b26fc749bb3323dcc86">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL1643) association a(ChEMBLAssay:CHEMBL1614108)</data>
+</edge>
+<edge source="m(HP:CHEMBL1822)" target="path(ChEMBL:CHEMBL1643)" id="6ba64da3378a00f08b3d665db1fb461a">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL1822) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="bp(MOA:&quot;Hepatitis C virus NS5B RNA-dependent RNA polymerase inhibitor&quot;)" target="path(ChEMBL:CHEMBL1643)" id="3fb4e4d40429c1e367356e7c04f86955">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Hepatitis C virus NS5B RNA-dependent RNA polymerase inhibitor") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="m(HP:CHEMBL5375)" target="path(ChEMBL:CHEMBL1643)" id="8251d95c963b982f424e83f04d74b14b">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL5375) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="bp(MOA:&quot;RNA inhibitor&quot;)" target="path(ChEMBL:CHEMBL1643)" id="789587f9221b757d579ba640125ac5c1">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"RNA inhibitor") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="m(HP:CHEMBL2363073)" target="path(ChEMBL:CHEMBL1643)" id="ccfbd19c935573c9a5927585b091c96a">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL2363073) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Virus Diseases&quot;)" target="path(ChEMBL:CHEMBL152)" id="d6e763e0ac2db92081ed59ce80aeb76b">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Virus Diseases") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Virus Diseases&quot;)" target="path(ChEMBL:CHEMBL203321)" id="0e0ce5b1ad6c3185a8c50126dcf8c5a2">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Virus Diseases") association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="pop(Disease:&quot;Virus Diseases&quot;)" target="path(ChEMBL:CHEMBL1257073)" id="de315b32391cbb6a40f0f9b3528dbfd5">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Virus Diseases") association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="pop(Disease:&quot;Virus Diseases&quot;)" target="path(ChEMBL:CHEMBL1643)" id="778423bf93a0046b72b557311f8b11dd">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Virus Diseases") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:Infections)" target="path(ChEMBL:CHEMBL152)" id="87759b63af84b0099a447152cf00f344">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Infections) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:Infections)" target="path(ChEMBL:CHEMBL1643)" id="e4b1ed1c6c646b4a8163c305b23000ab">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Infections) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Kidney Diseases&quot;)" target="path(ChEMBL:CHEMBL152)" id="bc01e4634453a97ee257632680202ddc">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Kidney Diseases") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:Sarcoma)" target="path(ChEMBL:CHEMBL152)" id="cf93e8d8233e1546f2948f27673c883a">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Sarcoma) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Uterine Cervical Dysplasia&quot;)" target="path(ChEMBL:CHEMBL152)" id="10f677335ee1ae197ce7a03ed87447c9">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Uterine Cervical Dysplasia") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Cytomegalovirus Infections&quot;)" target="path(ChEMBL:CHEMBL152)" id="e4f3a287a039ea90f89e51d178ea85c6">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Cytomegalovirus Infections") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Cytomegalovirus Infections&quot;)" target="path(ChEMBL:CHEMBL203321)" id="96e3396ca3fd81986c9d136a03ff6e67">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Cytomegalovirus Infections") association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="pop(Disease:&quot;Cytomegalovirus Retinitis&quot;)" target="path(ChEMBL:CHEMBL152)" id="7f0e8ea5b6c9e61734029c89f0f322b0">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Cytomegalovirus Retinitis") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Anus Neoplasms&quot;)" target="path(ChEMBL:CHEMBL152)" id="1c2446d35ea0cc5d473239fd05f194d5">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Anus Neoplasms") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:Papilloma)" target="path(ChEMBL:CHEMBL152)" id="9c7094412d515c71187d06663be76ec9">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Papilloma) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Uterine Cervical Neoplasms&quot;)" target="path(ChEMBL:CHEMBL152)" id="3f29adfb5ffce423049e0f375be853b4">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Uterine Cervical Neoplasms") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Herpes Simplex&quot;)" target="path(ChEMBL:CHEMBL152)" id="7a4c1679a03f0ad49fee08ae2b28c2f6">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Herpes Simplex") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Primary Immunodeficiency Diseases&quot;)" target="path(ChEMBL:CHEMBL152)" id="9c50b69b5da863358a5d4cea63d85976">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Primary Immunodeficiency Diseases") association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="pop(Disease:&quot;Hemorrhagic Fever, Ebola&quot;)" target="path(ChEMBL:CHEMBL203321)" id="6227cf3de9b297212137094ede8f87b6">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Hemorrhagic Fever, Ebola") association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="pop(Disease:&quot;Adenovirus Infections, Human&quot;)" target="path(ChEMBL:CHEMBL203321)" id="3484ef2e2f121067f9583542927ee698">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Adenovirus Infections, Human") association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="pop(Disease:&quot;Adenoviridae Infections&quot;)" target="path(ChEMBL:CHEMBL203321)" id="5d57ad2277593cc0d2eb3fac6c846b3c">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Adenoviridae Infections") association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="pop(Disease:Smallpox)" target="path(ChEMBL:CHEMBL203321)" id="35b7062c214e2d1711d6b33da368e9d1">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Smallpox) association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="pop(Disease:Smallpox)" target="path(ChEMBL:CHEMBL1257073)" id="f0a60875f9d5c23215d3aa601d9abcdc">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Smallpox) association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="pop(Disease:&quot;Leukemia, Myeloid, Acute&quot;)" target="path(ChEMBL:CHEMBL1643)" id="299f701dc5594fb420016f713cb96c2d">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Leukemia, Myeloid, Acute") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Hepatitis C, Chronic&quot;)" target="path(ChEMBL:CHEMBL1643)" id="312ab0559e330222fa142f757db5d97f">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Hepatitis C, Chronic") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Hepatitis C&quot;)" target="path(ChEMBL:CHEMBL1643)" id="14ba4b7c4fcf375d7de2577266e68aa0">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Hepatitis C") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Hepatitis B, Chronic&quot;)" target="path(ChEMBL:CHEMBL1643)" id="4ce3b64d2eddbb1e109c017a1c19dfd5">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Hepatitis B, Chronic") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:Neoplasms)" target="path(ChEMBL:CHEMBL1643)" id="3320e90783d503e97fe4c9c271ffa37a">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Neoplasms) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;HIV Infections&quot;)" target="path(ChEMBL:CHEMBL1643)" id="497d121556b6769bb13b1aabdf06c67e">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"HIV Infections") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Liver Cirrhosis&quot;)" target="path(ChEMBL:CHEMBL1643)" id="b6441ea1e5de705bbf1dfe109df3396e">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Liver Cirrhosis") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Hemorrhagic Fever with Renal Syndrome&quot;)" target="path(ChEMBL:CHEMBL1643)" id="606db4d322e3beec36aa8953d851a730">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Hemorrhagic Fever with Renal Syndrome") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Hepatitis D&quot;)" target="path(ChEMBL:CHEMBL1643)" id="c97623cd899933200b54b9d1ea4ed806">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Hepatitis D") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Encephalitis, Japanese&quot;)" target="path(ChEMBL:CHEMBL1643)" id="735490d9d195ca6c023458ff472d9934">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Encephalitis, Japanese") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Respiratory Syncytial Virus Infections&quot;)" target="path(ChEMBL:CHEMBL1643)" id="a89264fb107acb8e58d14ae84afd0c84">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Respiratory Syncytial Virus Infections") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:Thrombocytopenia)" target="path(ChEMBL:CHEMBL1643)" id="6fb13d6c00ebd463c4c517df4c8531ee">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Thrombocytopenia) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:Hepatitis)" target="path(ChEMBL:CHEMBL1643)" id="abbbca9dc88ad1cf35a75670868fe030">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Hepatitis) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:Fibrosis)" target="path(ChEMBL:CHEMBL1643)" id="30342249db33156cd858c8558e216061">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:Fibrosis) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Influenza, Human&quot;)" target="path(ChEMBL:CHEMBL1643)" id="ec9c793597a2096d0c5395613d50ecbf">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Influenza, Human") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Breast Neoplasms&quot;)" target="path(ChEMBL:CHEMBL1643)" id="543bf7820da5b99a7af2e5b4b344e0fa">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Breast Neoplasms") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Severe Acute Respiratory Syndrome&quot;)" target="path(ChEMBL:CHEMBL1643)" id="856b6b5c185f864a37a6db248993f2c6">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Severe Acute Respiratory Syndrome") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Depressive Disorder&quot;)" target="path(ChEMBL:CHEMBL1643)" id="85ccee2577ce82b9da1add01c321b567">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Depressive Disorder") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Diabetes Mellitus, Type 1&quot;)" target="path(ChEMBL:CHEMBL1643)" id="2084af3a21c79352b3983732df6c09ae">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Diabetes Mellitus, Type 1") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="pop(Disease:&quot;Lassa Fever&quot;)" target="path(ChEMBL:CHEMBL1643)" id="8fa4a9adf6e1e11b0c637f8895e6a6f4">
+  <data key="d1">association</data>
+  <data key="d2">pop(Disease:"Lassa Fever") association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="m(HP:CHEMBL614200)" target="a(ChEMBLAssay:CHEMBL746888)" id="f363ee42760c1b8e622c4adc35fffcd6">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL614200) association a(ChEMBLAssay:CHEMBL746888)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL746888)" target="m(HP:CHEMBL614200)" id="3de9dd168e87cad5784e25921323a093">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL746888) association m(HP:CHEMBL614200)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL746888)" target="path(ChEMBL:CHEMBL152)" id="bdd9666bf336eb8a5adbeeb1eb5a9ed9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL746888) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="m(HP:CHEMBL613888)" target="a(ChEMBLAssay:CHEMBL689980)" id="a072eb37441739c2ae5465d7b4227b43">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613888) association a(ChEMBLAssay:CHEMBL689980)</data>
+</edge>
+<edge source="m(HP:CHEMBL613888)" target="a(ChEMBLAssay:CHEMBL689981)" id="4676c8708497e1fdc39950d2cf996682">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613888) association a(ChEMBLAssay:CHEMBL689981)</data>
+</edge>
+<edge source="m(HP:CHEMBL613888)" target="a(ChEMBLAssay:CHEMBL689978)" id="e2f7a7c3e3d571b99231bdd466c3b055">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613888) association a(ChEMBLAssay:CHEMBL689978)</data>
+</edge>
+<edge source="m(HP:CHEMBL613888)" target="a(ChEMBLAssay:CHEMBL689979)" id="9c960614c9bc399e275704cee205bffc">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613888) association a(ChEMBLAssay:CHEMBL689979)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL689980)" target="m(HP:CHEMBL613888)" id="96992be5caa42aae723364421a59bf01">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL689980) association m(HP:CHEMBL613888)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL689980)" target="path(ChEMBL:CHEMBL152)" id="bac3453a4160c2d9bda64ced64de351c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL689980) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL689981)" target="m(HP:CHEMBL613888)" id="d6eb3d0c8b665ce735c6e912d2bba242">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL689981) association m(HP:CHEMBL613888)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL689981)" target="path(ChEMBL:CHEMBL152)" id="769f5ac4df2f4e46fed1e647afa4e28c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL689981) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL689978)" target="m(HP:CHEMBL613888)" id="67f31b619bf5e8e53925b4b2cdaaec27">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL689978) association m(HP:CHEMBL613888)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL689978)" target="path(ChEMBL:CHEMBL152)" id="58dbbd0db55a14e5d7661b9a6d64314a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL689978) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL689979)" target="m(HP:CHEMBL613888)" id="1c8898a9d9826f3358019407cf5ba28c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL689979) association m(HP:CHEMBL613888)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL689979)" target="path(ChEMBL:CHEMBL152)" id="67e785a79fbe437f068690835638e4ff">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL689979) association path(ChEMBL:CHEMBL152)</data>
+</edge>
+<edge source="m(HP:CHEMBL371)" target="a(ChEMBLAssay:CHEMBL859211)" id="cdab6d08bedffc7f20eec6b463acf11d">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL371) association a(ChEMBLAssay:CHEMBL859211)</data>
+</edge>
+<edge source="m(HP:CHEMBL371)" target="a(ChEMBLAssay:CHEMBL1803177)" id="ef184c5e517df3037b765230d4d674d4">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL371) association a(ChEMBLAssay:CHEMBL1803177)</data>
+</edge>
+<edge source="m(HP:CHEMBL371)" target="a(ChEMBLAssay:CHEMBL1931884)" id="3550fdf12d969d73902c34476f2fa187">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL371) association a(ChEMBLAssay:CHEMBL1931884)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL859211)" target="m(HP:CHEMBL371)" id="41f9916a6bbde38f4d4d1aec79d3f019">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL859211) association m(HP:CHEMBL371)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL859211)" target="path(ChEMBL:CHEMBL203321)" id="f37c343e5929698fa5536c24b6de0486">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL859211) association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="m(HP:CHEMBL613495)" target="a(ChEMBLAssay:CHEMBL859223)" id="1fe962feb29707aff44dcc519f7fa3c9">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613495) association a(ChEMBLAssay:CHEMBL859223)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL859223)" target="m(HP:CHEMBL613495)" id="629c2aef9fbcd6a8479d310b93b90791">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL859223) association m(HP:CHEMBL613495)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL859223)" target="path(ChEMBL:CHEMBL203321)" id="3fef812ed58ef5d45c6d509d1bcff08b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL859223) association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="m(HP:CHEMBL613493)" target="a(ChEMBLAssay:CHEMBL860527)" id="1719382cce5399d4f6430a95db47a66c">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613493) association a(ChEMBLAssay:CHEMBL860527)</data>
+</edge>
+<edge source="m(HP:CHEMBL613493)" target="a(ChEMBLAssay:CHEMBL855401)" id="51abf18ad38f8c970a65d5a1e95525d9">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613493) association a(ChEMBLAssay:CHEMBL855401)</data>
+</edge>
+<edge source="m(HP:CHEMBL613493)" target="a(ChEMBLAssay:CHEMBL855403)" id="6990a34dd3b2250a20a0748da1d47abe">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613493) association a(ChEMBLAssay:CHEMBL855403)</data>
+</edge>
+<edge source="m(HP:CHEMBL613493)" target="a(ChEMBLAssay:CHEMBL918571)" id="c81982d959ff5495e4eea9e7f5045488">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613493) association a(ChEMBLAssay:CHEMBL918571)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL860527)" target="m(HP:CHEMBL613493)" id="c32d4fe3f182e0d01452ecbebc58b379">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL860527) association m(HP:CHEMBL613493)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL860527)" target="path(ChEMBL:CHEMBL203321)" id="b6902b95355511e475726f1f0283ba5c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL860527) association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="m(HP:CHEMBL612672)" target="a(ChEMBLAssay:CHEMBL860529)" id="4ce6e97fc9c03b6d4c07b4d67046e501">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL612672) association a(ChEMBLAssay:CHEMBL860529)</data>
+</edge>
+<edge source="m(HP:CHEMBL612672)" target="a(ChEMBLAssay:CHEMBL855405)" id="58ed442098c53ee4dfda744b8a56a80c">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL612672) association a(ChEMBLAssay:CHEMBL855405)</data>
+</edge>
+<edge source="m(HP:CHEMBL612672)" target="a(ChEMBLAssay:CHEMBL918572)" id="5d111c7f4832e99e9c26773b009b6bea">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL612672) association a(ChEMBLAssay:CHEMBL918572)</data>
+</edge>
+<edge source="m(HP:CHEMBL612672)" target="a(ChEMBLAssay:CHEMBL918573)" id="81617336f02f89fb736967cf7c64ad80">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL612672) association a(ChEMBLAssay:CHEMBL918573)</data>
+</edge>
+<edge source="m(HP:CHEMBL612672)" target="a(ChEMBLAssay:CHEMBL2400652)" id="1ca87e3e964cdb63e0112374590483ce">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL612672) association a(ChEMBLAssay:CHEMBL2400652)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL860529)" target="m(HP:CHEMBL612672)" id="14499f717a8adc60e4b2775be542078a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL860529) association m(HP:CHEMBL612672)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL860529)" target="path(ChEMBL:CHEMBL203321)" id="b1ead646845d5d3993c57caec83978c1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL860529) association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="m(HP:CHEMBL613167)" target="a(ChEMBLAssay:CHEMBL997977)" id="2cdd9adb6aa7f6e55dbc434fedd0146c">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613167) association a(ChEMBLAssay:CHEMBL997977)</data>
+</edge>
+<edge source="m(HP:CHEMBL613167)" target="a(ChEMBLAssay:CHEMBL1004216)" id="0964ca8180e30eedcd12ad1b2fbe3c34">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613167) association a(ChEMBLAssay:CHEMBL1004216)</data>
+</edge>
+<edge source="m(HP:CHEMBL613167)" target="a(ChEMBLAssay:CHEMBL1931882)" id="f6b850b265cb85f2b3cab6ce8407a2c7">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613167) association a(ChEMBLAssay:CHEMBL1931882)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL997977)" target="m(HP:CHEMBL613167)" id="6b8e32df7351e23a5f928f22ce523869">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL997977) association m(HP:CHEMBL613167)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL997977)" target="path(ChEMBL:CHEMBL203321)" id="8a626d7a270eb8c0170939b6cb4398bd">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL997977) association path(ChEMBL:CHEMBL203321)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL855401)" target="m(HP:CHEMBL613493)" id="ae770a34980459c1b72c62edb2f34236">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL855401) association m(HP:CHEMBL613493)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL855401)" target="path(ChEMBL:CHEMBL1257073)" id="8d68310171ddcda7b7abb76e8d62078f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL855401) association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL855403)" target="m(HP:CHEMBL613493)" id="85b1d792151234c99bb84d6d3ab7ca45">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL855403) association m(HP:CHEMBL613493)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL855403)" target="path(ChEMBL:CHEMBL1257073)" id="6f7dac3a2f53cd1114c789f40c59eff7">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL855403) association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL855405)" target="m(HP:CHEMBL612672)" id="ff08e861d116d99b2b17647d8a579808">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL855405) association m(HP:CHEMBL612672)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL855405)" target="path(ChEMBL:CHEMBL1257073)" id="83438e9fa2cda5d60ed1ab9ae73407b3">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL855405) association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1004216)" target="m(HP:CHEMBL613167)" id="768d2032ac6b896d360b7db2e9bfb081">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1004216) association m(HP:CHEMBL613167)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1004216)" target="path(ChEMBL:CHEMBL1257073)" id="4d7e5e7fd57a30b2c12acfd52998976f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1004216) association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="m(HP:CHEMBL613168)" target="a(ChEMBLAssay:CHEMBL1004217)" id="8994abb4813d9949ca7f5f078338f019">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613168) association a(ChEMBLAssay:CHEMBL1004217)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1004217)" target="m(HP:CHEMBL613168)" id="29be4c21805e5c9d860e486207ec637d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1004217) association m(HP:CHEMBL613168)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1004217)" target="path(ChEMBL:CHEMBL1257073)" id="bba6d33758269d4a1b51e12390d27b2e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1004217) association path(ChEMBL:CHEMBL1257073)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918571)" target="m(HP:CHEMBL613493)" id="7c78bed23aa94fb19f0e0743b6a462a6">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918571) association m(HP:CHEMBL613493)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918571)" target="path(ChEMBL:CHEMBL375768)" id="f652898f0f8d54d891ecb47bd0a4ab2a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918571) association path(ChEMBL:CHEMBL375768)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918571)" target="path(ChEMBL:CHEMBL220150)" id="98611bdefad456d83852abacd620e459">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918571) association path(ChEMBL:CHEMBL220150)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918571)" target="path(ChEMBL:CHEMBL220610)" id="588be4b1a8be5196fc71b6ed211a7d3d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918571) association path(ChEMBL:CHEMBL220610)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918571)" target="path(ChEMBL:CHEMBL221054)" id="f94421a72f3b1c2fffcb1644604a0975">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918571) association path(ChEMBL:CHEMBL221054)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL375768)" target="a(ChEMBLAssay:CHEMBL918571)" id="c27abecb3efd635a3606a11396fa3352">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL375768) association a(ChEMBLAssay:CHEMBL918571)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL375768)" target="a(ChEMBLAssay:CHEMBL918572)" id="e4b1f3c1a76b685d1f671440dd880c07">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL375768) association a(ChEMBLAssay:CHEMBL918572)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL375768)" target="a(ChEMBLAssay:CHEMBL918573)" id="3d4098f0cc28a65517742bbf35781682">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL375768) association a(ChEMBLAssay:CHEMBL918573)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL375768)" target="a(ChEMBLAssay:CHEMBL918575)" id="7e2e86378796b6d24cd1a26a066190a0">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL375768) association a(ChEMBLAssay:CHEMBL918575)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL375768)" target="a(ChEMBLAssay:CHEMBL918576)" id="dbb27b546cc23a738b2fd7038046f853">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL375768) association a(ChEMBLAssay:CHEMBL918576)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918572)" target="m(HP:CHEMBL612672)" id="bd85059f8910eced1efabceb5f37d516">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918572) association m(HP:CHEMBL612672)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918572)" target="path(ChEMBL:CHEMBL375768)" id="172dba05b7e7454311741347e36658bf">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918572) association path(ChEMBL:CHEMBL375768)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918572)" target="path(ChEMBL:CHEMBL221054)" id="2fa7b784180fff8f304bf6f075c007c4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918572) association path(ChEMBL:CHEMBL221054)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918573)" target="m(HP:CHEMBL612672)" id="0d59ce2bc126d4cb6d49989343550f6d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918573) association m(HP:CHEMBL612672)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918573)" target="path(ChEMBL:CHEMBL375768)" id="cf880b1fc4ee8699395376d9606e5e31">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918573) association path(ChEMBL:CHEMBL375768)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918573)" target="path(ChEMBL:CHEMBL220610)" id="4a93a3fcf65d6dda4b984f8bbb842b16">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918573) association path(ChEMBL:CHEMBL220610)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918573)" target="path(ChEMBL:CHEMBL221054)" id="733161231a7cfda5f39947a8ec820401">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918573) association path(ChEMBL:CHEMBL221054)</data>
+</edge>
+<edge source="m(HP:CHEMBL613120)" target="a(ChEMBLAssay:CHEMBL918575)" id="5550dca46eb20ad919d17a004cbce41f">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613120) association a(ChEMBLAssay:CHEMBL918575)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918575)" target="m(HP:CHEMBL613120)" id="bba3dac1e780e596b4d8f4cb916c9911">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918575) association m(HP:CHEMBL613120)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918575)" target="path(ChEMBL:CHEMBL375768)" id="2c37f4b50c9cf3f7f97d72c955e5f005">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918575) association path(ChEMBL:CHEMBL375768)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918575)" target="path(ChEMBL:CHEMBL220150)" id="61a79d29d665caa92e8cc6abf17c7c9f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918575) association path(ChEMBL:CHEMBL220150)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918575)" target="path(ChEMBL:CHEMBL220610)" id="382f737c2c43f38eebcc6b462669d024">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918575) association path(ChEMBL:CHEMBL220610)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918575)" target="path(ChEMBL:CHEMBL221054)" id="fe432346717384339ea7f5a75c8dfd81">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918575) association path(ChEMBL:CHEMBL221054)</data>
+</edge>
+<edge source="m(HP:CHEMBL613332)" target="a(ChEMBLAssay:CHEMBL918576)" id="fa89dc147bb40dad5c12b580bca1f631">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613332) association a(ChEMBLAssay:CHEMBL918576)</data>
+</edge>
+<edge source="m(HP:CHEMBL613332)" target="a(ChEMBLAssay:CHEMBL995355)" id="83d0f70b32059461b9a842a2c9854143">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613332) association a(ChEMBLAssay:CHEMBL995355)</data>
+</edge>
+<edge source="m(HP:CHEMBL613332)" target="a(ChEMBLAssay:CHEMBL995354)" id="ae8c550e95ca0a136ccb603f6b1cccbd">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613332) association a(ChEMBLAssay:CHEMBL995354)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918576)" target="m(HP:CHEMBL613332)" id="81c14517cdeca89cb5ab908d15386d8b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918576) association m(HP:CHEMBL613332)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918576)" target="path(ChEMBL:CHEMBL375768)" id="c8bc247304223e09a7e6b305921c025a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918576) association path(ChEMBL:CHEMBL375768)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918576)" target="path(ChEMBL:CHEMBL220150)" id="e8618f9630f8a75e2548352b5518003c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918576) association path(ChEMBL:CHEMBL220150)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918576)" target="path(ChEMBL:CHEMBL220610)" id="a794030bf7a5e145bdec55460d2dfaab">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918576) association path(ChEMBL:CHEMBL220610)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918576)" target="path(ChEMBL:CHEMBL221054)" id="80859c976ee6a40ec73a87da526e26df">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918576) association path(ChEMBL:CHEMBL221054)</data>
+</edge>
+<edge source="m(HP:CHEMBL612545)" target="a(ChEMBLAssay:CHEMBL3387285)" id="99382469c86656a8bf305a0cc5e4fa23">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL612545) association a(ChEMBLAssay:CHEMBL3387285)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3387285)" target="m(HP:CHEMBL612545)" id="0fdc0b543a6684eaf7de5604a2029e69">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3387285) association m(HP:CHEMBL612545)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3387285)" target="path(ChEMBL:CHEMBL3357216)" id="5c4dcff21eebdee6aad591344643280a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3387285) association path(ChEMBL:CHEMBL3357216)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3387285)" target="path(ChEMBL:CHEMBL3357215)" id="409af10139389350910f395503c238a3">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3387285) association path(ChEMBL:CHEMBL3357215)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3387285)" target="path(ChEMBL:CHEMBL3290663)" id="d30aa54c8cea85bc1ac2b4b182df52b9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3387285) association path(ChEMBL:CHEMBL3290663)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL3357216)" target="a(ChEMBLAssay:CHEMBL3387285)" id="75ef57297a8b1ea89847bdd884322db1">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL3357216) association a(ChEMBLAssay:CHEMBL3387285)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL3357215)" target="a(ChEMBLAssay:CHEMBL3387285)" id="e025fc73bc085911a641ac4a293e71c3">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL3357215) association a(ChEMBLAssay:CHEMBL3387285)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220150)" target="a(ChEMBLAssay:CHEMBL918571)" id="4356f815fe93bfe9ce5ee6ba41467ecc">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220150) association a(ChEMBLAssay:CHEMBL918571)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220150)" target="a(ChEMBLAssay:CHEMBL918575)" id="9e1643e43cb4b18c3f3dd869087f1325">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220150) association a(ChEMBLAssay:CHEMBL918575)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220150)" target="a(ChEMBLAssay:CHEMBL918576)" id="2884b949bff7e08fd33a98b8603aba1e">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220150) association a(ChEMBLAssay:CHEMBL918576)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220150)" target="a(ChEMBLAssay:CHEMBL918577)" id="341c9907d81104b6adcdc09977eeb6c9">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220150) association a(ChEMBLAssay:CHEMBL918577)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220150)" target="a(ChEMBLAssay:CHEMBL918578)" id="59fe9e6fb9c4c6235f864f06a6c35f6d">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220150) association a(ChEMBLAssay:CHEMBL918578)</data>
+</edge>
+<edge source="m(HP:CHEMBL613494)" target="a(ChEMBLAssay:CHEMBL918577)" id="7ae52034f4ee867b57b616215f0e67e7">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613494) association a(ChEMBLAssay:CHEMBL918577)</data>
+</edge>
+<edge source="m(HP:CHEMBL613494)" target="a(ChEMBLAssay:CHEMBL918578)" id="cb42cae710dad4c56f90360733fc752b">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613494) association a(ChEMBLAssay:CHEMBL918578)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918577)" target="m(HP:CHEMBL613494)" id="b7e86d2c33a94fae4f626f381d39dddd">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918577) association m(HP:CHEMBL613494)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918577)" target="path(ChEMBL:CHEMBL220150)" id="39eae6a60529313368946faeafb336b9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918577) association path(ChEMBL:CHEMBL220150)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918577)" target="path(ChEMBL:CHEMBL220610)" id="9d2b3be5e774a2188bf642bdc96a788f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918577) association path(ChEMBL:CHEMBL220610)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918578)" target="m(HP:CHEMBL613494)" id="87f23220db308fbbedfca00a6c733839">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918578) association m(HP:CHEMBL613494)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL918578)" target="path(ChEMBL:CHEMBL220150)" id="caa4a97c10527ddaecce2d2500c103a1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL918578) association path(ChEMBL:CHEMBL220150)</data>
+</edge>
+<edge source="m(HP:CHEMBL4434621)" target="a(ChEMBLAssay:CHEMBL4336406)" id="3c7b6bcc602e12ebb5bd3a3afb2d159d">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL4434621) association a(ChEMBLAssay:CHEMBL4336406)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4336406)" target="m(HP:CHEMBL4434621)" id="b8196687c633aa47aa131ee3567aa131">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4336406) association m(HP:CHEMBL4434621)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4336406)" target="path(ChEMBL:CHEMBL4565849)" id="3430583cd7ccf2953ac5a27c858ec8aa">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4336406) association path(ChEMBL:CHEMBL4565849)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL4565849)" target="a(ChEMBLAssay:CHEMBL4336406)" id="ee178221d6a6ff1f7dea21d97760593c">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL4565849) association a(ChEMBLAssay:CHEMBL4336406)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL4565849)" target="a(ChEMBLAssay:CHEMBL4336391)" id="1ebd5f389e508bb82a64f66516eb0d95">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL4565849) association a(ChEMBLAssay:CHEMBL4336391)</data>
+</edge>
+<edge source="m(HP:CHEMBL613738)" target="a(ChEMBLAssay:CHEMBL4336391)" id="873d354933a04e8067d976978677db8f">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL613738) association a(ChEMBLAssay:CHEMBL4336391)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4336391)" target="m(HP:CHEMBL613738)" id="4cba32303c1ab66e48ce5988fda1f43e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4336391) association m(HP:CHEMBL613738)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4336391)" target="path(ChEMBL:CHEMBL4565849)" id="6ca480502239a26fffd33946a9317587">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4336391) association path(ChEMBL:CHEMBL4565849)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220610)" target="a(ChEMBLAssay:CHEMBL918571)" id="c41c57ee7fb769907730a592fc588d67">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220610) association a(ChEMBLAssay:CHEMBL918571)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220610)" target="a(ChEMBLAssay:CHEMBL918573)" id="fe10dd407f92ac7f07a47f5d52346608">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220610) association a(ChEMBLAssay:CHEMBL918573)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220610)" target="a(ChEMBLAssay:CHEMBL918575)" id="2c280857aa32966bbff053a5d3d2a864">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220610) association a(ChEMBLAssay:CHEMBL918575)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220610)" target="a(ChEMBLAssay:CHEMBL918576)" id="c22d46ce8330dba2b4c2d4ca1fd5c323">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220610) association a(ChEMBLAssay:CHEMBL918576)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL220610)" target="a(ChEMBLAssay:CHEMBL918577)" id="0a0993f0e2cb6a5be4cc9da620bdcedd">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL220610) association a(ChEMBLAssay:CHEMBL918577)</data>
+</edge>
+<edge source="m(HP:AHCY)" target="a(ChEMBLAssay:CHEMBL800629)" id="6c93dc13d1f5b881129aa2dc25ba9eee">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCY) association a(ChEMBLAssay:CHEMBL800629)</data>
+</edge>
+<edge source="m(HP:AHCY)" target="a(ChEMBLAssay:CHEMBL3294635)" id="b8323f4dee6fec788cb7b08031d92dc9">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCY) association a(ChEMBLAssay:CHEMBL3294635)</data>
+</edge>
+<edge source="m(HP:AHCY)" target="a(ChEMBLAssay:CHEMBL3294636)" id="830d75725284656d48280b2b96c82057">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCY) association a(ChEMBLAssay:CHEMBL3294636)</data>
+</edge>
+<edge source="m(HP:AHCY)" target="r(Pathway:Methylation.)" id="88488ddbd93862a9b249e8589624ed21">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCY) association r(Pathway:Methylation.)</data>
+</edge>
+<edge source="m(HP:AHCY)" target="r(Pathway:&quot;Sulfur amino acid metabolism.&quot;)" id="cdf7b65dbc44bbe53a0bb79c8de1380a">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCY) association r(Pathway:"Sulfur amino acid metabolism.")</data>
+</edge>
+<edge source="m(HP:AHCY)" target="r(Pathway:&quot;Metabolism of ingested SeMet, Sec, MeSec into H2Se.&quot;)" id="fbf2708caf30edd304550af85dc7e5bd">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCY) association r(Pathway:"Metabolism of ingested SeMet, Sec, MeSec into H2Se.")</data>
+</edge>
+<edge source="m(HP:AHCY)" target="r(Pathway:&quot;Defective AHCY causes HMAHCHD.&quot;)" id="3f580285c5d629f95978b8d8c679e465">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCY) association r(Pathway:"Defective AHCY causes HMAHCHD.")</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL800629)" target="m(HP:AHCY)" id="cceb74583b76f688ec6b91ee9679d19f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL800629) association m(HP:AHCY)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL800629)" target="path(ChEMBL:CHEMBL494759)" id="933f70d92d5ea9a90f0a7b7b31bdeeb4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL800629) association path(ChEMBL:CHEMBL494759)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL494759)" target="a(ChEMBLAssay:CHEMBL800629)" id="60a493756b3945c682effe6c36459ef4">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL494759) association a(ChEMBLAssay:CHEMBL800629)</data>
+</edge>
+<edge source="m(HP:CHEMBL614149)" target="a(ChEMBLAssay:CHEMBL674318)" id="ed5016e3c9a5d2244eac02a9488b74b1">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL614149) association a(ChEMBLAssay:CHEMBL674318)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL674318)" target="m(HP:CHEMBL614149)" id="8f3715a3acbf72554a58115d4868eda6">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL674318) association m(HP:CHEMBL614149)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL674318)" target="path(ChEMBL:CHEMBL1643)" id="4d561e50daa6ace1bbd1782e3bf686fe">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL674318) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="m(HP:CHEMBL612558)" target="a(ChEMBLAssay:CHEMBL833100)" id="578e22ba3f12b2ce0dcf64e332d573a8">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL612558) association a(ChEMBLAssay:CHEMBL833100)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL833100)" target="m(HP:CHEMBL612558)" id="a9540679936a8aae17ddf76db647788b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL833100) association m(HP:CHEMBL612558)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL833100)" target="path(ChEMBL:CHEMBL1643)" id="98bed9f59fc7058399501d6cac2c790b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL833100) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="m(HP:LMNA)" target="a(ChEMBLAssay:CHEMBL1614544)" id="86109d146ff6eb53bc07c7abb587c040">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association a(ChEMBLAssay:CHEMBL1614544)</data>
+</edge>
+<edge source="m(HP:LMNA)" target="r(Pathway:&quot;Meiotic synapsis. [P02545-2]&quot;)" id="e92d278d9be4b5fafb74f38b937d9718">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association r(Pathway:"Meiotic synapsis. [P02545-2]")</data>
+</edge>
+<edge source="m(HP:LMNA)" target="r(Pathway:&quot;Nuclear Envelope Breakdown.&quot;)" id="29a1a5799457793466ec983e93b62911">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association r(Pathway:"Nuclear Envelope Breakdown.")</data>
+</edge>
+<edge source="m(HP:LMNA)" target="r(Pathway:&quot;Initiation of Nuclear Envelope (NE) Reformation.&quot;)" id="675f2f9b6271adfbef537565c91d4100">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association r(Pathway:"Initiation of Nuclear Envelope (NE) Reformation.")</data>
+</edge>
+<edge source="m(HP:LMNA)" target="r(Pathway:&quot;Breakdown of the nuclear lamina. [P02545-1]&quot;)" id="7102dcd778f754db59f2124b7688120f">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association r(Pathway:"Breakdown of the nuclear lamina. [P02545-1]")</data>
+</edge>
+<edge source="m(HP:LMNA)" target="r(Pathway:&quot;XBP1(S) activates chaperone genes.&quot;)" id="08185cd1157d21cf7cb8cc9832496b70">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association r(Pathway:"XBP1(S) activates chaperone genes.")</data>
+</edge>
+<edge source="m(HP:LMNA)" target="r(Pathway:&quot;Depolymerisation of the Nuclear Lamina.&quot;)" id="697a3401af9c3d90a62a04729150aba9">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association r(Pathway:"Depolymerisation of the Nuclear Lamina.")</data>
+</edge>
+<edge source="m(HP:LMNA)" target="r(Pathway:&quot;Signaling by BRAF and RAF fusions.&quot;)" id="fd54eddba546d48397706a7eff14f466">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association r(Pathway:"Signaling by BRAF and RAF fusions.")</data>
+</edge>
+<edge source="m(HP:LMNA)" target="r(Pathway:&quot;Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models. [P02545-1]&quot;)" id="374294c24f09db53bbd572776dc6d2af">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:LMNA) association r(Pathway:"Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models. [P02545-1]")</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1614544)" target="m(HP:LMNA)" id="b1c56a4d25cd3cef8e97767ad16a6c03">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1614544) association m(HP:LMNA)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1614544)" target="path(ChEMBL:CHEMBL1643)" id="15ce4ba2a199c1a106986d11ce1f790c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1614544) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="m(HP:Chrm1)" target="a(ChEMBLAssay:CHEMBL1613997)" id="a682cf3c14edf366dd2035c42276c2a1">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:Chrm1) association a(ChEMBLAssay:CHEMBL1613997)</data>
+</edge>
+<edge source="m(HP:Chrm1)" target="r(Pathway:&quot;Muscarinic acetylcholine receptors.&quot;)" id="83d5b7e07a720c86dcb8048feaaa2cb6">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:Chrm1) association r(Pathway:"Muscarinic acetylcholine receptors.")</data>
+</edge>
+<edge source="m(HP:Chrm1)" target="r(Pathway:&quot;G alpha (q) signalling events.&quot;)" id="736fd3fac0db69cb1b95a67fc9f60588">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:Chrm1) association r(Pathway:"G alpha (q) signalling events.")</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1613997)" target="m(HP:Chrm1)" id="5e41ce227601f7d491c030089a3394c2">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1613997) association m(HP:Chrm1)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1613997)" target="path(ChEMBL:CHEMBL1643)" id="c4d1574798e012ae5353bb4c249584ea">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1613997) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="m(HP:CYP3A4)" target="a(ChEMBLAssay:CHEMBL1614108)" id="6fdaf0431e4de36156a093c9ca8e150d">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CYP3A4) association a(ChEMBLAssay:CHEMBL1614108)</data>
+</edge>
+<edge source="m(HP:CYP3A4)" target="r(Pathway:Xenobiotics.)" id="f7e2e994dec221a7968a6c108a3f75d4">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CYP3A4) association r(Pathway:Xenobiotics.)</data>
+</edge>
+<edge source="m(HP:CYP3A4)" target="r(Pathway:&quot;Aflatoxin activation and detoxification.&quot;)" id="0234d6588b541f3c26e695f8bd85deb2">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CYP3A4) association r(Pathway:"Aflatoxin activation and detoxification.")</data>
+</edge>
+<edge source="m(HP:CYP3A4)" target="r(Pathway:&quot;Biosynthesis of maresin-like SPMs.&quot;)" id="0adc4e89200a285a10348c5697702db8">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CYP3A4) association r(Pathway:"Biosynthesis of maresin-like SPMs.")</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1614108)" target="m(HP:CYP3A4)" id="bcf06a846548d172a54724deb6a7f8e9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1614108) association m(HP:CYP3A4)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1614108)" target="path(ChEMBL:CHEMBL1643)" id="a56a20039fa73b0cb3bdf147ad54322e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1614108) association path(ChEMBL:CHEMBL1643)</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="a(ChEMBLAssay:CHEMBL3757541)" id="7fa0ac03ac8c5f124bbec0b823c772d0">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association a(ChEMBLAssay:CHEMBL3757541)</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;PLC beta mediated events.&quot;)" id="a85d1ab1cfa12e8a573a3592f794f6cf">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"PLC beta mediated events.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;DAG and IP3 signaling.&quot;)" id="341b8976bb06008d8093bcd69d11298f">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"DAG and IP3 signaling.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;Role of phospholipids in phagocytosis.&quot;)" id="b3a05568b8c956c286e1d77a2ad2ca35">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"Role of phospholipids in phagocytosis.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;FCERI mediated Ca+2 mobilization.&quot;)" id="d8160215d8dcbc856a973fecf105261c">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"FCERI mediated Ca+2 mobilization.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;Regulation of insulin secretion.&quot;)" id="6eaa8b6ec624189bd9a7749d3bbfce5d">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"Regulation of insulin secretion.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;VEGFR2 mediated cell proliferation.&quot;)" id="f3cc2880b03cde4a0ef604ee50265a8a">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"VEGFR2 mediated cell proliferation.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;Ion homeostasis.&quot;)" id="030c41c456df622e5975120ef0ade420">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"Ion homeostasis.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;CLEC7A (Dectin-1) induces NFAT activation.&quot;)" id="70fb49c617577f779bbebca05533cf75">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"CLEC7A (Dectin-1) induces NFAT activation.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;FCGR3A-mediated IL10 synthesis.&quot;)" id="c6e3696cf87483ac5ed28bed41f069cf">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"FCGR3A-mediated IL10 synthesis.")</data>
+</edge>
+<edge source="m(HP:AHCYL1)" target="r(Pathway:&quot;Antigen activates B Cell Receptor (BCR) leading to generation of second messengers.&quot;)" id="4e288b984026285c42a18467bfa1e4ba">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:AHCYL1) association r(Pathway:"Antigen activates B Cell Receptor (BCR) leading to generation of second messengers.")</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3757541)" target="m(HP:AHCYL1)" id="cfd04b78799faa99f3f46c212f9b117e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3757541) association m(HP:AHCYL1)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3757541)" target="path(ChEMBL:CHEMBL3753637)" id="c08bffc59e3351f488907aeb969c9b43">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3757541) association path(ChEMBL:CHEMBL3753637)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL3753637)" target="a(ChEMBLAssay:CHEMBL3757541)" id="5ae33bcaf5d3b9c741f90faa8dd1e0a0">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL3753637) association a(ChEMBLAssay:CHEMBL3757541)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL995355)" target="m(HP:CHEMBL613332)" id="ddb188069538cc464f56f00b3fc2bd19">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL995355) association m(HP:CHEMBL613332)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL995355)" target="path(ChEMBL:CHEMBL112159)" id="59721c3f1c5d425d1d16604a776f417d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL995355) association path(ChEMBL:CHEMBL112159)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL112159)" target="a(ChEMBLAssay:CHEMBL995355)" id="8644d7e551488a5ff6e5c520a1751b3d">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL112159) association a(ChEMBLAssay:CHEMBL995355)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL112159)" target="a(ChEMBLAssay:CHEMBL995354)" id="7884084da659798777cd55c66580eb44">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL112159) association a(ChEMBLAssay:CHEMBL995354)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL112159)" target="a(ChEMBLAssay:CHEMBL1931881)" id="2a0787a787c7735515a93a8f63491533">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL112159) association a(ChEMBLAssay:CHEMBL1931881)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL112159)" target="a(ChEMBLAssay:CHEMBL1931882)" id="6a35b694600de4512fd332cfde62af20">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL112159) association a(ChEMBLAssay:CHEMBL1931882)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL995354)" target="m(HP:CHEMBL613332)" id="c7ad506de514cdc28fc42c09e2323645">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL995354) association m(HP:CHEMBL613332)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL995354)" target="path(ChEMBL:CHEMBL112159)" id="db1eece4d1825fadd0b9203aa76fdae1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL995354) association path(ChEMBL:CHEMBL112159)</data>
+</edge>
+<edge source="m(HP:CHEMBL3879801)" target="a(ChEMBLAssay:CHEMBL1931881)" id="83d650fcdb419fe5ed90dcab10ecbd4f">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:CHEMBL3879801) association a(ChEMBLAssay:CHEMBL1931881)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1931881)" target="m(HP:CHEMBL3879801)" id="e81e6ae6c3e3f10e65c3adade5f98bba">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1931881) association m(HP:CHEMBL3879801)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1931881)" target="path(ChEMBL:CHEMBL112159)" id="3bb353814c9136be11f5167b51c48a94">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1931881) association path(ChEMBL:CHEMBL112159)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1931882)" target="m(HP:CHEMBL613167)" id="d08c4f8a76573b900aaa66218633574a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1931882) association m(HP:CHEMBL613167)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1931882)" target="path(ChEMBL:CHEMBL112159)" id="5bc56be23e51dfee397575d4ec2980f2">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1931882) association path(ChEMBL:CHEMBL112159)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL2400652)" target="m(HP:CHEMBL612672)" id="6f11ed96bc11fb99437c969ba313aa58">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL2400652) association m(HP:CHEMBL612672)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL2400652)" target="path(ChEMBL:CHEMBL360506)" id="2139930307d8176c009fa9d8c55431c4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL2400652) association path(ChEMBL:CHEMBL360506)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL360506)" target="a(ChEMBLAssay:CHEMBL2400652)" id="3f1b4e497e61805320c24b5361278710">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL360506) association a(ChEMBLAssay:CHEMBL2400652)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL221054)" target="a(ChEMBLAssay:CHEMBL918571)" id="a8b8469e8a28bb568d454f43961309eb">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL221054) association a(ChEMBLAssay:CHEMBL918571)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL221054)" target="a(ChEMBLAssay:CHEMBL918572)" id="f7f7e216a62c8da25e7312d131b51ca2">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL221054) association a(ChEMBLAssay:CHEMBL918572)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL221054)" target="a(ChEMBLAssay:CHEMBL918573)" id="b53894ac3ff04e2ddfd3a85ddfad3e7e">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL221054) association a(ChEMBLAssay:CHEMBL918573)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL221054)" target="a(ChEMBLAssay:CHEMBL918575)" id="9822532c4d7d1d81fd9b994223c924ec">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL221054) association a(ChEMBLAssay:CHEMBL918575)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL221054)" target="a(ChEMBLAssay:CHEMBL918576)" id="47a1ea26e8b57ce2d85fd500e4954fae">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL221054) association a(ChEMBLAssay:CHEMBL918576)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3294635)" target="m(HP:AHCY)" id="293671f3c916aad5965842b20191336f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3294635) association m(HP:AHCY)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3294635)" target="path(ChEMBL:CHEMBL3290663)" id="3fb3a0b2c7e7ced74a6e35efa7e6970a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3294635) association path(ChEMBL:CHEMBL3290663)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL3290663)" target="a(ChEMBLAssay:CHEMBL3294635)" id="8b31e4ce725c4e9b57161bf2110263bc">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL3290663) association a(ChEMBLAssay:CHEMBL3294635)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL3290663)" target="a(ChEMBLAssay:CHEMBL3294636)" id="f8d9387972e2f36474b67e819634b9d5">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL3290663) association a(ChEMBLAssay:CHEMBL3294636)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL3290663)" target="a(ChEMBLAssay:CHEMBL3387285)" id="9c60f9418ff5b3a3a9c7e80c2b3fbd25">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL3290663) association a(ChEMBLAssay:CHEMBL3387285)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3294636)" target="m(HP:AHCY)" id="b1bca87e13de161edda4be070211cb04">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3294636) association m(HP:AHCY)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL3294636)" target="path(ChEMBL:CHEMBL3290663)" id="c866d570765f22128563773e4af4dcf2">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL3294636) association path(ChEMBL:CHEMBL3290663)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1803177)" target="m(HP:CHEMBL371)" id="42f6aeab9278c29055583ef8abb5afc5">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1803177) association m(HP:CHEMBL371)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1803177)" target="path(ChEMBL:CHEMBL392630)" id="98e3a866aa8b1551f89f35b8f8a2dde2">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1803177) association path(ChEMBL:CHEMBL392630)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL392630)" target="a(ChEMBLAssay:CHEMBL1803177)" id="8444c6063309d7b424934c703726a0ef">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL392630) association a(ChEMBLAssay:CHEMBL1803177)</data>
+</edge>
+<edge source="path(ChEMBL:CHEMBL392630)" target="a(ChEMBLAssay:CHEMBL1931884)" id="370e230891987a1355f1db0381a99d9e">
+  <data key="d1">association</data>
+  <data key="d2">path(ChEMBL:CHEMBL392630) association a(ChEMBLAssay:CHEMBL1931884)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1931884)" target="m(HP:CHEMBL371)" id="0b3eb9dc0d1afb34655d3a340c6a3809">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1931884) association m(HP:CHEMBL371)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL1931884)" target="path(ChEMBL:CHEMBL392630)" id="8861d01ccb66a1d938752b8a25d730ca">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL1931884) association path(ChEMBL:CHEMBL392630)</data>
+</edge>
+<edge source="r(Pathway:Methylation.)" target="m(HP:AHCY)" id="288222f59281062764d7cbddd7f6b7ba">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:Methylation.) association m(HP:AHCY)</data>
+</edge>
+<edge source="r(Pathway:&quot;Sulfur amino acid metabolism.&quot;)" target="m(HP:AHCY)" id="b10bf6eb9f02595c3b0c063ade4afeb4">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Sulfur amino acid metabolism.") association m(HP:AHCY)</data>
+</edge>
+<edge source="r(Pathway:&quot;Metabolism of ingested SeMet, Sec, MeSec into H2Se.&quot;)" target="m(HP:AHCY)" id="7aba3c94a6d21585b7aa4b0bef0bc1c2">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Metabolism of ingested SeMet, Sec, MeSec into H2Se.") association m(HP:AHCY)</data>
+</edge>
+<edge source="r(Pathway:&quot;Defective AHCY causes HMAHCHD.&quot;)" target="m(HP:AHCY)" id="e858282ed5ba1da73200e5be3fd6f965">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Defective AHCY causes HMAHCHD.") association m(HP:AHCY)</data>
+</edge>
+<edge source="r(Pathway:Xenobiotics.)" target="m(HP:CYP3A4)" id="7f3ee0e1f8b8e1bc5878da84e4f4c234">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:Xenobiotics.) association m(HP:CYP3A4)</data>
+</edge>
+<edge source="r(Pathway:&quot;Aflatoxin activation and detoxification.&quot;)" target="m(HP:CYP3A4)" id="c47611afc433906da00068510aa5191f">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Aflatoxin activation and detoxification.") association m(HP:CYP3A4)</data>
+</edge>
+<edge source="r(Pathway:&quot;Biosynthesis of maresin-like SPMs.&quot;)" target="m(HP:CYP3A4)" id="2b2aab45483e633cc03f50caf6669450">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Biosynthesis of maresin-like SPMs.") association m(HP:CYP3A4)</data>
+</edge>
+<edge source="r(Pathway:&quot;PLC beta mediated events.&quot;)" target="m(HP:AHCYL1)" id="4f610b4a1f115357e85f3d05d7665275">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"PLC beta mediated events.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;DAG and IP3 signaling.&quot;)" target="m(HP:AHCYL1)" id="0e14fbdb331084365d6c7600145ef1b5">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"DAG and IP3 signaling.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;Role of phospholipids in phagocytosis.&quot;)" target="m(HP:AHCYL1)" id="68991d37ba952414ce8892b1c3ed81a6">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Role of phospholipids in phagocytosis.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;FCERI mediated Ca+2 mobilization.&quot;)" target="m(HP:AHCYL1)" id="1adc851242adf5dc76cddbdaba6f0f8e">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"FCERI mediated Ca+2 mobilization.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;Regulation of insulin secretion.&quot;)" target="m(HP:AHCYL1)" id="bd832f72d217d4303d76a49253aa5bad">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Regulation of insulin secretion.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;VEGFR2 mediated cell proliferation.&quot;)" target="m(HP:AHCYL1)" id="d4e4c620f36288b43c0e7b3d580c6a95">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"VEGFR2 mediated cell proliferation.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;Ion homeostasis.&quot;)" target="m(HP:AHCYL1)" id="c69005dd2bc9e87acb2d5bd8c271a005">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Ion homeostasis.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;CLEC7A (Dectin-1) induces NFAT activation.&quot;)" target="m(HP:AHCYL1)" id="3f2efe976b4245a6f14795c44ee181c9">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"CLEC7A (Dectin-1) induces NFAT activation.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;FCGR3A-mediated IL10 synthesis.&quot;)" target="m(HP:AHCYL1)" id="79bb5d88cda41d21c7e9cb3a612c21d3">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"FCGR3A-mediated IL10 synthesis.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;Antigen activates B Cell Receptor (BCR) leading to generation of second messengers.&quot;)" target="m(HP:AHCYL1)" id="fbdd15206a629afa55a8f2acf0f1a085">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Antigen activates B Cell Receptor (BCR) leading to generation of second messengers.") association m(HP:AHCYL1)</data>
+</edge>
+<edge source="r(Pathway:&quot;Muscarinic acetylcholine receptors.&quot;)" target="m(HP:Chrm1)" id="df1534faca2f733084341cba87273d1a">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Muscarinic acetylcholine receptors.") association m(HP:Chrm1)</data>
+</edge>
+<edge source="r(Pathway:&quot;G alpha (q) signalling events.&quot;)" target="m(HP:Chrm1)" id="ed12cb0126546c3214e943c320049675">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"G alpha (q) signalling events.") association m(HP:Chrm1)</data>
+</edge>
+<edge source="r(Pathway:&quot;Meiotic synapsis. [P02545-2]&quot;)" target="m(HP:LMNA)" id="acadf10e2ae3d5e12c9c7310c2681d63">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Meiotic synapsis. [P02545-2]") association m(HP:LMNA)</data>
+</edge>
+<edge source="r(Pathway:&quot;Nuclear Envelope Breakdown.&quot;)" target="m(HP:LMNA)" id="b3a688fcddbb919321e9dd489f1e9cb0">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Nuclear Envelope Breakdown.") association m(HP:LMNA)</data>
+</edge>
+<edge source="r(Pathway:&quot;Initiation of Nuclear Envelope (NE) Reformation.&quot;)" target="m(HP:LMNA)" id="eab848bfe8e2e2ce9df39e09ba1afd74">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Initiation of Nuclear Envelope (NE) Reformation.") association m(HP:LMNA)</data>
+</edge>
+<edge source="r(Pathway:&quot;Breakdown of the nuclear lamina. [P02545-1]&quot;)" target="m(HP:LMNA)" id="999afa7aa0c342512df40661b547d8ac">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Breakdown of the nuclear lamina. [P02545-1]") association m(HP:LMNA)</data>
+</edge>
+<edge source="r(Pathway:&quot;XBP1(S) activates chaperone genes.&quot;)" target="m(HP:LMNA)" id="a84ba23b5a24926fba0f678f667616cd">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"XBP1(S) activates chaperone genes.") association m(HP:LMNA)</data>
+</edge>
+<edge source="r(Pathway:&quot;Depolymerisation of the Nuclear Lamina.&quot;)" target="m(HP:LMNA)" id="1e21509d3cc5fc0460b6b62f37897537">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Depolymerisation of the Nuclear Lamina.") association m(HP:LMNA)</data>
+</edge>
+<edge source="r(Pathway:&quot;Signaling by BRAF and RAF fusions.&quot;)" target="m(HP:LMNA)" id="daa08eb074e74912c6bc2932584467b4">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Signaling by BRAF and RAF fusions.") association m(HP:LMNA)</data>
+</edge>
+<edge source="r(Pathway:&quot;Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models. [P02545-1]&quot;)" target="m(HP:LMNA)" id="1e241b36ebb3b40ef2a61f58a64169c2">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models. [P02545-1]") association m(HP:LMNA)</data>
+</edge>
+<edge source="r(Pathway:&quot;Potential therapeutics for SARS.&quot;)" target="m(HP:NS5B)" id="f7286f34ced9a4e44bb4bad1d3fabc05">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Potential therapeutics for SARS.") association m(HP:NS5B)</data>
+</edge>
+<edge source="r(Pathway:&quot;Potential therapeutics for SARS.&quot;)" target="m(HP:IMPDH1)" id="2cf431b0ed8b5aa51918175c86edaae8">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Potential therapeutics for SARS.") association m(HP:IMPDH1)</data>
+</edge>
+<edge source="m(HP:NS5B)" target="r(Pathway:&quot;Potential therapeutics for SARS.&quot;)" id="87bb9d68c784cb5011d899a8b444a6fb">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:NS5B) association r(Pathway:"Potential therapeutics for SARS.")</data>
+</edge>
+<edge source="r(Pathway:&quot;Neutrophil degranulation.&quot;)" target="m(HP:IMPDH1)" id="1e3455cbe663edaeeb03874c143b3f76">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Neutrophil degranulation.") association m(HP:IMPDH1)</data>
+</edge>
+<edge source="m(HP:IMPDH1)" target="r(Pathway:&quot;Neutrophil degranulation.&quot;)" id="b6c675d1e71988c1656ae7ad8dd4369e">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:IMPDH1) association r(Pathway:"Neutrophil degranulation.")</data>
+</edge>
+<edge source="m(HP:IMPDH1)" target="r(Pathway:&quot;Purine ribonucleoside monophosphate biosynthesis.&quot;)" id="b597dfdaa3ae079b82038237442f683f">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:IMPDH1) association r(Pathway:"Purine ribonucleoside monophosphate biosynthesis.")</data>
+</edge>
+<edge source="m(HP:IMPDH1)" target="r(Pathway:&quot;Potential therapeutics for SARS.&quot;)" id="34f9c3c6153233fac73de3a71b859d59">
+  <data key="d1">association</data>
+  <data key="d2">m(HP:IMPDH1) association r(Pathway:"Potential therapeutics for SARS.")</data>
+</edge>
+<edge source="r(Pathway:&quot;Purine ribonucleoside monophosphate biosynthesis.&quot;)" target="m(HP:IMPDH1)" id="7ca864c644d91826976aeef92ab6b932">
+  <data key="d1">association</data>
+  <data key="d2">r(Pathway:"Purine ribonucleoside monophosphate biosynthesis.") association m(HP:IMPDH1)</data>
+</edge>
+</graph></graphml>
