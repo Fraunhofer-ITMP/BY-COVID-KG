@@ -12,5 +12,12 @@ A Knowledge graph representation of compounds and associated biological entities
 * Pathway: 1432
 * Disease: 1497
 
+# NEW!!
 
+We have an initial version of the Monkeypox KG. Please take a look at the Monkeypox.ipynb.
+
+**Current status**
+
+* Number of Nodes: 160
+* Number of Edges: 364
 
