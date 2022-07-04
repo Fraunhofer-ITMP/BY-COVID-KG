@@ -21,6 +21,7 @@ import pickle
 import re
 from urllib.parse import urlparse
 import urllib
+import requests
 import io
 
 #function to retrieve mechanisms from ChEMBL
@@ -73,9 +74,9 @@ def RetAct(chemblIds,j):
         #acts = GetAct.filter(molecule_chembl_id=chemblIds[i],pchembl_value__isnull=False)
         j=j+1
 
-        acts = [d for d in acts if d.get('target_organism') == 'Homo sapiens']
-        acts = [d for d in acts if d.get('bao_label') == 'single protein format']
-        acts = [d for d in acts if d.get('type') in ['Ki', 'IC50']]
+        #acts = [d for d in acts if d.get('target_organism') == 'Homo sapiens']
+        #acts = [d for d in acts if d.get('bao_label') == 'single protein format']
+        #acts = [d for d in acts if d.get('type') in ['Ki', 'IC50']]
         acts = [d for d in acts if float(d.get('pchembl_value')) >= 6]
         print(j)
         #print(len(acts))
@@ -251,7 +252,7 @@ def chem2act_rel_2(named_ActList, itmpGraph):
 
 def chem2gene2path_rel(named_chem2geneList,itmpGraph):
     for item in named_chem2geneList:
-        itemLen = len(named_chem2geneList[item])-1
+        itemLen = len(named_chem2geneList[item])-2
         for j in range(itemLen):
             #print(named_chem2geneList)
             itmpGraph.add_association(MicroRna(namespace='HP', name=named_chem2geneList[item][itemLen]['component_synonym']),
@@ -272,7 +273,7 @@ def chembl2uniprot(chemblIDs, count):
         count = count + 1
         chem2path = []
         chem = getTarget.filter(chembl_id=chemblIDs[i]).only('target_components')
-        # print(chem)
+        #print(chem)
         # break
         try:
             uprot_id = chem[0]['target_components'][0]['accession']
@@ -310,16 +311,25 @@ def chembl2uniprot(chemblIDs, count):
         chem = getTarget.filter(chembl_id=chemblIDs_clean[i]).only('target_components')
         # print(chem)
         # break
+        uprot_id = chem[0]['target_components'][0]['accession']
+        
         getGene = chem[0]['target_components'][0]['target_component_synonyms']
+        #print(getGene)
         getGene = [item for item in getGene if item["syn_type"] == "GENE_SYMBOL"][0]
+        #print(getGene)
 
         chem2path = [item for item in chem[0]['target_components'][0]['target_component_xrefs'] if
                      item["xref_src_db"] == "Reactome"]
-
+        
+        uprot = {'accession':uprot_id}
+        #print(uprot)
+        #print(getGene)
+        chem2path.append(uprot)
         chem2path.append(getGene)
-        print(chem2path)
+        #print(chem2path)
         # break
         chem2Gene2path.append(chem2path)
+        
         # print(chem2Gene2path)
         # break
 
@@ -329,7 +339,6 @@ def chembl2uniprot(chemblIDs, count):
     named_chem2Gene2path = dict(zip(chemblIDs_clean, chem2Gene2path))
     named_chem2Gene2path = {k: v for k, v in named_chem2Gene2path.items() if v}
     return (named_chem2Gene2path)
-
 
 # Functions for creating graph
 def chem2moa_rel_2(named_mechList, itmpGraph):
@@ -471,3 +480,48 @@ def ExtractFromUniProt(uniprot_id):
     Uniprot_Dict = dict(zip(uniprot_id, Uniprot_Dict))
 
     return(Uniprot_Dict)
+    
+    
+#function to convert pubchem cids to chembl ids
+
+def cid2chembl(cidList):
+    import pubchempy as pcp
+    cid2chembl_list = []
+    for id in cidList:
+        #GetChembl = {}
+        c=pcp.Compound.from_cid(id)
+        syn = c.synonyms
+        for s in syn:
+            if s.startswith('CHEMBL'):
+                #GetChembl['CHEMBL'] = s
+                cid2chembl_list.append(s)
+                print('Pubchem:',id,'Converted to:',s)
+
+        #cid2chembl_list.append(GetChembl)
+    return(cid2chembl_list) 
+    
+def uniprot_rel(named_uprotList,itmpGraph):
+    
+    for item in named_uprotList:
+        #print(named_uprotList[item]['Function'].keys())
+        fun=list(named_uprotList[item]['Function'].keys())
+        bp = list(named_uprotList[item]['BioProcess'].keys())
+        for f in fun:
+            if str(named_uprotList[item]['Gene']) != 'nan':
+                itmpGraph.add_association(Protein(namespace='MP',name=named_uprotList[item]['Gene']),MicroRna(namespace='Function',name=f),
+                                         citation='UniProt database',evidence='UniProt query')
+            else:
+                itmpGraph.add_association(Protein(namespace='MP',name=item),MicroRna(namespace='Function',name=f),
+                                         citation='UniProt database',evidence='UniProt query')
+                
+        
+        for b in bp:
+            if str(named_uprotList[item]['Gene']) != 'nan':
+                itmpGraph.add_association(Protein(namespace='MP',name=named_uprotList[item]['Gene']),BiologicalProcess(namespace='BioPro',name=b),
+                                         citation='UniProt database',evidence='UniProt query')
+            else:
+                itmpGraph.add_association(Protein(namespace='MP',name=item),MicroRna(namespace='Function',name=b),
+                                         citation='UniProt database',evidence='UniProt query')
+        
+    return(itmpGraph)
+        
