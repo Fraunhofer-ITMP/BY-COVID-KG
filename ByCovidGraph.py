@@ -182,9 +182,9 @@ def chem2moa_rel(named_mechList,itmpGraph):
             #print(named_mechList[i][j]['target_chembl_id'])
             #print(i)
             #break
-            itmpGraph.add_association(Pathology(namespace='ChEMBL',name=i),BiologicalProcess(namespace='MOA',name=named_mechList[i][j]['mechanism_of_action']),citation='ChEMBL database',evidence='ChEMBL query')
+            itmpGraph.add_association(Abundance(namespace='ChEMBL',name=i),BiologicalProcess(namespace='MOA',name=named_mechList[i][j]['mechanism_of_action']),citation='ChEMBL database',evidence='ChEMBL query')
             if not named_mechList[i][j]['target_chembl_id'] == None:
-                itmpGraph.add_association(Pathology(namespace='ChEMBL',name=i),MicroRna(namespace='HP',name=named_mechList[i][j]['Protein']),citation='ChEMBL database',evidence='ChEMBL query')
+                itmpGraph.add_association(Abundance(namespace='ChEMBL',name=i),Protein(namespace='HP',name=named_mechList[i][j]['Protein']),citation='ChEMBL database',evidence='ChEMBL query')
     return(itmpGraph)
 
 def chem2dis_rel(named_drugIndList,itmpGraph):
@@ -198,7 +198,7 @@ def chem2dis_rel(named_drugIndList,itmpGraph):
             #print(named_drugIndList[i][j]['mesh_heading'])
             #print(i)
             #break
-            itmpGraph.add_association(Pathology(namespace='ChEMBL',name=i),Population(namespace='Disease',name=named_drugIndList[i][j]['mesh_heading']),citation='ChEMBL database',evidence='ChEMBL query')
+            itmpGraph.add_association(Abundance(namespace='ChEMBL',name=i),Pathology(namespace='Disease',name=named_drugIndList[i][j]['mesh_heading']),citation='ChEMBL database',evidence='ChEMBL query')
     return(itmpGraph)
 
 def chem2act_rel(named_ActList,itmpGraph):
@@ -211,10 +211,10 @@ def chem2act_rel(named_ActList,itmpGraph):
             # nmrGraph.add_association(Pathology(namespace='ChEMBL',name=i),BiologicalProcess(namespace='MOA',name=mechList[i][j]['mechanism_of_action']),citation='ChEMBL database',evidence='ChEMBL query')
             if not named_ActList[i][j]['target_chembl_id'] == None:
                 itmpGraph.add_association(Abundance(namespace='ChEMBLAssay',name=named_ActList[i][j]['assay_chembl_id']),
-                                         MicroRna(namespace='HP', name=named_ActList[i][j]['ProteinName']),
+                                         Protein(namespace='HP', name=named_ActList[i][j]['ProteinName']),
                                          citation='ChEMBL database', evidence='ChEMBL query')
 
-            itmpGraph.add_association(Pathology(namespace='ChEMBL', name=i),Abundance(namespace='ChEMBLAssay',name=named_ActList[i][j]['assay_chembl_id']),
+            itmpGraph.add_association(Abundance(namespace='ChEMBL', name=i),Abundance(namespace='ChEMBLAssay',name=named_ActList[i][j]['assay_chembl_id']),
                                       citation='ChEMBL database', evidence='ChEMBL query',assayType=named_ActList[i][j]['assay_type'],
                                       pChEMBL=named_ActList[i][j]['pchembl_value'])
 
@@ -233,15 +233,15 @@ def chem2act_rel_2(named_ActList, itmpGraph):
                 if 'Protein' in named_ActList[i][j]:
                     itmpGraph.add_association(
                         Abundance(namespace='ChEMBLAssay', name=named_ActList[i][j]['assay_chembl_id']),
-                        MicroRna(namespace='HP', name=named_ActList[i][j]['Protein']),
+                        Protein(namespace='HP', name=named_ActList[i][j]['Protein']),
                         citation='ChEMBL database', evidence='ChEMBL query')
                 else:
                     itmpGraph.add_association(
                         Abundance(namespace='ChEMBLAssay', name=named_ActList[i][j]['assay_chembl_id']),
-                        MicroRna(namespace='HP', name=named_ActList[i][j]['target_chembl_id']),
+                        Protein(namespace='HP', name=named_ActList[i][j]['target_chembl_id']),
                         citation='ChEMBL database', evidence='ChEMBL query')
 
-            itmpGraph.add_association(Pathology(namespace='ChEMBL', name=i),
+            itmpGraph.add_association(Abundance(namespace='ChEMBL', name=i),
                                       Abundance(namespace='ChEMBLAssay', name=named_ActList[i][j]['assay_chembl_id']),
                                       citation='ChEMBL database', evidence='ChEMBL query',
                                       assayType=named_ActList[i][j]['assay_type'],
@@ -249,17 +249,17 @@ def chem2act_rel_2(named_ActList, itmpGraph):
 
     return (itmpGraph)
 
-def chem2gene2path_rel(named_chem2geneList,itmpGraph):
-    for item in named_chem2geneList:
-        itemLen = len(named_chem2geneList[item])-2
-        for j in range(itemLen):
-            #print(named_chem2geneList)
-            itmpGraph.add_association(MicroRna(namespace='HP', name=named_chem2geneList[item][itemLen]['component_synonym']),
-                                      Rna(namespace='Pathway',name=named_chem2geneList[item][j]['xref_name']),
-                                      citation='ChEMBL database', evidence='ChEMBL query',
-                                      Reactome=named_chem2geneList[item][j]['xref_id'])
-
-    return(itmpGraph)
+# def chem2gene2path_rel(named_chem2geneList,itmpGraph):
+#     for item in named_chem2geneList:
+#         itemLen = len(named_chem2geneList[item])-2
+#         for j in range(itemLen):
+#             #print(named_chem2geneList)
+#             itmpGraph.add_association(MicroRna(namespace='HP', name=named_chem2geneList[item][itemLen]['component_synonym']),
+#                                       bp(namespace='Pathway',name=named_chem2geneList[item][j]['xref_name']),
+#                                       citation='ChEMBL database', evidence='ChEMBL query',
+#                                       Reactome=named_chem2geneList[item][j]['xref_id'])
+#
+#     return(itmpGraph)
 
 
 def chembl2uniprot(chemblIDs, count):
@@ -352,18 +352,18 @@ def chem2moa_rel_2(named_mechList, itmpGraph):
             # print(named_mechList[i][j]['Protein'])
             # print(i)
             # break
-            itmpGraph.add_association(Pathology(namespace='ChEMBL', name=i), BiologicalProcess(namespace='MOA', name=
+            itmpGraph.add_association(Abundance(namespace='ChEMBL', name=i), BiologicalProcess(namespace='MOA', name=
             named_mechList[i][j]['mechanism_of_action']), citation='ChEMBL database', evidence='ChEMBL query')
             if not named_mechList[i][j]['target_chembl_id'] == None:
                 # print(named_mechList[i])
                 if 'Protein' in named_mechList[i][j]:
                     # print('yes')
-                    itmpGraph.add_association(Pathology(namespace='ChEMBL', name=i),
-                                              MicroRna(namespace='HP', name=named_mechList[i][j]['Protein']),
+                    itmpGraph.add_association(Abundance(namespace='ChEMBL', name=i),
+                                              Protein(namespace='HP', name=named_mechList[i][j]['Protein']),
                                               citation='ChEMBL database', evidence='ChEMBL query')
                 else:
-                    itmpGraph.add_association(Pathology(namespace='ChEMBL', name=i),
-                                              MicroRna(namespace='HP', name=named_mechList[i][j]['target_chembl_id']),
+                    itmpGraph.add_association(Abundance(namespace='ChEMBL', name=i),
+                                              Protein(namespace='HP', name=named_mechList[i][j]['target_chembl_id']),
                                               citation='ChEMBL database', evidence='ChEMBL query')
 
     return (itmpGraph)
@@ -524,32 +524,199 @@ def cid2chembl(cidList):
         
     # return(itmpGraph)
     
+# def ExtractFromUniProt(uniprot_id):
+#     from bioservices import UniProt
+#     Uniprot_Dict = []
+#     # Make a link to the UniProt webservice
+#     service = UniProt()
+#
+#     for id in uniprot_id:
+#
+#         # create URL for each uniprot id
+#         url = 'https://www.uniprot.org/uniprot/' + id + '.txt'
+#         print(url)
+#
+#         #Retrieve data for id in text format if found in uniprot
+#
+#         try:
+#             ret_uprot = urllib.request.urlopen(url)
+#         except urllib.request.HTTPError:
+#             #uniprot_id.remove(id)
+#             continue
+#
+#
+# #         with urllib.request.urlopen(url) as response:
+# #            ret_uprot = response.read()
+#
+#         print(id)
+#         id_copy = id
+#         i = 0
+#         j = 0
+#         k = 0
+#         id = {}
+#         id['Disease'] = {}
+#         id['Reactome'] = {}
+#         id['Function'] = {}
+#         id['BioProcess'] = {}
+#         id['Gene'] = {}
+#         #id['Gene'] = {}
+#         # print(id)
+#
+#         # parse each line looking for info about disease, pathway, funcn, bp and so on
+#         for line in ret_uprot:
+#
+#             line = line.decode('utf-8')
+#
+#             # parse lines with disease and extract disease names and omim ids
+#             if '-!- DISEASE:' in line:
+#                 if ('[MIM:' in line):
+#                     dis = line.split(':')
+#                     # dis returns list of splitted text, [1] = name of dis, [2] = OMIM ID, extra chars need cleaning
+#                     # print(dis[1][1:-5])
+#                     # print(dis[2][:-1])
+#                     id['Disease'].update({dis[1][1:-5]: dis[2][:-1]})
+#
+#             # extract reactome ids and names
+#             if 'Reactome;' in line:
+#                 ract = line.split(';')
+#                 # ract returns list with reactome id and name, needs cleaning
+#                 id['Reactome'].update({ract[2][1:-2]: ract[1][1:]})
+#                 # print(ract[1][1:])
+#                 # print(ract[2][1:-2])
+#
+#             # look for functions
+#             if ' F:' in line:
+#                 if j < 5:
+#                     # take only first 5 entries for now
+#                     # print(j)
+#                     fn = line.split(';')
+#                     # fn returns list with GO ids and names
+#                     id['Function'].update({fn[2][3:]: fn[1][1:]})
+#                     # print(fn[1][1:])
+#                     # print(fn[2][3:])
+#                     j += 1
+#
+#             # look for biological processes
+#             if ' P:' in line:
+#                 if i < 5:
+#                     # take only first 5 entries for now
+#                     # print(i)
+#                     bp = line.split(';')
+#                     # bp returns list with GO ids and names
+#                     id['BioProcess'].update({bp[2][3:]: bp[1][1:]})
+#                     #print(bp[1][1:])
+#                     #print(bp[2][3:])
+#                     i += 1
+#
+#             if 'GN   Name' in line:
+#                 #print(line)
+#
+#                 if k == 0:
+#                     gene = line.split('=')
+#                     print(gene)
+#                     gene = gene[1].split(' ')
+#                     #print(gene[0])
+#                     if ';' in gene[0]:
+#                         gene=gene[0].split(';')
+#                         #id['Gene'].update({gene[0]})
+#                         gene = {'Gene': gene[0]}
+#                         print(gene)
+#                         #id.update(gene)
+#                     else:
+#                         gene = {'Gene':gene[0]}
+#                         print(gene)
+#                         #id.update(gene)
+#                     id.update(gene)
+#                     #print(id['Gene'])
+#                     k +=1
+#
+#             #else:
+#                 #id.update({'Gene': ''})
+#
+#             #print(id['Gene'])
+#
+#         Uniprot_Dict.append(id)
+#
+#     Uniprot_Dict = dict(zip(uniprot_id, Uniprot_Dict))
+#
+#     return(Uniprot_Dict)
+    
+def uniprot_rel(named_uprotList,itmpGraph):
+    
+    for item in named_uprotList:
+        #print(named_uprotList[item]['Function'].keys())
+        fun=list(named_uprotList[item]['Function'].keys())
+        bp = list(named_uprotList[item]['BioProcess'].keys())
+        for f in fun:
+            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'],dict) :
+                itmpGraph.add_association(Protein(namespace='HP',name=named_uprotList[item]['Gene']),BiologicalProcess(namespace='GOMF',name=f),
+                                         citation='UniProt database',evidence='UniProt query')
+            else:
+                itmpGraph.add_association(Protein(namespace='HP',name=item),BiologicalProcess(namespace='GOMF',name=f),
+                                         citation='UniProt database',evidence='UniProt query')
+                
+        
+        for b in bp:
+            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'],dict):
+                itmpGraph.add_association(Protein(namespace='HP',name=named_uprotList[item]['Gene']),BiologicalProcess(namespace='GOBP',name=b),
+                                         citation='UniProt database',evidence='UniProt query')
+            else:
+                itmpGraph.add_association(Protein(namespace='HP',name=item),BiologicalProcess(namespace='GOBP',name=b),
+                                         citation='UniProt database',evidence='UniProt query')
+        
+    return(itmpGraph)
+
+
+def chem2gene2path_rel(named_chem2geneList, itmpGraph):
+    for item in named_chem2geneList:
+        # print(item)
+        itemLen = len(named_chem2geneList[item]) - 1
+        # print(itemLen)
+        for j in range(itemLen - 1):
+            # print(j)
+            # print('yo',named_chem2geneList)
+            # if 'accession' not in named_chem2geneList[j]:
+            # continue
+
+            itmpGraph.add_association(
+                Protein(namespace='HP', name=named_chem2geneList[item][itemLen]['component_synonym']),
+                BiologicalProcess(namespace='Reactome', name=named_chem2geneList[item][j]['xref_name']),
+                citation='ChEMBL database', evidence='ChEMBL query',
+                Reactome=named_chem2geneList[item][j]['xref_id'])
+
+    return (itmpGraph)
+
+
 def ExtractFromUniProt(uniprot_id):
-    from bioservices import UniProt
+    # from bioservices import UniProt
     Uniprot_Dict = []
     # Make a link to the UniProt webservice
-    service = UniProt()
+    # service = UniProt()
+
+    # uniprot_id = ['Q9Y5L3','P13716','Q89226299']
+    mapped_uprot = []
 
     for id in uniprot_id:
+        # print(id)
 
         # create URL for each uniprot id
         url = 'https://www.uniprot.org/uniprot/' + id + '.txt'
         print(url)
 
-        #Retrieve data for id in text format if found in uniprot
-        
-        try:
-            ret_uprot = urllib.request.urlopen(url)
-        except urllib.request.HTTPError:
-            #uniprot_id.remove(id)
-            continue
-        
-        
-#         with urllib.request.urlopen(url) as response:
-#            ret_uprot = response.read()
+        #     #Retrieve data for id in text format if found in uniprot
 
-        print(id)
+        ret_uprot = requests.get(url)
+        ret_uprot = ret_uprot.text.split('\n')
+        # print(ret_uprot)
+
+        # if len(ret_uprot) < 2:
+        if ret_uprot == ['']:
+            # uniprot_id.remove(id)
+            # print(id)
+            continue
+
         id_copy = id
+        mapped_uprot.append(id_copy)
         i = 0
         j = 0
         k = 0
@@ -559,13 +726,14 @@ def ExtractFromUniProt(uniprot_id):
         id['Function'] = {}
         id['BioProcess'] = {}
         id['Gene'] = {}
-        #id['Gene'] = {}
+        # id['Gene'] = {}
         # print(id)
 
         # parse each line looking for info about disease, pathway, funcn, bp and so on
         for line in ret_uprot:
+            # print(line)
 
-            line = line.decode('utf-8')
+            # line = line.decode('utf-8')
 
             # parse lines with disease and extract disease names and omim ids
             if '-!- DISEASE:' in line:
@@ -604,65 +772,41 @@ def ExtractFromUniProt(uniprot_id):
                     bp = line.split(';')
                     # bp returns list with GO ids and names
                     id['BioProcess'].update({bp[2][3:]: bp[1][1:]})
-                    #print(bp[1][1:])
-                    #print(bp[2][3:])
+                    # print(bp[1][1:])
+                    # print(bp[2][3:])
                     i += 1
-                    
+
             if 'GN   Name' in line:
-                #print(line)
-                
+                # print(line)
+
                 if k == 0:
                     gene = line.split('=')
-                    print(gene)
+                    # print(gene)
                     gene = gene[1].split(' ')
-                    #print(gene[0])
+                    # print(gene[0])
                     if ';' in gene[0]:
-                        gene=gene[0].split(';')
-                        #id['Gene'].update({gene[0]})
+                        gene = gene[0].split(';')
+                        # id['Gene'].update({gene[0]})
                         gene = {'Gene': gene[0]}
                         print(gene)
-                        #id.update(gene)
+                        # id.update(gene)
                     else:
-                        gene = {'Gene':gene[0]}
-                        print(gene)
-                        #id.update(gene)
+                        gene = {'Gene': gene[0]}
+                        # print(gene)
+                        # id.update(gene)
                     id.update(gene)
-                    #print(id['Gene'])    
-                    k +=1
-            
-            #else:
-                #id.update({'Gene': ''})
-                    
-            #print(id['Gene'])
-            
+                    # print(id['Gene'])
+                    k += 1
+
+                # else:
+                # id.update({'Gene': ''})
+
+                # print(id['Gene'])
+
         Uniprot_Dict.append(id)
 
-    Uniprot_Dict = dict(zip(uniprot_id, Uniprot_Dict))
+    Uniprot_Dict = dict(zip(mapped_uprot, Uniprot_Dict))
+    # len(uniprot_id)
+    # print(Uniprot_Dict)
 
-    return(Uniprot_Dict)
-    
-def uniprot_rel(named_uprotList,itmpGraph):
-    
-    for item in named_uprotList:
-        #print(named_uprotList[item]['Function'].keys())
-        fun=list(named_uprotList[item]['Function'].keys())
-        bp = list(named_uprotList[item]['BioProcess'].keys())
-        for f in fun:
-            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'],dict) :
-                itmpGraph.add_association(Protein(namespace='MP',name=named_uprotList[item]['Gene']),MicroRna(namespace='Function',name=f),
-                                         citation='UniProt database',evidence='UniProt query')
-            else:
-                itmpGraph.add_association(Protein(namespace='MP',name=item),MicroRna(namespace='Function',name=f),
-                                         citation='UniProt database',evidence='UniProt query')
-                
-        
-        for b in bp:
-            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'],dict):
-                itmpGraph.add_association(Protein(namespace='MP',name=named_uprotList[item]['Gene']),BiologicalProcess(namespace='BioPro',name=b),
-                                         citation='UniProt database',evidence='UniProt query')
-            else:
-                itmpGraph.add_association(Protein(namespace='MP',name=item),MicroRna(namespace='Function',name=b),
-                                         citation='UniProt database',evidence='UniProt query')
-        
-    return(itmpGraph)
-        
+    return (Uniprot_Dict)
