@@ -25,7 +25,6 @@ import requests
 import io
 
 #function to retrieve mechanisms from ChEMBL
-
 #nmrGraph = pybel.BELGraph(name='NMRgraph')
 ##nmrData = pd.read_csv('NMR_data_new.csv')
 ##nmr2chembl = pd.read_excel('Protein-Screening-Summary_CHEMBL30_Actives_teams_max08tan.xlsx')
@@ -379,6 +378,152 @@ def Ret_chembl_protein(sourceList):
     protein_List = list(filter(None, protein_List))
     return (protein_List)
 
+# def ExtractFromUniProt(uniprot_id):
+    # from bioservices import UniProt
+    # Uniprot_Dict = []
+    # # Make a link to the UniProt webservice
+    # service = UniProt()
+
+    # for id in uniprot_id:
+
+        # # create URL for each uniprot id
+        # url = 'https://www.uniprot.org/uniprot/' + id + '.txt'
+        # print(url)
+
+        # # Retrieve data for id in text format
+        # ret_uprot = urllib.request.urlopen(url)
+
+        # print(id)
+        # id_copy = id
+        # i = 0
+        # j = 0
+        # id = {}
+        # id['Disease'] = {}
+        # id['Reactome'] = {}
+        # id['Function'] = {}
+        # id['BioProcess'] = {}
+        # # print(id)
+
+        # # parse each line looking for info about disease, pathway, funcn, bp and so on
+        # for line in ret_uprot:
+
+            # line = line.decode('utf-8')
+
+            # # parse lines with disease and extract disease names and omim ids
+            # if '-!- DISEASE:' in line:
+                # if ('[MIM:' in line):
+                    # dis = line.split(':')
+                    # # dis returns list of splitted text, [1] = name of dis, [2] = OMIM ID, extra chars need cleaning
+                    # # print(dis[1][1:-5])
+                    # # print(dis[2][:-1])
+                    # id['Disease'].update({dis[1][1:-5]: dis[2][:-1]})
+
+            # # extract reactome ids and names
+            # if 'Reactome;' in line:
+                # ract = line.split(';')
+                # # ract returns list with reactome id and name, needs cleaning
+                # id['Reactome'].update({ract[2][1:-2]: ract[1][1:]})
+                # # print(ract[1][1:])
+                # # print(ract[2][1:-2])
+
+            # # look for functions
+            # if ' F:' in line:
+                # if j < 5:
+                    # # take only first 5 entries for now
+                    # # print(j)
+                    # fn = line.split(';')
+                    # # fn returns list with GO ids and names
+                    # id['Function'].update({fn[2][3:]: fn[1][1:]})
+                    # # print(fn[1][1:])
+                    # # print(fn[2][3:])
+                    # j += 1
+
+            # # look for biological processes
+            # if ' P:' in line:
+                # if i < 5:
+                    # # take only first 5 entries for now
+                    # # print(i)
+                    # bp = line.split(';')
+                    # # bp returns list with GO ids and names
+                    # id['BioProcess'].update({bp[2][3:]: bp[1][1:]})
+                    # # print(bp[1][1:])
+                    # # print(bp[2][3:])
+                    # i += 1
+
+        # # fetch info about gene, len, seq, mass from api directly
+        # # Make a query string
+        # query = "accession:" + str(id_copy)
+
+        # # Define a list of columns we want to retrive
+        # # columnlist = "id,entry name,length,mass,go(biological process),go(molecular function), pathway,feature(TOPOLOGICAL DOMAIN),comment(DISEASE),pathway"
+        # columnlist = "id,entry name,genes(PREFERRED),length,mass,sequence"
+
+        # # Run the remote search
+        # result = service.search(query, frmt="tab", columns=columnlist)
+
+        # df_result = pd.read_table(io.StringIO(result))
+
+        # geneName = {'Gene': df_result['Gene names  (primary )'][0]}
+        # seqLen = {'Length': df_result['Length'][0]}
+        # # remove comma from mass values
+        # mass = {'Mass': int(df_result['Mass'][0].replace(",", ""))}
+        # seq = {'Sequence': df_result['Sequence'][0]}
+
+        # id.update(geneName)
+        # id.update(seqLen)
+        # id.update(mass)
+        # id.update(seq)
+
+        # Uniprot_Dict.append(id)
+
+    # Uniprot_Dict = dict(zip(uniprot_id, Uniprot_Dict))
+
+    # return(Uniprot_Dict)
+    
+    
+#function to convert pubchem cids to chembl ids
+
+def cid2chembl(cidList):
+    import pubchempy as pcp
+    cid2chembl_list = []
+    for id in cidList:
+        #GetChembl = {}
+        c=pcp.Compound.from_cid(id)
+        syn = c.synonyms
+        for s in syn:
+            if s.startswith('CHEMBL'):
+                #GetChembl['CHEMBL'] = s
+                cid2chembl_list.append(s)
+                print('Pubchem:',id,'Converted to:',s)
+
+        #cid2chembl_list.append(GetChembl)
+    return(cid2chembl_list) 
+    
+# def uniprot_rel(named_uprotList,itmpGraph):
+    
+    # for item in named_uprotList:
+        # #print(named_uprotList[item]['Function'].keys())
+        # fun=list(named_uprotList[item]['Function'].keys())
+        # bp = list(named_uprotList[item]['BioProcess'].keys())
+        # for f in fun:
+            # if str(named_uprotList[item]['Gene']) != 'nan':
+                # itmpGraph.add_association(Protein(namespace='MP',name=named_uprotList[item]['Gene']),MicroRna(namespace='Function',name=f),
+                                         # citation='UniProt database',evidence='UniProt query')
+            # else:
+                # itmpGraph.add_association(Protein(namespace='MP',name=item),MicroRna(namespace='Function',name=f),
+                                         # citation='UniProt database',evidence='UniProt query')
+                
+        
+        # for b in bp:
+            # if str(named_uprotList[item]['Gene']) != 'nan':
+                # itmpGraph.add_association(Protein(namespace='MP',name=named_uprotList[item]['Gene']),BiologicalProcess(namespace='BioPro',name=b),
+                                         # citation='UniProt database',evidence='UniProt query')
+            # else:
+                # itmpGraph.add_association(Protein(namespace='MP',name=item),MicroRna(namespace='Function',name=b),
+                                         # citation='UniProt database',evidence='UniProt query')
+        
+    # return(itmpGraph)
+    
 def ExtractFromUniProt(uniprot_id):
     from bioservices import UniProt
     Uniprot_Dict = []
@@ -391,18 +536,30 @@ def ExtractFromUniProt(uniprot_id):
         url = 'https://www.uniprot.org/uniprot/' + id + '.txt'
         print(url)
 
-        # Retrieve data for id in text format
-        ret_uprot = urllib.request.urlopen(url)
+        #Retrieve data for id in text format if found in uniprot
+        
+        try:
+            ret_uprot = urllib.request.urlopen(url)
+        except urllib.request.HTTPError:
+            #uniprot_id.remove(id)
+            continue
+        
+        
+#         with urllib.request.urlopen(url) as response:
+#            ret_uprot = response.read()
 
         print(id)
         id_copy = id
         i = 0
         j = 0
+        k = 0
         id = {}
         id['Disease'] = {}
         id['Reactome'] = {}
         id['Function'] = {}
         id['BioProcess'] = {}
+        id['Gene'] = {}
+        #id['Gene'] = {}
         # print(id)
 
         # parse each line looking for info about disease, pathway, funcn, bp and so on
@@ -447,58 +604,42 @@ def ExtractFromUniProt(uniprot_id):
                     bp = line.split(';')
                     # bp returns list with GO ids and names
                     id['BioProcess'].update({bp[2][3:]: bp[1][1:]})
-                    # print(bp[1][1:])
-                    # print(bp[2][3:])
+                    #print(bp[1][1:])
+                    #print(bp[2][3:])
                     i += 1
-
-        # fetch info about gene, len, seq, mass from api directly
-        # Make a query string
-        query = "accession:" + str(id_copy)
-
-        # Define a list of columns we want to retrive
-        # columnlist = "id,entry name,length,mass,go(biological process),go(molecular function), pathway,feature(TOPOLOGICAL DOMAIN),comment(DISEASE),pathway"
-        columnlist = "id,entry name,genes(PREFERRED),length,mass,sequence"
-
-        # Run the remote search
-        result = service.search(query, frmt="tab", columns=columnlist)
-
-        df_result = pd.read_table(io.StringIO(result))
-
-        geneName = {'Gene': df_result['Gene names  (primary )'][0]}
-        seqLen = {'Length': df_result['Length'][0]}
-        # remove comma from mass values
-        mass = {'Mass': int(df_result['Mass'][0].replace(",", ""))}
-        seq = {'Sequence': df_result['Sequence'][0]}
-
-        id.update(geneName)
-        id.update(seqLen)
-        id.update(mass)
-        id.update(seq)
-
+                    
+            if 'GN   Name' in line:
+                #print(line)
+                
+                if k == 0:
+                    gene = line.split('=')
+                    print(gene)
+                    gene = gene[1].split(' ')
+                    #print(gene[0])
+                    if ';' in gene[0]:
+                        gene=gene[0].split(';')
+                        #id['Gene'].update({gene[0]})
+                        gene = {'Gene': gene[0]}
+                        print(gene)
+                        #id.update(gene)
+                    else:
+                        gene = {'Gene':gene[0]}
+                        print(gene)
+                        #id.update(gene)
+                    id.update(gene)
+                    #print(id['Gene'])    
+                    k +=1
+            
+            #else:
+                #id.update({'Gene': ''})
+                    
+            #print(id['Gene'])
+            
         Uniprot_Dict.append(id)
 
     Uniprot_Dict = dict(zip(uniprot_id, Uniprot_Dict))
 
     return(Uniprot_Dict)
-    
-    
-#function to convert pubchem cids to chembl ids
-
-def cid2chembl(cidList):
-    import pubchempy as pcp
-    cid2chembl_list = []
-    for id in cidList:
-        #GetChembl = {}
-        c=pcp.Compound.from_cid(id)
-        syn = c.synonyms
-        for s in syn:
-            if s.startswith('CHEMBL'):
-                #GetChembl['CHEMBL'] = s
-                cid2chembl_list.append(s)
-                print('Pubchem:',id,'Converted to:',s)
-
-        #cid2chembl_list.append(GetChembl)
-    return(cid2chembl_list) 
     
 def uniprot_rel(named_uprotList,itmpGraph):
     
@@ -507,7 +648,7 @@ def uniprot_rel(named_uprotList,itmpGraph):
         fun=list(named_uprotList[item]['Function'].keys())
         bp = list(named_uprotList[item]['BioProcess'].keys())
         for f in fun:
-            if str(named_uprotList[item]['Gene']) != 'nan':
+            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'],dict) :
                 itmpGraph.add_association(Protein(namespace='MP',name=named_uprotList[item]['Gene']),MicroRna(namespace='Function',name=f),
                                          citation='UniProt database',evidence='UniProt query')
             else:
@@ -516,7 +657,7 @@ def uniprot_rel(named_uprotList,itmpGraph):
                 
         
         for b in bp:
-            if str(named_uprotList[item]['Gene']) != 'nan':
+            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'],dict):
                 itmpGraph.add_association(Protein(namespace='MP',name=named_uprotList[item]['Gene']),BiologicalProcess(namespace='BioPro',name=b),
                                          citation='UniProt database',evidence='UniProt query')
             else:
