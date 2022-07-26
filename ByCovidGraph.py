@@ -87,6 +87,8 @@ def RetAct(chemblIds,j):
     named_ActList = {k: v for k, v in named_ActList.items() if v}
     return(named_ActList)
 
+#function to convert chembl id to uniprot and get associated reactome pathways
+#returns a dictionary
 def chembl2uniprot(chemblIDs, count):
     getTarget = new_client.target
     chem2Gene2path = []
@@ -110,6 +112,8 @@ def chembl2uniprot(chemblIDs, count):
     named_chem2Gene2path = {k: v for k, v in named_chem2Gene2path.items() if v}
     return (named_chem2Gene2path)
 
+#update chembl protein nodes with gene symbol
+#use previously created variable that stores activity/mechansism of action info
 def chembl2gene2path(chem2geneList,ActList):
     for item in chem2geneList:
         #print(item)
@@ -261,7 +265,8 @@ def chem2act_rel_2(named_ActList, itmpGraph):
 #
 #     return(itmpGraph)
 
-
+#function to convert chembl id to uniprot and get associated reactome pathways
+#returns a dictionary
 def chembl2uniprot(chemblIDs, count):
     getTarget = new_client.target
     chem2Gene2path = []
@@ -339,7 +344,7 @@ def chembl2uniprot(chemblIDs, count):
     named_chem2Gene2path = {k: v for k, v in named_chem2Gene2path.items() if v}
     return (named_chem2Gene2path)
 
-# Functions for creating graph
+#Functions for creating graph
 def chem2moa_rel_2(named_mechList, itmpGraph):
     for i in named_mechList:
         # print(i)
@@ -368,6 +373,7 @@ def chem2moa_rel_2(named_mechList, itmpGraph):
 
     return (itmpGraph)
 
+#function to retrieve chembl ids which are proteins/targets
 def Ret_chembl_protein(sourceList):
     protein_List = []
     for item in sourceList:
@@ -640,31 +646,35 @@ def cid2chembl(cidList):
 #     Uniprot_Dict = dict(zip(uniprot_id, Uniprot_Dict))
 #
 #     return(Uniprot_Dict)
-    
-def uniprot_rel(named_uprotList,itmpGraph):
-    
+
+#function to create relationships for dict created using ExtractFromUniProt     
+def uniprot_rel(named_uprotList,org,itmpGraph):
     for item in named_uprotList:
-        #print(named_uprotList[item]['Function'].keys())
-        fun=list(named_uprotList[item]['Function'].keys())
+        # print(named_uprotList[item]['Function'].keys())
+        fun = list(named_uprotList[item]['Function'].keys())
         bp = list(named_uprotList[item]['BioProcess'].keys())
         for f in fun:
-            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'],dict) :
-                itmpGraph.add_association(Protein(namespace='HP',name=named_uprotList[item]['Gene']),BiologicalProcess(namespace='GOMF',name=f),
-                                         citation='UniProt database',evidence='UniProt query')
+            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'], dict):
+                itmpGraph.add_association(Protein(namespace=org, name=named_uprotList[item]['Gene']),
+                                          BiologicalProcess(namespace='GOMF', name=f),
+                                          citation='UniProt database', evidence='UniProt query')
             else:
-                itmpGraph.add_association(Protein(namespace='HP',name=item),BiologicalProcess(namespace='GOMF',name=f),
-                                         citation='UniProt database',evidence='UniProt query')
-                
-        
+                itmpGraph.add_association(Protein(namespace=org, name=item),
+                                          BiologicalProcess(namespace='GOMF', name=f),
+                                          citation='UniProt database', evidence='UniProt query')
+
         for b in bp:
-            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'],dict):
-                itmpGraph.add_association(Protein(namespace='HP',name=named_uprotList[item]['Gene']),BiologicalProcess(namespace='GOBP',name=b),
-                                         citation='UniProt database',evidence='UniProt query')
+            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'], dict):
+                itmpGraph.add_association(Protein(namespace=org, name=named_uprotList[item]['Gene']),
+                                          BiologicalProcess(namespace='GOBP', name=b),
+                                          citation='UniProt database', evidence='UniProt query')
             else:
-                itmpGraph.add_association(Protein(namespace='HP',name=item),BiologicalProcess(namespace='GOBP',name=b),
-                                         citation='UniProt database',evidence='UniProt query')
-        
-    return(itmpGraph)
+                itmpGraph.add_association(Protein(namespace=org, name=item),
+                                          BiologicalProcess(namespace='GOBP', name=b),
+                                          citation='UniProt database', evidence='UniProt query')
+
+    return (itmpGraph)
+
 
 
 def chem2gene2path_rel(named_chem2geneList, itmpGraph):
@@ -686,7 +696,9 @@ def chem2gene2path_rel(named_chem2geneList, itmpGraph):
 
     return (itmpGraph)
 
-
+#Uniprot parser
+#retrieves info about OMIM disease, reactome pathway, biological process and molecular function
+#pass a list of uprot ids
 def ExtractFromUniProt(uniprot_id):
     # from bioservices import UniProt
     Uniprot_Dict = []

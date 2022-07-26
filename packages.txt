@@ -5,3 +5,4 @@ chembl_webresource_client
 matplotlib
 pubchempy
 pickle
+seaborn
