@@ -1,0 +1,580 @@
+,activity,protein_symbol,protein_name,aid,chembl_id,compound_name
+0,activator,P01730,T-cell surface antigen CD4,105411,CHEMBL506605,Isocomplestatin
+1,activator,P01730,T-cell surface antigen CD4,106547,CHEMBL525803,Chloropeptin
+2,activator,P01730,T-cell surface antigen CD4,22435351,CHEMBL1819181,Cyclotriazadisulfonamide hydrochloride
+3,activator,P20839,Inosine-5'-monophosphate dehydrogenase 1,18777375 | 39949 | 490698 | 2575557 | 2001007 | 92925 | 2008219 | 3596393 | 2259929 | 1747048 | 928730 | 5241977,CHEMBL866,Mycophenolic acid
+4,activator,P20839,Inosine-5'-monophosphate dehydrogenase 1,2001000 | 2008213,CHEMBL394276,Tiazofurin adenine dinucleotide
+5,activator,P20839,Inosine-5'-monophosphate dehydrogenase 1,3596386 | 2008218,CHEMBL238461,Mycophenolic hydroxamic acid
+6,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,724348,CHEMBL418899,2'-b-methyl-guanosine
+7,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,2711777,CHEMBL373691,Psi-6130-tp
+8,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,18496681 | 18496791 | 13931883 | 18496786 | 18496674 | 18496659,CHEMBL1092581,Nesbuvir
+9,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,13957120,CHEMBL3126842,Beclabuvir
+10,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,17787116 | 17787113 | 17787070 | 17787128 | 17787125 | 17787119 | 17787076 | 17787110 | 17787131 | 17787137 | 17787134 | 17787122 | 17787085,CHEMBL2043025,Tmc-647055
+11,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,19301783 | 19128219 | 19301789 | 20704170 | 19301787 | 18062091 | 19301791 | 20704185 | 19301785 | 18588758 | 19301775 | 19301781,CHEMBL1259059,Sofosbuvir
+12,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,18588773 | 18588759,CHEMBL1957287,Tegobuvir
+13,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,18891935,CHEMBL1673159,Vch-759
+14,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,19128218,CHEMBL3137312,Dasabuvir
+15,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,19218058,CHEMBL4127030,Adafosbuvir 5'-triphosphate
+16,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,19472336 | 19472337 | 19472334 | 19472335 | 19472338,CHEMBL3039503,Lomibuvir
+17,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,20696626,CHEMBL3422648,2'-c-me-gtp
+18,activator,Q8JXU8,Hepatitis C virus NS5B RNA-dependent RNA polymerase,22840136,CHEMBL1651956,Alisporivir
+19,activator,P02545,Prelamin-A/C,3621531,CHEMBL1555736,Ethaverine
+20,activator,P02545,Prelamin-A/C,3621546,CHEMBL967,Temazepam
+21,activator,P02545,Prelamin-A/C,3621603 | 4402382,CHEMBL15192,Lapachone
+22,activator,P02545,Prelamin-A/C,3621702,CHEMBL1790041,Ranitidine
+23,activator,P02545,Prelamin-A/C,3621776,CHEMBL177,Amikacin
+24,activator,P02545,Prelamin-A/C,3621808,CHEMBL1397202,Phenylpropanol
+25,activator,P02545,Prelamin-A/C,3621821,CHEMBL1079576,Phenprobamate
+26,activator,P02545,Prelamin-A/C,3621848,CHEMBL1213251,Clobenzorex
+27,activator,P02545,Prelamin-A/C,3621882,CHEMBL51085,Ebselen
+28,activator,P02545,Prelamin-A/C,3621929,CHEMBL206106,Palmitine
+29,activator,P02545,Prelamin-A/C,3622046,CHEMBL508338,Thimerosal
+30,activator,P02545,Prelamin-A/C,3622068,CHEMBL310671,Saccharin
+31,activator,P02545,Prelamin-A/C,3622481,CHEMBL1200522,Avobenzone
+32,activator,P02545,Prelamin-A/C,3622495,CHEMBL985,Urea
+33,activator,P02545,Prelamin-A/C,3622536 | 3654185 | 4403420,CHEMBL34259,Methotrexate
+34,activator,P02545,Prelamin-A/C,3622766,CHEMBL63440,Aloxistatin
+35,activator,P02545,Prelamin-A/C,3622778,CHEMBL1200641,Cisatracurium besylate
+36,activator,P02545,Prelamin-A/C,3622799,CHEMBL54126,Neostigmine bromide
+37,activator,P02545,Prelamin-A/C,3622827,CHEMBL566534,Artemether
+38,activator,P02545,Prelamin-A/C,3622897,CHEMBL45068,Phloretin
+39,activator,P02545,Prelamin-A/C,3622971,CHEMBL571,Ketoprofen
+40,activator,P02545,Prelamin-A/C,3623230 | 3641979 | 3644807,CHEMBL932,Dipyridamole
+41,activator,P02545,Prelamin-A/C,3623234,CHEMBL17,Dichlorphenamide
+42,activator,P02545,Prelamin-A/C,4402395 | 3660790 | 3623300,CHEMBL1713,Chlorpromazine hydrochloride
+43,activator,P02545,Prelamin-A/C,3623330,CHEMBL60889,Mosapride
+44,activator,P02545,Prelamin-A/C,3623458,CHEMBL1722,Methylphenidate hydrochloride
+45,activator,P02545,Prelamin-A/C,3623589,CHEMBL1200761,Chlorotrianisene
+46,activator,P02545,Prelamin-A/C,3623804,CHEMBL461,Hippuric acid
+47,activator,P02545,Prelamin-A/C,3623817 | 3654131,CHEMBL277522,Fenbufen
+48,activator,P02545,Prelamin-A/C,3624007,CHEMBL90555,Vincristine
+49,activator,P02545,Prelamin-A/C,3624074 | 4402410,CHEMBL1542,Azathioprine
+50,activator,P02545,Prelamin-A/C,3624152,CHEMBL1200330,Pilocarpine hydrochloride
+51,activator,P02545,Prelamin-A/C,3624241,CHEMBL1079905,Propentofylline
+52,activator,P02545,Prelamin-A/C,3624263,CHEMBL288114,Gallic acid
+53,activator,P02545,Prelamin-A/C,3624272,CHEMBL1200406,Dimenhydrinate
+54,activator,P02545,Prelamin-A/C,3624332,CHEMBL106265,8-cyclopentyltheophylline
+55,activator,P02545,Prelamin-A/C,3624411 | 3627338,CHEMBL15511,Enrofloxacin
+56,activator,P02545,Prelamin-A/C,3624431,CHEMBL782,Tolbutamide
+57,activator,P02545,Prelamin-A/C,3624571 | 3665954,CHEMBL172064,E324
+58,activator,P02545,Prelamin-A/C,3624649,CHEMBL255033,(s)-nimodipine
+59,activator,P02545,Prelamin-A/C,3647553 | 3624651,CHEMBL448290,Thioinosine
+60,activator,P02545,Prelamin-A/C,3624668,CHEMBL1256292,Pimagedine hydrochloride
+61,activator,P02545,Prelamin-A/C,3624744,CHEMBL353846,Adiphenine
+62,activator,P02545,Prelamin-A/C,3624748,CHEMBL30008,Flunarizine
+63,activator,P02545,Prelamin-A/C,3624840,CHEMBL1200581,Diatrizoate sodium
+64,activator,P02545,Prelamin-A/C,3645231 | 3624951,CHEMBL511,Pyrilamine
+65,activator,P02545,Prelamin-A/C,3624971,CHEMBL1201217,Dyclonine
+66,activator,P02545,Prelamin-A/C,3625072,CHEMBL1200395,Orphenadrine citrate
+67,activator,P02545,Prelamin-A/C,3625289 | 4403425 | 3649905 | 4906033 | 3654857,CHEMBL222863,Ouabain
+68,activator,P02545,Prelamin-A/C,3625296,CHEMBL862,Guanfacine
+69,activator,P02545,Prelamin-A/C,3625546,CHEMBL338802,Sulfaguanidine
+70,activator,P02545,Prelamin-A/C,3625571 | 3645056,CHEMBL1751,Digoxin
+71,activator,P02545,Prelamin-A/C,3625693 | 3632534,CHEMBL1201165,Quinestrol
+72,activator,P02545,Prelamin-A/C,3645334 | 3625713,CHEMBL1428,Nimodipine
+73,activator,P02545,Prelamin-A/C,3666603 | 3625880,CHEMBL23588,Flufenamic acid
+74,activator,P02545,Prelamin-A/C,3625924,CHEMBL1256179,Alprenolol hydrochloride
+75,activator,P02545,Prelamin-A/C,4402419 | 3625986,CHEMBL1200560,Guanabenz acetate
+76,activator,P02545,Prelamin-A/C,3626103 | 4403396 | 3661009,CHEMBL104,Clotrimazole
+77,activator,P02545,Prelamin-A/C,3626203,CHEMBL849,Triclosan
+78,activator,P02545,Prelamin-A/C,3626256 | 3663048,CHEMBL275040,Kainic acid
+79,activator,P02545,Prelamin-A/C,3626354,CHEMBL1569,Amantadine hydrochloride
+80,activator,P02545,Prelamin-A/C,4403441 | 3626385 | 3657489 | 3665419,CHEMBL313842,Zardaverine
+81,activator,P02545,Prelamin-A/C,3645019 | 3626577 | 4402409,CHEMBL107,Colchicine
+82,activator,P02545,Prelamin-A/C,3626725,CHEMBL1200787,Phenoxybenzamine hydrochloride
+83,activator,P02545,Prelamin-A/C,3626730,CHEMBL1200621,Gemifloxacin mesylate
+84,activator,P02545,Prelamin-A/C,3626756,CHEMBL282052,Methaqualone
+85,activator,P02545,Prelamin-A/C,3626782,CHEMBL464251,Isoxanthopterin
+86,activator,P02545,Prelamin-A/C,3626799,CHEMBL361197,Benzyl cinnamate
+87,activator,P02545,Prelamin-A/C,3626891 | 3665136,CHEMBL253144,Cortodoxone
+88,activator,P02545,Prelamin-A/C,4402437 | 3627179 | 3650152,CHEMBL9514,Nocodazole
+89,activator,P02545,Prelamin-A/C,3627408,CHEMBL9732,R-nicotine
+90,activator,P02545,Prelamin-A/C,3627429 | 3654889,CHEMBL61,Podofilox
+91,activator,P02545,Prelamin-A/C,3627453,CHEMBL306946,Tryptanthrin
+92,activator,P02545,Prelamin-A/C,3627573,CHEMBL1624,Levothyroxine
+93,activator,P02545,Prelamin-A/C,3627594,CHEMBL251940,Periciazine
+94,activator,P02545,Prelamin-A/C,3627718,CHEMBL501867,Vincristine sulfate
+95,activator,P02545,Prelamin-A/C,3627800,CHEMBL611,Terazosin
+96,activator,P02545,Prelamin-A/C,4402439 | 3665214 | 3627804 | 3647585,CHEMBL185,Fluorouracil
+97,activator,P02545,Prelamin-A/C,3627979,CHEMBL1514715,Ethamsylate
+98,activator,P02545,Prelamin-A/C,3628026,CHEMBL160519,Procaterol
+99,activator,P02545,Prelamin-A/C,3628110,CHEMBL706,Cetyl alcohol
+100,activator,P02545,Prelamin-A/C,3628175 | 3639288 | 4402425,CHEMBL165,Resveratrol
+101,activator,P02545,Prelamin-A/C,3628283,CHEMBL860,E-doxepin
+102,activator,P02545,Prelamin-A/C,3630474,CHEMBL1437847,Sulfaquinoxaline
+103,activator,P02545,Prelamin-A/C,3630525,CHEMBL568,Oxazepam
+104,activator,P02545,Prelamin-A/C,3646751 | 3631437,CHEMBL1201082,Fluoxetine hydrochloride
+105,activator,P02545,Prelamin-A/C,3631472,CHEMBL92870,Lidoflazine
+106,activator,P02545,Prelamin-A/C,3631509,CHEMBL1089,Phenelzine
+107,activator,P02545,Prelamin-A/C,3632370,CHEMBL762,Oxymetazoline
+108,activator,P02545,Prelamin-A/C,3632508,CHEMBL1592101,Bismuth subgallate
+109,activator,P02545,Prelamin-A/C,3634453,CHEMBL84158,Tiapride
+110,activator,P02545,Prelamin-A/C,3634520 | 3643853,CHEMBL123325,Rauwolfia serpentina
+111,activator,P02545,Prelamin-A/C,3635478,CHEMBL431525,Betunolic acid
+112,activator,P02545,Prelamin-A/C,3635620,CHEMBL253765,(r)-suprofen
+113,activator,P02545,Prelamin-A/C,3636551,CHEMBL16081,Acetamide
+114,activator,P02545,Prelamin-A/C,3636671,CHEMBL120563,Thiram
+115,activator,P02545,Prelamin-A/C,3636746,CHEMBL1407,Laudanosine
+116,activator,P02545,Prelamin-A/C,3636845,CHEMBL643,Promethazine
+117,activator,P02545,Prelamin-A/C,3636859,CHEMBL1235551,"Praziquantel, (r)-"
+118,activator,P02545,Prelamin-A/C,3636921,CHEMBL151803,Sulbentine
+119,activator,P02545,Prelamin-A/C,4402461 | 3662128 | 3636935,CHEMBL65,Camptothecin
+120,activator,P02545,Prelamin-A/C,3651080 | 3637064,CHEMBL415879,Phenanthroline
+121,activator,P02545,Prelamin-A/C,3637138,CHEMBL1255941,Phaclofen
+122,activator,P02545,Prelamin-A/C,3637259,CHEMBL90,Histamine
+123,activator,P02545,Prelamin-A/C,3637705,CHEMBL1572050,Octyldodecanol
+124,activator,P02545,Prelamin-A/C,3637756,CHEMBL268869,Sulfamethoxypyridazine
+125,activator,P02545,Prelamin-A/C,3637881,CHEMBL279678,S-etomidate
+126,activator,P02545,Prelamin-A/C,4403401 | 3637938,CHEMBL1405,Estrone
+127,activator,P02545,Prelamin-A/C,3652900 | 3637969,CHEMBL71,Chlorpromazine
+128,activator,P02545,Prelamin-A/C,4905981 | 3637983,CHEMBL866,Mycophenolic acid
+129,activator,P02545,Prelamin-A/C,3638027,CHEMBL188921,Buflomedil
+130,activator,P02545,Prelamin-A/C,3638258,CHEMBL1323699,Padimate o
+131,activator,P02545,Prelamin-A/C,4403313 | 3638396,CHEMBL1449651,"Pyrrolidine dithiocarbamic acid, ammonium salt"
+132,activator,P02545,Prelamin-A/C,3638583,CHEMBL528271,Parbendazole
+133,activator,P02545,Prelamin-A/C,3638596,CHEMBL1371493,Denatonium benzoate
+134,activator,P02545,Prelamin-A/C,3638661,CHEMBL14249,Adenosine triphosphate
+135,activator,P02545,Prelamin-A/C,3638698,CHEMBL1201749,Difluprednate
+136,activator,P02545,Prelamin-A/C,3638804,CHEMBL52347,"1,2-naphthoquinone"
+137,activator,P02545,Prelamin-A/C,3638891,CHEMBL1454910,Nitroxoline
+138,activator,P02545,Prelamin-A/C,3638904,CHEMBL1084643,Prostaglandin a2
+139,activator,P02545,Prelamin-A/C,3638918,CHEMBL1201256,Trimethobenzamide
+140,activator,P02545,Prelamin-A/C,3639023,CHEMBL1200829,Gluconolactone
+141,activator,P02545,Prelamin-A/C,3639173,CHEMBL11417,Streptonigrin
+142,activator,P02545,Prelamin-A/C,3639198 | 3651141 | 3648718,CHEMBL917,Floxuridine
+143,activator,P02545,Prelamin-A/C,3639227,CHEMBL1684,Bendroflumethiazide
+144,activator,P02545,Prelamin-A/C,3639251,CHEMBL685,Mebendazole
+145,activator,P02545,Prelamin-A/C,3639330,CHEMBL6437,Mianserin
+146,activator,P02545,Prelamin-A/C,3639488,CHEMBL1410,Nonoxynol 9
+147,activator,P02545,Prelamin-A/C,3639514,CHEMBL56367,Nimesulide
+148,activator,P02545,Prelamin-A/C,4403321 | 3639530,CHEMBL1117,Idarubicin
+149,activator,P02545,Prelamin-A/C,3639553 | 3653209 | 3663489,CHEMBL388590,Benzbromarone
+150,activator,P02545,Prelamin-A/C,3639738,CHEMBL1256818,Dextromethorphan hydrobromide
+151,activator,P02545,Prelamin-A/C,3639802,CHEMBL290299,Ronidazole
+152,activator,P02545,Prelamin-A/C,3639842,CHEMBL770,Tolazoline
+153,activator,P02545,Prelamin-A/C,3640040,CHEMBL45029,Mephobarbital
+154,activator,P02545,Prelamin-A/C,3640358,CHEMBL121,Rosiglitazone
+155,activator,P02545,Prelamin-A/C,3640364,CHEMBL284348,Dalfampridine
+156,activator,P02545,Prelamin-A/C,3640458,CHEMBL29711,Aphidicolin
+157,activator,P02545,Prelamin-A/C,3640478,CHEMBL11,Imipramine
+158,activator,P02545,Prelamin-A/C,3640535,CHEMBL1256022,Xylazine hydrochloride
+159,activator,P02545,Prelamin-A/C,3651851 | 3640897,CHEMBL578,Enalapril
+160,activator,P02545,Prelamin-A/C,3641028,CHEMBL1256772,Tiapride hydrochloride
+161,activator,P02545,Prelamin-A/C,3641085,CHEMBL1200517,Dihydroergotamine mesylate
+162,activator,P02545,Prelamin-A/C,3667422 | 3641370,CHEMBL134,Clonidine
+163,activator,P02545,Prelamin-A/C,3641384,CHEMBL1158,Paraxanthine
+164,activator,P02545,Prelamin-A/C,3641433,CHEMBL350343,Diplosalsalate
+165,activator,P02545,Prelamin-A/C,3641484,CHEMBL122270,Lobeline
+166,activator,P02545,Prelamin-A/C,3641792,CHEMBL207602,Isopropyl myristate
+167,activator,P02545,Prelamin-A/C,3641875,CHEMBL94,Physostigmine
+168,activator,P02545,Prelamin-A/C,3641901,CHEMBL605,Procainamide hydrochloride
+169,activator,P02545,Prelamin-A/C,3641952,CHEMBL1482931,Thymol iodide
+170,activator,P02545,Prelamin-A/C,3642089,CHEMBL439,Sulfadiazine
+171,activator,P02545,Prelamin-A/C,4403333 | 3642137,CHEMBL17157,Terfenadine
+172,activator,P02545,Prelamin-A/C,3642219,CHEMBL241694,Ethisterone
+173,activator,P02545,Prelamin-A/C,3642288,CHEMBL1255840,Neboglamine
+174,activator,P02545,Prelamin-A/C,4403341 | 3642292,CHEMBL1448187,Fluphenazine hydrochloride
+175,activator,P02545,Prelamin-A/C,3642314,CHEMBL1219,Rabeprazole
+176,activator,P02545,Prelamin-A/C,3642513,CHEMBL24147,Resorcinol
+177,activator,P02545,Prelamin-A/C,3642546,CHEMBL1373,Modafinil
+178,activator,P02545,Prelamin-A/C,3642550,CHEMBL1568276,Nafcillin sodium
+179,activator,P02545,Prelamin-A/C,3642694,CHEMBL822,Terbinafine
+180,activator,P02545,Prelamin-A/C,3642795,CHEMBL363449,Nadifloxacin
+181,activator,P02545,Prelamin-A/C,3652620 | 3652433 | 4403335 | 3667331 | 3642846,CHEMBL428647,Paclitaxel
+182,activator,P02545,Prelamin-A/C,3642919,CHEMBL1466,Dicumarol
+183,activator,P02545,Prelamin-A/C,3643123,CHEMBL463763,Triptolide
+184,activator,P02545,Prelamin-A/C,3643398,CHEMBL1200391,Tromethamine
+185,activator,P02545,Prelamin-A/C,3643405,CHEMBL94007,Ethacridine
+186,activator,P02545,Prelamin-A/C,3643413,CHEMBL29411,Thymol
+187,activator,P02545,Prelamin-A/C,3643454,CHEMBL1182210,Benzethonium
+188,activator,P02545,Prelamin-A/C,3643466,CHEMBL100,Levcromakalim
+189,activator,P02545,Prelamin-A/C,3643580,CHEMBL953,Entacapone
+190,activator,P02545,Prelamin-A/C,3643598,CHEMBL842,Chlorothiazide
+191,activator,P02545,Prelamin-A/C,3643651,CHEMBL397976,Pidolic acid
+192,activator,P02545,Prelamin-A/C,3643721,CHEMBL1201171,Pramoxine hydrochloride
+193,activator,P02545,Prelamin-A/C,3643800,CHEMBL1305,Antazoline
+194,activator,P02545,Prelamin-A/C,3643828,CHEMBL611494,Salagen
+195,activator,P02545,Prelamin-A/C,3643844,CHEMBL640,Procainamide
+196,activator,P02545,Prelamin-A/C,4403330 | 3643936,CHEMBL69863,Piceatannol
+197,activator,P02545,Prelamin-A/C,3643945,CHEMBL1086,Dibucaine
+198,activator,P02545,Prelamin-A/C,3643999,CHEMBL1200370,Benzoyl peroxide
+199,activator,P02545,Prelamin-A/C,3644074,CHEMBL54922,Proline
+200,activator,P02545,Prelamin-A/C,3644224,CHEMBL1201130,Betaine hydrochloride
+201,activator,P02545,Prelamin-A/C,3644240,CHEMBL1436860,Dimethyl gambogate
+202,activator,P02545,Prelamin-A/C,3644249,CHEMBL1233,Carisoprodol
+203,activator,P02545,Prelamin-A/C,3644418,CHEMBL539313,Efaroxan hydrochloride
+204,activator,P02545,Prelamin-A/C,3644599,CHEMBL1763,Hydroflumethiazide
+205,activator,P02545,Prelamin-A/C,3644618,CHEMBL1705,Clonidine hydrochloride
+206,activator,P02545,Prelamin-A/C,3644638,CHEMBL181932,Oteracil
+207,activator,P02545,Prelamin-A/C,3644688,CHEMBL1200896,Dinoprost tromethamine
+208,activator,P02545,Prelamin-A/C,3644720,CHEMBL1255646,Cirazoline hydrochloride
+209,activator,P02545,Prelamin-A/C,3644721,CHEMBL81,Raloxifene
+210,activator,P02545,Prelamin-A/C,3644797,CHEMBL529,Azithromycin
+211,activator,P02545,Prelamin-A/C,3644879 | 3661656,CHEMBL728,Prochlorperazine
+212,activator,P02545,Prelamin-A/C,3644899,CHEMBL91,Miconazole
+213,activator,P02545,Prelamin-A/C,3645001 | 4403278,CHEMBL320341,Quazinone
+214,activator,P02545,Prelamin-A/C,3645097,CHEMBL23293,Salirasib
+215,activator,P02545,Prelamin-A/C,3645206,CHEMBL57,Nevirapine
+216,activator,P02545,Prelamin-A/C,3645224,CHEMBL1413176,Nifenazone
+217,activator,P02545,Prelamin-A/C,3645283,CHEMBL1605837,Simazine
+218,activator,P02545,Prelamin-A/C,3645315,CHEMBL498,Chlorpropamide
+219,activator,P02545,Prelamin-A/C,3645341,CHEMBL43064,Cinnarizine
+220,activator,P02545,Prelamin-A/C,3645347 | 3653445,CHEMBL534,Ketotifen
+221,activator,P02545,Prelamin-A/C,3645486,CHEMBL350221,Oxitriptan
+222,activator,P02545,Prelamin-A/C,3645516,CHEMBL1201093,Methyl aminolevulinate hydrochloride
+223,activator,P02545,Prelamin-A/C,3645584,CHEMBL806,Flutamide
+224,activator,P02545,Prelamin-A/C,3645602,CHEMBL1431,Metformin
+225,activator,P02545,Prelamin-A/C,3645611,CHEMBL1095292,Bretylium tosylate
+226,activator,P02545,Prelamin-A/C,3645756,CHEMBL1200523,Cefazolin sodium
+227,activator,P02545,Prelamin-A/C,3646041,CHEMBL593019,Pyridoxamine
+228,activator,P02545,Prelamin-A/C,3646090,CHEMBL1256842,Nomifensine maleate
+229,activator,P02545,Prelamin-A/C,3646494,CHEMBL1451633,Etofenamate
+230,activator,P02545,Prelamin-A/C,3646520,CHEMBL127592,Oxethazaine
+231,activator,P02545,Prelamin-A/C,4402446 | 3646532 | 3651224,CHEMBL429023,Rotenone
+232,activator,P02545,Prelamin-A/C,3646618,CHEMBL419213,Lisinopril
+233,activator,P02545,Prelamin-A/C,3646704,CHEMBL1200765,Sibutramine hydrochloride
+234,activator,P02545,Prelamin-A/C,3646935,CHEMBL316966,Cyclic adenosine monophosphate
+235,activator,P02545,Prelamin-A/C,3647698 | 3647081,CHEMBL1370561,Aminophylline
+236,activator,P02545,Prelamin-A/C,3647152,CHEMBL129529,Butacaine
+237,activator,P02545,Prelamin-A/C,3647269,CHEMBL803,Cytarabine
+238,activator,P02545,Prelamin-A/C,3647368,CHEMBL1607,Topotecan hydrochloride
+239,activator,P02545,Prelamin-A/C,3647421,CHEMBL63857,Phenolphthalein
+240,activator,P02545,Prelamin-A/C,3647458,CHEMBL1232258,D-leucine
+241,activator,P02545,Prelamin-A/C,3647475,CHEMBL1643,Ribavirin
+242,activator,P02545,Prelamin-A/C,3647493,CHEMBL692,Glycerin
+243,activator,P02545,Prelamin-A/C,3647652,CHEMBL486817,Harmol
+244,activator,P02545,Prelamin-A/C,3647690,CHEMBL9967,Pirenzepine
+245,activator,P02545,Prelamin-A/C,3647720,CHEMBL1343544,Cefsulodin sodium
+246,activator,P02545,Prelamin-A/C,3647769,CHEMBL1157,Adipic acid
+247,activator,P02545,Prelamin-A/C,3647906,CHEMBL106,Fluconazole
+248,activator,P02545,Prelamin-A/C,3647945,CHEMBL1120,Bismuth subsalicylate
+249,activator,P02545,Prelamin-A/C,3648274,CHEMBL1200471,Pyrithione zinc
+250,activator,P02545,Prelamin-A/C,3648276,CHEMBL1437,Norepinephrine
+251,activator,P02545,Prelamin-A/C,3648358,CHEMBL454801,Ubidecarenone
+252,activator,P02545,Prelamin-A/C,3648390,CHEMBL1200757,Pancuronium bromide
+253,activator,P02545,Prelamin-A/C,3648562,CHEMBL460499,Carmofur
+254,activator,P02545,Prelamin-A/C,3648766,CHEMBL93,Zileuton
+255,activator,P02545,Prelamin-A/C,4403367 | 3648794 | 3664531,CHEMBL1256472,Cytarabine hydrochloride
+256,activator,P02545,Prelamin-A/C,3648806,CHEMBL1200868,Phenyl aminosalicylate
+257,activator,P02545,Prelamin-A/C,3648934,CHEMBL9225,Meso-hexestrol
+258,activator,P02545,Prelamin-A/C,3648985,CHEMBL273264,Nafamostat
+259,activator,P02545,Prelamin-A/C,3648996,CHEMBL1200618,Fexofenadine hydrochloride
+260,activator,P02545,Prelamin-A/C,3649226,CHEMBL1200866,Perflubron
+261,activator,P02545,Prelamin-A/C,3649249,CHEMBL428880,Cromolyn
+262,activator,P02545,Prelamin-A/C,3649354,CHEMBL1321154,Roxarsone
+263,activator,P02545,Prelamin-A/C,3649364,CHEMBL576127,Fenspiride
+264,activator,P02545,Prelamin-A/C,4403443 | 3649371 | 3664168,CHEMBL181,Diazoxide
+265,activator,P02545,Prelamin-A/C,3649392 | 4402453,CHEMBL1256775,Phenamil methanesulfonate
+266,activator,P02545,Prelamin-A/C,3649452,CHEMBL24640,Cetostearyl alcohol
+267,activator,P02545,Prelamin-A/C,3649487,CHEMBL411729,Cytochalasin b
+268,activator,P02545,Prelamin-A/C,3649615,CHEMBL1200492,Nefazodone hydrochloride
+269,activator,P02545,Prelamin-A/C,3649722,CHEMBL1256361,Iproniazid phosphate
+270,activator,P02545,Prelamin-A/C,3649930,CHEMBL44814,Carbon tetrachloride
+271,activator,P02545,Prelamin-A/C,3650056 | 3660429,CHEMBL445,Nortriptyline
+272,activator,P02545,Prelamin-A/C,3650309,CHEMBL47,Vitamin e
+273,activator,P02545,Prelamin-A/C,3650330,CHEMBL62193,Sulfadimethoxine
+274,activator,P02545,Prelamin-A/C,3650390,CHEMBL108545,Methyl salicylate
+275,activator,P02545,Prelamin-A/C,3650444,CHEMBL609,Trientine
+276,activator,P02545,Prelamin-A/C,3650482,CHEMBL155265,Dnqx
+277,activator,P02545,Prelamin-A/C,3650528,CHEMBL388342,Boldine
+278,activator,P02545,Prelamin-A/C,3650559,CHEMBL1373466,Betonicine
+279,activator,P02545,Prelamin-A/C,3650673 | 4403276,CHEMBL493439,Emetine hydrochloride
+280,activator,P02545,Prelamin-A/C,3650791,CHEMBL13960,Dichloroacetic acid
+281,activator,P02545,Prelamin-A/C,3650865,CHEMBL304902,Clothiapine
+282,activator,P02545,Prelamin-A/C,3654518 | 3650963,CHEMBL16105,Alexitol sodium
+283,activator,P02545,Prelamin-A/C,3651006,CHEMBL456807,Phenylhydrazine
+284,activator,P02545,Prelamin-A/C,3651033,CHEMBL1091,Hydrocortisone acetate
+285,activator,P02545,Prelamin-A/C,3651202,CHEMBL1481539,Thioproperazine mesylate
+286,activator,P02545,Prelamin-A/C,3651302,CHEMBL559,Dextrothyroxine
+287,activator,P02545,Prelamin-A/C,3651396,CHEMBL8145,Daidzein
+288,activator,P02545,Prelamin-A/C,3651435,CHEMBL1455,Altretamine
+289,activator,P02545,Prelamin-A/C,3651537,CHEMBL1200606,Mexiletine hydrochloride
+290,activator,P02545,Prelamin-A/C,3651614,CHEMBL471,Sotalol
+291,activator,P02545,Prelamin-A/C,3651629,CHEMBL668,Protriptyline
+292,activator,P02545,Prelamin-A/C,3651707,CHEMBL293492,Cinnamaldehyde
+293,activator,P02545,Prelamin-A/C,3651755,CHEMBL472646,Moronic acid
+294,activator,P02545,Prelamin-A/C,3651756,CHEMBL754,Foscarnet sodium
+295,activator,P02545,Prelamin-A/C,3664221 | 3651759,CHEMBL1200446,Tripelennamine hydrochloride
+296,activator,P02545,Prelamin-A/C,3651813,CHEMBL1208,Cinoxacin
+297,activator,P02545,Prelamin-A/C,3651864,CHEMBL1201239,Iodamide
+298,activator,P02545,Prelamin-A/C,3651942,CHEMBL101,Phenylbutazone
+299,activator,P02545,Prelamin-A/C,3662458 | 3652019,CHEMBL1238,Azelaic acid
+300,activator,P02545,Prelamin-A/C,3652108,CHEMBL979,Meprobamate
+301,activator,P02545,Prelamin-A/C,3652109,CHEMBL1585,Pipobroman
+302,activator,P02545,Prelamin-A/C,3652135,CHEMBL6466,Coumarin
+303,activator,P02545,Prelamin-A/C,3652208,CHEMBL1200809,Azelastine hydrochloride
+304,activator,P02545,Prelamin-A/C,3652368,CHEMBL515914,Azaribine
+305,activator,P02545,Prelamin-A/C,3652553,CHEMBL431701,Silybin a
+306,activator,P02545,Prelamin-A/C,3652610,CHEMBL230006,Enoxolone
+307,activator,P02545,Prelamin-A/C,3652624,CHEMBL1024,Ifosfamide
+308,activator,P02545,Prelamin-A/C,3652655,CHEMBL564201,6-azauridine
+309,activator,P02545,Prelamin-A/C,3652747,CHEMBL1406148,Tricaprilin
+310,activator,P02545,Prelamin-A/C,3652762,CHEMBL127643,Dimethisoquin
+311,activator,P02545,Prelamin-A/C,3652829,CHEMBL289277,Emodin
+312,activator,P02545,Prelamin-A/C,3653031,CHEMBL15770,Sulindac
+313,activator,P02545,Prelamin-A/C,3653117,CHEMBL1393947,Pipenzolate
+314,activator,P02545,Prelamin-A/C,3653159,CHEMBL1208422,Rose bengal
+315,activator,P02545,Prelamin-A/C,3653160,CHEMBL869,Nitrofurazone
+316,activator,P02545,Prelamin-A/C,3653223,CHEMBL14253,Acetone
+317,activator,P02545,Prelamin-A/C,3653253,CHEMBL343633,Esatenolol
+318,activator,P02545,Prelamin-A/C,3653255,CHEMBL1492044,Fluorescein diacetate
+319,activator,P02545,Prelamin-A/C,3653407,CHEMBL349803,Piretanide
+320,activator,P02545,Prelamin-A/C,3653483,CHEMBL1331366,Carbarsone
+321,activator,P02545,Prelamin-A/C,3653522,CHEMBL2059073,Sulisobenzone
+322,activator,P02545,Prelamin-A/C,3653568,CHEMBL416898,Chlorophenothane
+323,activator,P02545,Prelamin-A/C,3653667,CHEMBL1224512,Hispidin
+324,activator,P02545,Prelamin-A/C,3653675,CHEMBL315795,Clomethiazole
+325,activator,P02545,Prelamin-A/C,3653751,CHEMBL1446650,Mebeverine hydrochloride
+326,activator,P02545,Prelamin-A/C,3653913,CHEMBL417799,Sanguinarium
+327,activator,P02545,Prelamin-A/C,3654187,CHEMBL812,Pyridostigmine bromide
+328,activator,P02545,Prelamin-A/C,3654294,CHEMBL945,Amiloride
+329,activator,P02545,Prelamin-A/C,3654299,CHEMBL311389,7-chlorokynurenic acid
+330,activator,P02545,Prelamin-A/C,3654381,CHEMBL750,Zonisamide
+331,activator,P02545,Prelamin-A/C,3654431,CHEMBL224146,Acetosyringone
+332,activator,P02545,Prelamin-A/C,3654571,CHEMBL24,Atenolol
+333,activator,P02545,Prelamin-A/C,3654666,CHEMBL1564747,Drometrizole
+334,activator,P02545,Prelamin-A/C,3662199 | 3665389 | 3654667,CHEMBL1619,Cladribine
+335,activator,P02545,Prelamin-A/C,3654755,CHEMBL42403,Boric acid
+336,activator,P02545,Prelamin-A/C,3654858,CHEMBL286020,Sulmazole
+337,activator,P02545,Prelamin-A/C,3654899,CHEMBL820,Busulfan
+338,activator,P02545,Prelamin-A/C,3654980,CHEMBL453066,Beta-ccm
+339,activator,P02545,Prelamin-A/C,3655025,CHEMBL19236,Moxonidine
+340,activator,P02545,Prelamin-A/C,3655097,CHEMBL51149,Gallopamil
+341,activator,P02545,Prelamin-A/C,3655224 | 3661605,CHEMBL1371,Chlorzoxazone
+342,activator,P02545,Prelamin-A/C,3655440,CHEMBL12208,Hymecromone
+343,activator,P02545,Prelamin-A/C,3655571,CHEMBL1200322,Escitalopram oxalate
+344,activator,P02545,Prelamin-A/C,3655608,CHEMBL333826,Dequalinium
+345,activator,P02545,Prelamin-A/C,3655733,CHEMBL1255937,Ancitabine hydrochloride
+346,activator,P02545,Prelamin-A/C,3655867,CHEMBL521,Ibuprofen
+347,activator,P02545,Prelamin-A/C,3656537,CHEMBL50300,Fosfonet
+348,activator,P02545,Prelamin-A/C,3656658,CHEMBL7303,Arecoline
+349,activator,P02545,Prelamin-A/C,3656740,CHEMBL14152,Ethyl acetate
+350,activator,P02545,Prelamin-A/C,4403439 | 3657339,CHEMBL17331,Pd-169316
+351,activator,P02545,Prelamin-A/C,4403356 | 3667261 | 3657412,CHEMBL46516,Fluspirilene
+352,activator,P02545,Prelamin-A/C,3657516,CHEMBL142635,Naftopidil
+353,activator,P02545,Prelamin-A/C,3658138,CHEMBL1766,Desoximetasone
+354,activator,P02545,Prelamin-A/C,3658194,CHEMBL554054,Aptiganel hydrochloride
+355,activator,P02545,Prelamin-A/C,3658202,CHEMBL93645,Aceclofenac
+356,activator,P02545,Prelamin-A/C,3658210,CHEMBL116,Amprenavir
+357,activator,P02545,Prelamin-A/C,3658253,CHEMBL1472989,Bisoprolol fumarate
+358,activator,P02545,Prelamin-A/C,3660379,CHEMBL12856,Inamrinone
+359,activator,P02545,Prelamin-A/C,3660380,CHEMBL1443577,Sulfachlorpyridazine
+360,activator,P02545,Prelamin-A/C,3660548,CHEMBL1326149,Cephalosporin c zinc salt
+361,activator,P02545,Prelamin-A/C,3660636,CHEMBL853,Zalcitabine
+362,activator,P02545,Prelamin-A/C,3660850,CHEMBL266459,Zomepirac sodium
+363,activator,P02545,Prelamin-A/C,3660906,CHEMBL388676,Captan
+364,activator,P02545,Prelamin-A/C,3660916,CHEMBL209744,Benzyl nicotinate
+365,activator,P02545,Prelamin-A/C,3660986,CHEMBL1070,Nabumetone
+366,activator,P02545,Prelamin-A/C,3661053,CHEMBL1513,Irbesartan
+367,activator,P02545,Prelamin-A/C,3661105,CHEMBL1586457,Phenyltoloxamine citrate
+368,activator,P02545,Prelamin-A/C,3661146,CHEMBL1329032,Isospaglumic acid
+369,activator,P02545,Prelamin-A/C,3661251,CHEMBL30432,Gw282974x
+370,activator,P02545,Prelamin-A/C,3661272,CHEMBL1256901,Butylscopolamine bromide
+371,activator,P02545,Prelamin-A/C,3661306,CHEMBL1315867,Terbutaline sulfate
+372,activator,P02545,Prelamin-A/C,3661349,CHEMBL269733,Dephostatin
+373,activator,P02545,Prelamin-A/C,3661378,CHEMBL1378024,Protionamide
+374,activator,P02545,Prelamin-A/C,3661434,CHEMBL549473,Dipyrithione
+375,activator,P02545,Prelamin-A/C,3661521,CHEMBL81977,3-aminobenzamide
+376,activator,P02545,Prelamin-A/C,3661623,CHEMBL1529817,Alphaprodine hydrochloride
+377,activator,P02545,Prelamin-A/C,3661632,CHEMBL1593558,Debrisoquin sulfate
+378,activator,P02545,Prelamin-A/C,3661644,CHEMBL307346,Cetrimonium bromide
+379,activator,P02545,Prelamin-A/C,3661659,CHEMBL1272,Repaglinide
+380,activator,P02545,Prelamin-A/C,3661669,CHEMBL279229,Urapidil
+381,activator,P02545,Prelamin-A/C,3661963,CHEMBL114070,Dinitrophenylene
+382,activator,P02545,Prelamin-A/C,3662300,CHEMBL430893,(-)-rolipram
+383,activator,P02545,Prelamin-A/C,3662525,CHEMBL267044,Levosulpiride
+384,activator,P02545,Prelamin-A/C,3662607,CHEMBL441,Thiopental
+385,activator,P02545,Prelamin-A/C,3662638 | 4902159,CHEMBL1412614,Ancitabine
+386,activator,P02545,Prelamin-A/C,3662659,CHEMBL497939,Cytisinicline
+387,activator,P02545,Prelamin-A/C,3662808,CHEMBL1484857,Succinylsulfathiazole
+388,activator,P02545,Prelamin-A/C,3662957,CHEMBL1170,Testosterone propionate
+389,activator,P02545,Prelamin-A/C,3663099,CHEMBL1318341,Meticrane
+390,activator,P02545,Prelamin-A/C,3663264,CHEMBL5,Nalidixic acid
+391,activator,P02545,Prelamin-A/C,4403352 | 3663396,CHEMBL1255733,Dihydroouabain
+392,activator,P02545,Prelamin-A/C,3663595,CHEMBL1418176,Methandrostenolone
+393,activator,P02545,Prelamin-A/C,3663624,CHEMBL661,Alprazolam
+394,activator,P02545,Prelamin-A/C,3663703,CHEMBL267345,Amphotericin b
+395,activator,P02545,Prelamin-A/C,3663757,CHEMBL262083,N6-phenyladenosine
+396,activator,P02545,Prelamin-A/C,3663772,CHEMBL1699,Memantine hydrochloride
+397,activator,P02545,Prelamin-A/C,3663798,CHEMBL1725279,Sp-600125
+398,activator,P02545,Prelamin-A/C,3663833,CHEMBL53292,Isoxicam
+399,activator,P02545,Prelamin-A/C,3663846,CHEMBL282567,Proadifen
+400,activator,P02545,Prelamin-A/C,3663916,CHEMBL1407943,Clemizole
+401,activator,P02545,Prelamin-A/C,3663967,CHEMBL914,Fexofenadine
+402,activator,P02545,Prelamin-A/C,3664060,CHEMBL1255649,Arecaidine propargyl ester hydrobromide
+403,activator,P02545,Prelamin-A/C,3664113,CHEMBL1123,Dicyclomine
+404,activator,P02545,Prelamin-A/C,3664143,CHEMBL1201234,Mephentermine
+405,activator,P02545,Prelamin-A/C,3664377,CHEMBL267476,Linoleic acid
+406,activator,P02545,Prelamin-A/C,3664398,CHEMBL637,Venlafaxine
+407,activator,P02545,Prelamin-A/C,3664607,CHEMBL288470,Aminopyrine
+408,activator,P02545,Prelamin-A/C,3664621,CHEMBL1200323,Labetalol hydrochloride
+409,activator,P02545,Prelamin-A/C,3664951,CHEMBL1396177,Penicillin v benzathine
+410,activator,P02545,Prelamin-A/C,3665048,CHEMBL1071,Oxaprozin
+411,activator,P02545,Prelamin-A/C,3665488,CHEMBL1490434,Moroxydine
+412,activator,P02545,Prelamin-A/C,3665498,CHEMBL108,Carbamazepine
+413,activator,P02545,Prelamin-A/C,3665612,CHEMBL514446,Dehydrocholic acid
+414,activator,P02545,Prelamin-A/C,4403385 | 3665644,CHEMBL134342,Thioctic acid
+415,activator,P02545,Prelamin-A/C,4403406 | 3665916,CHEMBL413376,Suramin hexasodium
+416,activator,P02545,Prelamin-A/C,3665947,CHEMBL1451,Triamcinolone
+417,activator,P02545,Prelamin-A/C,3666022,CHEMBL292303,D-tryptophan
+418,activator,P02545,Prelamin-A/C,3666149,CHEMBL132767,Trapidil
+419,activator,P02545,Prelamin-A/C,3666151,CHEMBL1515,Methimazole
+420,activator,P02545,Prelamin-A/C,3666469,CHEMBL1405973,Exalamide
+421,activator,P02545,Prelamin-A/C,3666634,CHEMBL264931,(r)-indoprofen
+422,activator,P02545,Prelamin-A/C,3666651,CHEMBL924,Zoledronic acid
+423,activator,P02545,Prelamin-A/C,3666658,CHEMBL507237,Cucurbitacin b
+424,activator,P02545,Prelamin-A/C,3666727,CHEMBL1435,Cefazolin
+425,activator,P02545,Prelamin-A/C,3667018,CHEMBL677,Levonordefrin
+426,activator,P02545,Prelamin-A/C,3667108,CHEMBL453388,Ampicillin trihydrate
+427,activator,P02545,Prelamin-A/C,3667159,CHEMBL318153,Edoxudine
+428,activator,P02545,Prelamin-A/C,3667450,CHEMBL1073,Glipizide
+429,activator,P02545,Prelamin-A/C,3667490,CHEMBL1451395,E309
+430,activator,P02545,Prelamin-A/C,3667599,CHEMBL58,Mitoxantrone
+431,activator,P02545,Prelamin-A/C,3667616,CHEMBL85139,Rutaecarpine
+432,activator,P02545,Prelamin-A/C,3667663,CHEMBL421,Sulfasalazine
+433,activator,P02545,Prelamin-A/C,3667671,CHEMBL435,Hydrochlorothiazide
+434,activator,P02545,Prelamin-A/C,3667972,CHEMBL170988,Phenformin
+435,activator,P02545,Prelamin-A/C,3668013,CHEMBL576,Succinic acid
+436,activator,P23526,Adenosylhomocysteinase,14710447 | 3269832 | 15618176 | 990792 | 1165464 | 251353 | 14710471 | 232692 | 328902 | 5219205,CHEMBL8771,Neoplanocin a
+437,activator,P23526,Adenosylhomocysteinase,244557 | 15618175 | 1459089 | 5219206,CHEMBL64718,Fluoro-neplanocin a
+438,activator,P23526,Adenosylhomocysteinase,365277,CHEMBL268272,3-deazaaristeromycin a
+439,activator,P23526,Adenosylhomocysteinase,19069029 | 388309 | 14710450 | 2143336,CHEMBL49935,Aristeromycin
+440,activator,P23526,Adenosylhomocysteinase,1146372,CHEMBL595547,5'-carboxy adenosine
+441,activator,P23526,Adenosylhomocysteinase,1152211,CHEMBL284846,3-deazaneplanocin a
+442,activator,P23526,Adenosylhomocysteinase,1179882,CHEMBL494759,(s)-dhpa
+443,activator,P08684,Cytochrome P450 3A4,82256 | 685487 | 6075216 | 501333 | 669624 | 7765239,CHEMBL115,Indinavir
+444,activator,P08684,Cytochrome P450 3A4,459471,CHEMBL70611,Azalanstat
+445,activator,P08684,Cytochrome P450 3A4,12719306 | 10926484 | 6075106 | 13913757 | 12163653 | 3230667 | 7809139 | 598943 | 20657649 | 1167663,CHEMBL163,Ritonavir
+446,activator,P08684,Cytochrome P450 3A4,2224897 | 15766275 | 2610838 | 13894320 | 5070475 | 1146602 | 2925009 | 2453141 | 15702008 | 19050860 | 2062230 | 2226916 | 15460856 | 3011472 | 1142749 | 17692369 | 1699394 | 6164115 | 3364977 | 16797104 | 14710056 | 15111592 | 18125093 | 15758626 | 15460852 | 16744595 | 5201913 | 17706602 | 5001905 | 17706591 | 6053607 | 2320571 | 15460854 | 3299981 | 16755945 | 16797105 | 2361513 | 18125511 | 5046961 | 2551215 | 18295692 | 2657032 | 1146603 | 15105327 | 1601943 | 10926482 | 1146604 | 16325477 | 15611522 | 18278471 | 4981711 | 16489712 | 18289255 | 3252678 | 2657038 | 7769757 | 1259800 | 5186933 | 17707387 | 18015044 | 18083049 | 2924997 | 16621073 | 2154816 | 2680574 | 16584274 | 15460850 | 17707398 | 15169933 | 16621084 | 1146601 | 17655878 | 1235462 | 16637017 | 16744597 | 18125095 | 17718294 | 18015045 | 3252679 | 18295690 | 2686200 | 14995198 | 16828762 | 6057927,CHEMBL157101,Ketoconazole
+447,activator,P08684,Cytochrome P450 3A4,1150428 | 15450991,CHEMBL1484,Nicardipine
+448,activator,P08684,Cytochrome P450 3A4,12163654 | 6075219 | 7741742 | 1154164,CHEMBL584,Nelfinavir
+449,activator,P08684,Cytochrome P450 3A4,15453751 | 12163608 | 15450990 | 12163609 | 6065864 | 5066841 | 4998089 | 1159440,CHEMBL45816,Mibefradil
+450,activator,P08684,Cytochrome P450 3A4,1160759,CHEMBL17157,Terfenadine
+451,activator,P08684,Cytochrome P450 3A4,6066193 | 6044794 | 2686212 | 5038820 | 17706603 | 5010311 | 5058607 | 4989685 | 19050861 | 19453499 | 5078725 | 7697552 | 4969767 | 1167655,CHEMBL104,Clotrimazole
+452,activator,P08684,Cytochrome P450 3A4,16828761 | 1170217 | 7752597 | 15010492 | 16595992 | 18951848,CHEMBL64391,Itraconazole
+453,activator,P08684,Cytochrome P450 3A4,17707406 | 1180564 | 7754151 | 5074635 | 17706611 | 6014011 | 5009968 | 2686203 | 19453500 | 17706610 | 17707407,CHEMBL91,Miconazole
+454,activator,P08684,Cytochrome P450 3A4,1982446,CHEMBL1471,Aprepitant
+455,activator,P08684,Cytochrome P450 3A4,2062233 | 5062968 | 4994097,CHEMBL274189,Palmatine chloride
+456,activator,P08684,Cytochrome P450 3A4,2119095 | 2119148,CHEMBL270271,Etaconazole
+457,activator,P08684,Cytochrome P450 3A4,2119096,CHEMBL271579,Bromuconazole
+458,activator,P08684,Cytochrome P450 3A4,2429838,CHEMBL266564,Tiliroside
+459,activator,P08684,Cytochrome P450 3A4,2551209,CHEMBL480295,Ethoxyclusin
+460,activator,P08684,Cytochrome P450 3A4,15010517 | 18951847 | 18261016 | 3299980 | 19050864 | 2610839,CHEMBL1397,Posaconazole
+461,activator,P08684,Cytochrome P450 3A4,2657031 | 5201840 | 2657037,CHEMBL98745,Narciclasine
+462,activator,P08684,Cytochrome P450 3A4,2686205 | 19453501 | 7651966,CHEMBL808,Econazole
+463,activator,P08684,Cytochrome P450 3A4,3082329 | 2700460,CHEMBL16596,Quiflapon
+464,activator,P08684,Cytochrome P450 3A4,3505440,CHEMBL1257567,Diethoxyflourescein
+465,activator,P08684,Cytochrome P450 3A4,14668402 | 5125694 | 3523743,CHEMBL1110,Alosetron
+466,activator,P08684,Cytochrome P450 3A4,4949236 | 5078585,CHEMBL313972,Masoprocol
+467,activator,P08684,Cytochrome P450 3A4,5058740 | 6018579 | 6061645 | 4949330 | 4993636 | 5018209,CHEMBL10,Sb-203580
+468,activator,P08684,Cytochrome P450 3A4,5018302 | 4949423,CHEMBL602,Cysteamine
+469,activator,P08684,Cytochrome P450 3A4,5006188 | 5078854 | 5074695 | 4949461 | 6027308,CHEMBL15770,Sulindac
+470,activator,P08684,Cytochrome P450 3A4,5078887 | 6045118 | 4949494,CHEMBL478,Chlorophenylpiperazine
+471,activator,P08684,Cytochrome P450 3A4,5018502 | 4949581,CHEMBL402063,E-guggulsterone
+472,activator,P08684,Cytochrome P450 3A4,6040665 | 5018542 | 4949621,CHEMBL284377,Dexfosfoserine
+473,activator,P08684,Cytochrome P450 3A4,4949655 | 5018576,CHEMBL17331,Pd-169316
+474,activator,P08684,Cytochrome P450 3A4,4957268 | 5026625,CHEMBL1528531,Phosalone
+475,activator,P08684,Cytochrome P450 3A4,6036429 | 5026642 | 4957285,CHEMBL1508,Escitalopram
+476,activator,P08684,Cytochrome P450 3A4,5026857 | 4961368,CHEMBL1585,Pipobroman
+477,activator,P08684,Cytochrome P450 3A4,6057887 | 4961400 | 5030649,CHEMBL491960,Cambinol
+478,activator,P08684,Cytochrome P450 3A4,4961408 | 5030657,CHEMBL1643,Ribavirin
+479,activator,P08684,Cytochrome P450 3A4,6027279 | 5030719 | 4961470,CHEMBL279678,S-etomidate
+480,activator,P08684,Cytochrome P450 3A4,4969682 | 6036364 | 5038735,CHEMBL498770,Iodophenpropit
+481,activator,P08684,Cytochrome P450 3A4,5038737 | 4969684 | 6036385,CHEMBL276727,Iodoacetamide
+482,activator,P08684,Cytochrome P450 3A4,5038790 | 4969737,CHEMBL258805,Su-9516
+483,activator,P08684,Cytochrome P450 3A4,6027217 | 4969782 | 5038835,CHEMBL1443491,Naftidrofuryl
+484,activator,P08684,Cytochrome P450 3A4,4973327 | 5038552,CHEMBL1256805,Acecainide hydrochloride
+485,activator,P08684,Cytochrome P450 3A4,4973330 | 5038555,CHEMBL487186,Tebuconazole
+486,activator,P08684,Cytochrome P450 3A4,17707402 | 4973426 | 5038651,CHEMBL277535,Bifonazole
+487,activator,P08684,Cytochrome P450 3A4,4973487 | 6062085 | 5042477,CHEMBL152632,Niridazole
+488,activator,P08684,Cytochrome P450 3A4,4973607 | 5058987 | 5038868 | 6049278 | 4990026,CHEMBL1148,Torsemide
+489,activator,P08684,Cytochrome P450 3A4,4973644 | 5038905 | 6005327,CHEMBL259389,Quinoxaline1
+490,activator,P08684,Cytochrome P450 3A4,4973687 | 5042713,CHEMBL479689,Pachyrrizine
+491,activator,P08684,Cytochrome P450 3A4,5042726 | 4973700 | 6049438,CHEMBL236789,Monastrol
+492,activator,P08684,Cytochrome P450 3A4,5042771 | 4973745,CHEMBL146855,(s)-mexiletine
+493,activator,P08684,Cytochrome P450 3A4,5042793 | 4973767,CHEMBL1200326,Nicardipine hydrochloride
+494,activator,P08684,Cytochrome P450 3A4,5005993 | 4973770 | 5074457 | 5042796,CHEMBL454173,Zearalenone
+495,activator,P08684,Cytochrome P450 3A4,4973781 | 6031715 | 5042807,CHEMBL56564,Tropisetron
+496,activator,P08684,Cytochrome P450 3A4,4985856 | 5054881 | 5046524 | 5066698 | 5001837 | 4977531,CHEMBL1280,Verapamil hydrochloride
+497,activator,P08684,Cytochrome P450 3A4,5046577 | 6036163 | 4977584,CHEMBL254857,Fipexide
+498,activator,P08684,Cytochrome P450 3A4,4977616 | 5046609 | 6061764,CHEMBL1255653,Sepiapterin
+499,activator,P08684,Cytochrome P450 3A4,4977697 | 5042930,CHEMBL508030,Rhetsinine
+500,activator,P08684,Cytochrome P450 3A4,5046796 | 6018273 | 4977768,CHEMBL23731,Amidate
+501,activator,P08684,Cytochrome P450 3A4,5046877 | 7634710 | 4977849,CHEMBL1403281,Ergocryptine
+502,activator,P08684,Cytochrome P450 3A4,6023141 | 4977883 | 5046911,CHEMBL18772,Quipazine
+503,activator,P08684,Cytochrome P450 3A4,4981423 | 5046637,CHEMBL673,Pargyline
+504,activator,P08684,Cytochrome P450 3A4,5050548 | 4981521,CHEMBL48310,Hinokitiol
+505,activator,P08684,Cytochrome P450 3A4,5050610 | 4981583 | 6009605,CHEMBL1316726,Cis-urocanic acid
+506,activator,P08684,Cytochrome P450 3A4,5050621 | 6022673 | 4981594,CHEMBL778,Dexmedetomidine
+507,activator,P08684,Cytochrome P450 3A4,4985535 | 5050769 | 6044714,CHEMBL1410877,Arasertaconazole
+508,activator,P08684,Cytochrome P450 3A4,5054644 | 4985655 | 6057653,CHEMBL149616,Azepexole
+509,activator,P08684,Cytochrome P450 3A4,5063006 | 5054667 | 6005380 | 4997956 | 4985678,CHEMBL123,Elliptecine
+510,activator,P08684,Cytochrome P450 3A4,5051043 | 4985774,CHEMBL253144,Cortodoxone
+511,activator,P08684,Cytochrome P450 3A4,5062888 | 5054906 | 4994017 | 4985881,CHEMBL1524185,Opipramol hydrochloride
+512,activator,P08684,Cytochrome P450 3A4,6057943 | 5054961 | 4985936,CHEMBL1397886,Loreclezole
+513,activator,P08684,Cytochrome P450 3A4,4989549 | 5054741 | 6062070,CHEMBL25856,Dihydrexidine
+514,activator,P08684,Cytochrome P450 3A4,4989861 | 5058822,CHEMBL1613209,Cearoin
+515,activator,P08684,Cytochrome P450 3A4,4989938 | 5058899,CHEMBL267373,Benzamide
+516,activator,P08684,Cytochrome P450 3A4,4993689 | 5058793 | 6031629,CHEMBL511,Pyrilamine
+517,activator,P08684,Cytochrome P450 3A4,4993790 | 5062621,CHEMBL589,Ropinirole
+518,activator,P08684,Cytochrome P450 3A4,4993825 | 5062656 | 5070643 | 5005875,CHEMBL1201049,Econazole nitrate
+519,activator,P08684,Cytochrome P450 3A4,4993852 | 5062683,CHEMBL1412305,Benfluorex hydrochloride
+520,activator,P08684,Cytochrome P450 3A4,6009596 | 4993875 | 5062945 | 5059018 | 4994074 | 6027269,CHEMBL100473,U-0126
+521,activator,P08684,Cytochrome P450 3A4,5062796 | 4993925,CHEMBL1200836,Oxiconazole nitrate
+522,activator,P08684,Cytochrome P450 3A4,4993974 | 5062845,CHEMBL465843,Piplartine
+523,activator,P08684,Cytochrome P450 3A4,5062893 | 4994022,CHEMBL1439099,Nafronyl oxalate
+524,activator,P08684,Cytochrome P450 3A4,5062931 | 4994060 | 6070294 | 15450976,CHEMBL71,Chlorpromazine
+525,activator,P08684,Cytochrome P450 3A4,5062690 | 6061687 | 4997680,CHEMBL319111,Linopirdine
+526,activator,P08684,Cytochrome P450 3A4,5066529 | 4997820,CHEMBL1559,Miconazole nitrate
+527,activator,P08684,Cytochrome P450 3A4,4997863 | 6053059 | 5066572,CHEMBL74656,Rel-cisapride
+528,activator,P08684,Cytochrome P450 3A4,5066616 | 6009638 | 4997907,CHEMBL432608,Alpdem
+529,activator,P08684,Cytochrome P450 3A4,4998007 | 6027350 | 5066759,CHEMBL297362,Xylazine
+530,activator,P08684,Cytochrome P450 3A4,6053572 | 5066789 | 4998037,CHEMBL1524273,Phthalylsulfathiazole
+531,activator,P08684,Cytochrome P450 3A4,6053064 | 4998065 | 5066817,CHEMBL278041,Sb-202190
+532,activator,P08684,Cytochrome P450 3A4,5001792 | 17707405 | 17706609 | 5066653,CHEMBL1201131,Piperonyl butoxide
+533,activator,P08684,Cytochrome P450 3A4,5070460 | 5001890,CHEMBL500,Pindolol
+534,activator,P08684,Cytochrome P450 3A4,5001908 | 6057980 | 5070478,CHEMBL286721,Aminopurvalanol
+535,activator,P08684,Cytochrome P450 3A4,5001920 | 5070490,CHEMBL15928,Gr-127935
+536,activator,P08684,Cytochrome P450 3A4,5002111 | 5070725 | 6057388,CHEMBL15023,Trifluperidol
+537,activator,P08684,Cytochrome P450 3A4,5002128 | 5070742,CHEMBL44628,Pentachlorobenzene
+538,activator,P08684,Cytochrome P450 3A4,5005942 | 6053236 | 5070710,CHEMBL279956,Quisqualate
+539,activator,P08684,Cytochrome P450 3A4,5006027 | 5074491,CHEMBL701,Baclofen
+540,activator,P08684,Cytochrome P450 3A4,5070929 | 5006117,CHEMBL1200468,Malathion
+541,activator,P08684,Cytochrome P450 3A4,5074696 | 5006189,CHEMBL537,Hydroquinone
+542,activator,P08684,Cytochrome P450 3A4,5006310 | 5074817,CHEMBL1200348,Sulconazole nitrate
+543,activator,P08684,Cytochrome P450 3A4,5009983 | 5074650,CHEMBL304818,Docebenone
+544,activator,P08684,Cytochrome P450 3A4,5010025 | 5078396,CHEMBL135,Estradiol
+545,activator,P08684,Cytochrome P450 3A4,5010121 | 5078492 | 6049432,CHEMBL17962,Histidine
+546,activator,P08684,Cytochrome P450 3A4,5078810 | 5010396,CHEMBL508494,Daphnoretin
+547,activator,P08684,Cytochrome P450 3A4,15450979 | 5129318,CHEMBL809,Sertraline
+548,activator,P08684,Cytochrome P450 3A4,5201912,CHEMBL463246,Alpha-conidendrin
+549,activator,P08684,Cytochrome P450 3A4,6075138,CHEMBL404875,Gomisin c
+550,activator,P08684,Cytochrome P450 3A4,6075154,CHEMBL1743357,Fc726
+551,activator,P08684,Cytochrome P450 3A4,6075175,CHEMBL1743364,Methylenedioxyphenylbenzothiazoline
+552,activator,P08684,Cytochrome P450 3A4,7637849 | 12163655 | 6075215,CHEMBL116,Amprenavir
+553,activator,P08684,Cytochrome P450 3A4,6075218 | 6075217 | 12163656,CHEMBL729,Lopinavir
+554,activator,P08684,Cytochrome P450 3A4,6158714,CHEMBL346178,Osanetant
+555,activator,P08684,Cytochrome P450 3A4,6174899,CHEMBL1767164,Gsk-1004723
+556,activator,P08684,Cytochrome P450 3A4,6302470,CHEMBL27759,Entinostat
+557,activator,P08684,Cytochrome P450 3A4,6302471,CHEMBL272980,Mocetinostat
+558,activator,P08684,Cytochrome P450 3A4,7662827,CHEMBL1385840,Ergocornine
+559,activator,P08684,Cytochrome P450 3A4,7671395,CHEMBL442,Ergotamine
+560,activator,P08684,Cytochrome P450 3A4,7684447,CHEMBL1729,Cisapride
+561,activator,P08684,Cytochrome P450 3A4,7738229,CHEMBL1262,Oxiconazole
+562,activator,P08684,Cytochrome P450 3A4,7745139,CHEMBL456807,Phenylhydrazine
+563,activator,P08684,Cytochrome P450 3A4,7767054,CHEMBL60889,Mosapride
+564,activator,P08684,Cytochrome P450 3A4,7772099,CHEMBL460291,Lacidipine
+565,activator,P08684,Cytochrome P450 3A4,7785623,CHEMBL553025,Vinorelbine
+566,activator,P08684,Cytochrome P450 3A4,15464662 | 15464653 | 7797470 | 15464654,CHEMBL269732,Tacrolimus
+567,activator,P08684,Cytochrome P450 3A4,7803400,CHEMBL1221,Sulconazole
+568,activator,P08684,Cytochrome P450 3A4,12163649 | 12163652 | 12163651,CHEMBL623,Nefazodone
+569,activator,P08684,Cytochrome P450 3A4,13914612,CHEMBL2095208,Cobicistat
+570,activator,P08684,Cytochrome P450 3A4,15105322 | 15002159,CHEMBL1175,Duloxetine
+571,activator,P08684,Cytochrome P450 3A4,15445911,CHEMBL172,"(s,r)-mefloquine"
+572,activator,P08684,Cytochrome P450 3A4,15721709,CHEMBL389433,Liarozole
+573,activator,P08684,Cytochrome P450 3A4,16792159 | 16792151,CHEMBL17289,Chs-828
+574,activator,P08684,Cytochrome P450 3A4,18931013,CHEMBL1159650,Clobetasol propionate
+575,activator,P08684,Cytochrome P450 3A4,19145082,CHEMBL2058833,Ganaplacide
+576,activator,P08684,Cytochrome P450 3A4,19145083,CHEMBL303933,Piperaquine
+577,activator,P08684,Cytochrome P450 3A4,20609027,CHEMBL255863,Nilotinib
+578,activator,P08684,Cytochrome P450 3A4,22482113,CHEMBL190461,Cannabidiol
