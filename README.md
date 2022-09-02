@@ -17,7 +17,7 @@ A Knowledge graph representation of compounds and associated biological entities
 
 Please check the BY_COVID_update_August.ipynb for understanding step wise process of KG generation and KG statistics. The KG has been exported to formats such as graphml, sif and so on for visualizations in other platforms. For example, the graphml file can be imported to Cytoscape directly. These files are located in 'data\export' folder.
 
-The KG is also registered in EMBL-EBI's BioModels https://www.ebi.ac.uk/biomodels/MODEL2209020001). 
+The KG is also registered in EMBL-EBI's BioModels https://www.ebi.ac.uk/biomodels/MODEL2209020001).
 
 # NEW!!
 
