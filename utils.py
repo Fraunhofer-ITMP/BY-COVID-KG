@@ -5,7 +5,7 @@
 import logging
 import pickle
 from collections import defaultdict
-
+import pybel
 import pandas as pd
 import pubchempy as pcp
 import requests
@@ -113,7 +113,7 @@ def RetAct(chemblIds) -> dict:
             #print(d)
             data.append(d)
 
-        # acts = acts[:5]
+        acts = acts[:10]
         ActList.append(list(data))
 
     named_ActList = dict(zip(chemblIds, ActList))
@@ -328,7 +328,7 @@ def ExtractFromUniProt(uniprot_id) -> dict:
 
     mapped_uprot = []
 
-    for id in uniprot_id:
+    for id in tqdm(uniprot_id,desc='reading uprot ids'):
 
         # Retrieve data for id in text format if found in uniprot
         ret_uprot = requests.get(
@@ -700,6 +700,13 @@ def target_list_to_chemical(
     df = _get_target_data(protein_list=proteins, organism=organism)
     return df
 
+def getNodeList(nodeName,itmpGraph):
+    node_list = []
+    for node in itmpGraph.nodes():
+        if isinstance(node,pybel.dsl.Abundance):
+            if node.namespace == nodeName:
+                node_list.append(node.name)
+    return(node_list)
 
 def chembl2rxn_rel(
     chemblid_list,
@@ -711,7 +718,7 @@ def chembl2rxn_rel(
     :param graph:
     :return:
     """
-    infile = open('data/drugReactions.pkl', 'rb')
+    infile = open('data/normalized_data/drugReactions.pkl', 'rb')
     rxn_df = pickle.load(infile)
     infile.close()
 
@@ -998,4 +1005,25 @@ def cid2chembl(cidList) -> list:
 #     #os.makedirs(output_dir, exist_ok=True)
 #     #df.to_csv(os.path.join(output_dir, 'chemical_annotated.csv'), sep='\t', index=False)
 #     return(df)
-   
+  
+def chembl2rxn_rel(itmpGraph):
+    
+    infile = open('data/normalized_data/drugReactions.pkl','rb')
+    rxn_df = pickle.load(infile)
+    infile.close()
+    
+    chembl_id = []
+    for node in itmpGraph.nodes():
+        if isinstance(node,pybel.dsl.Abundance):
+            if node.namespace == 'ChEMBL':
+                chembl_id.append(node.name)
+            
+    chembl_id_rxn = rxn_df[rxn_df['chembl_id'].isin(chembl_id)]
+    chembl_id_rxn = chembl_id_rxn.reset_index(drop=True)
+    for i in range(len(chembl_id_rxn)):
+        itmpGraph.add_association(Abundance(namespace='ChEMBL',name = chembl_id_rxn['chembl_id'][i]),
+                                  Pathology(namespace='SideEffect',name = chembl_id_rxn['event'][i]),
+                                  citation = "OpenTargets Platform",evidence = 'DrugReactions')
+        
+    return(itmpGraph)
+                                    
