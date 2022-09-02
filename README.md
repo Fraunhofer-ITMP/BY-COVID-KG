@@ -19,7 +19,6 @@ Please check the BY_COVID_update_August.ipynb for understanding step wise proces
 
 The KG is also registered in EMBL-EBI's BioModels https://www.ebi.ac.uk/biomodels/MODEL2209020001). 
 
-
 # NEW!!
 
 We have created a separate git for Monkeypox KG. Please find it at: https://github.com/Fraunhofer-ITMP/mpox-kg
